@@ -1,0 +1,480 @@
+D:\ĐATN\Website_KĐCLGD\Website_KĐCLGD\bin\Website_KĐCLGD.dll
+D:\ĐATN\Website_KĐCLGD\Website_KĐCLGD\bin\Website_KĐCLGD.pdb
+D:\ĐATN\Website_KĐCLGD\Website_KĐCLGD\bin\Microsoft.Web.Infrastructure.dll
+D:\ĐATN\Website_KĐCLGD\Website_KĐCLGD\bin\Newtonsoft.Json.dll
+D:\ĐATN\Website_KĐCLGD\Website_KĐCLGD\bin\System.Net.Http.Formatting.dll
+D:\ĐATN\Website_KĐCLGD\Website_KĐCLGD\bin\System.Web.Helpers.dll
+D:\ĐATN\Website_KĐCLGD\Website_KĐCLGD\bin\System.Web.Http.dll
+D:\ĐATN\Website_KĐCLGD\Website_KĐCLGD\bin\System.Web.Http.WebHost.dll
+D:\ĐATN\Website_KĐCLGD\Website_KĐCLGD\bin\System.Web.Mvc.dll
+D:\ĐATN\Website_KĐCLGD\Website_KĐCLGD\bin\System.Web.Razor.dll
+D:\ĐATN\Website_KĐCLGD\Website_KĐCLGD\bin\System.Web.WebPages.Deployment.dll
+D:\ĐATN\Website_KĐCLGD\Website_KĐCLGD\bin\System.Web.WebPages.dll
+D:\ĐATN\Website_KĐCLGD\Website_KĐCLGD\bin\System.Web.WebPages.Razor.dll
+D:\ĐATN\Website_KĐCLGD\Website_KĐCLGD\bin\Newtonsoft.Json.xml
+D:\ĐATN\Website_KĐCLGD\Website_KĐCLGD\bin\System.Net.Http.Formatting.xml
+D:\ĐATN\Website_KĐCLGD\Website_KĐCLGD\bin\System.Web.Helpers.xml
+D:\ĐATN\Website_KĐCLGD\Website_KĐCLGD\bin\System.Web.Http.xml
+D:\ĐATN\Website_KĐCLGD\Website_KĐCLGD\bin\System.Web.Http.WebHost.xml
+D:\ĐATN\Website_KĐCLGD\Website_KĐCLGD\bin\System.Web.Mvc.xml
+D:\ĐATN\Website_KĐCLGD\Website_KĐCLGD\bin\System.Web.Razor.xml
+D:\ĐATN\Website_KĐCLGD\Website_KĐCLGD\bin\System.Web.WebPages.xml
+D:\ĐATN\Website_KĐCLGD\Website_KĐCLGD\bin\System.Web.WebPages.Deployment.xml
+D:\ĐATN\Website_KĐCLGD\Website_KĐCLGD\bin\System.Web.WebPages.Razor.xml
+D:\ĐATN\Website_KĐCLGD\Website_KĐCLGD\obj\Debug\Website_KĐCLGD.csprojResolveAssemblyReference.cache
+D:\ĐATN\Website_KĐCLGD\Website_KĐCLGD\obj\Debug\Website_KĐCLGD.dll
+D:\ĐATN\Website_KĐCLGD\Website_KĐCLGD\obj\Debug\Website_KĐCLGD.pdb
+D:\ĐATN\Website_KĐCLGD\Website_KĐCLGD\bin\System.Net.Http.dll
+D:\ĐATN\Website_KĐCLGD\Website_KĐCLGD\bin\System.Net.Http.WebRequest.dll
+D:\ĐATN\Website_KĐCLGD\Website_KĐCLGD\bin\System.Net.Http.xml
+D:\ĐATN\Website_KĐCLGD\Website_KĐCLGD\bin\System.Net.Http.WebRequest.xml
+D:\ĐATN\ĐATN\Website_KĐCLGD\Website_KĐCLGD\bin\Website_KĐCLGD.dll
+D:\ĐATN\ĐATN\Website_KĐCLGD\Website_KĐCLGD\bin\Website_KĐCLGD.pdb
+D:\ĐATN\ĐATN\Website_KĐCLGD\Website_KĐCLGD\bin\Microsoft.Web.Infrastructure.dll
+D:\ĐATN\ĐATN\Website_KĐCLGD\Website_KĐCLGD\bin\Newtonsoft.Json.dll
+D:\ĐATN\ĐATN\Website_KĐCLGD\Website_KĐCLGD\bin\System.Net.Http.dll
+D:\ĐATN\ĐATN\Website_KĐCLGD\Website_KĐCLGD\bin\System.Net.Http.Formatting.dll
+D:\ĐATN\ĐATN\Website_KĐCLGD\Website_KĐCLGD\bin\System.Net.Http.WebRequest.dll
+D:\ĐATN\ĐATN\Website_KĐCLGD\Website_KĐCLGD\bin\System.Web.Helpers.dll
+D:\ĐATN\ĐATN\Website_KĐCLGD\Website_KĐCLGD\bin\System.Web.Http.dll
+D:\ĐATN\ĐATN\Website_KĐCLGD\Website_KĐCLGD\bin\System.Web.Http.WebHost.dll
+D:\ĐATN\ĐATN\Website_KĐCLGD\Website_KĐCLGD\bin\System.Web.Mvc.dll
+D:\ĐATN\ĐATN\Website_KĐCLGD\Website_KĐCLGD\bin\System.Web.Razor.dll
+D:\ĐATN\ĐATN\Website_KĐCLGD\Website_KĐCLGD\bin\System.Web.WebPages.Deployment.dll
+D:\ĐATN\ĐATN\Website_KĐCLGD\Website_KĐCLGD\bin\System.Web.WebPages.dll
+D:\ĐATN\ĐATN\Website_KĐCLGD\Website_KĐCLGD\bin\System.Web.WebPages.Razor.dll
+D:\ĐATN\ĐATN\Website_KĐCLGD\Website_KĐCLGD\bin\Newtonsoft.Json.xml
+D:\ĐATN\ĐATN\Website_KĐCLGD\Website_KĐCLGD\bin\System.Net.Http.xml
+D:\ĐATN\ĐATN\Website_KĐCLGD\Website_KĐCLGD\bin\System.Net.Http.Formatting.xml
+D:\ĐATN\ĐATN\Website_KĐCLGD\Website_KĐCLGD\bin\System.Net.Http.WebRequest.xml
+D:\ĐATN\ĐATN\Website_KĐCLGD\Website_KĐCLGD\bin\System.Web.Helpers.xml
+D:\ĐATN\ĐATN\Website_KĐCLGD\Website_KĐCLGD\bin\System.Web.Http.xml
+D:\ĐATN\ĐATN\Website_KĐCLGD\Website_KĐCLGD\bin\System.Web.Http.WebHost.xml
+D:\ĐATN\ĐATN\Website_KĐCLGD\Website_KĐCLGD\bin\System.Web.Mvc.xml
+D:\ĐATN\ĐATN\Website_KĐCLGD\Website_KĐCLGD\bin\System.Web.Razor.xml
+D:\ĐATN\ĐATN\Website_KĐCLGD\Website_KĐCLGD\bin\System.Web.WebPages.xml
+D:\ĐATN\ĐATN\Website_KĐCLGD\Website_KĐCLGD\bin\System.Web.WebPages.Deployment.xml
+D:\ĐATN\ĐATN\Website_KĐCLGD\Website_KĐCLGD\bin\System.Web.WebPages.Razor.xml
+D:\ĐATN\ĐATN\Website_KĐCLGD\Website_KĐCLGD\obj\Debug\Website_KĐCLGD.csprojResolveAssemblyReference.cache
+D:\ĐATN\ĐATN\Website_KĐCLGD\Website_KĐCLGD\obj\Debug\Website_KĐCLGD.dll
+D:\ĐATN\ĐATN\Website_KĐCLGD\Website_KĐCLGD\obj\Debug\Website_KĐCLGD.pdb
+D:\Website_KĐCLGD_7_12\Website_KĐCLGD\Website_KĐCLGD\bin\Website_KĐCLGD.dll
+D:\Website_KĐCLGD_7_12\Website_KĐCLGD\Website_KĐCLGD\bin\Website_KĐCLGD.pdb
+D:\Website_KĐCLGD_7_12\Website_KĐCLGD\Website_KĐCLGD\bin\Microsoft.Web.Infrastructure.dll
+D:\Website_KĐCLGD_7_12\Website_KĐCLGD\Website_KĐCLGD\bin\Newtonsoft.Json.dll
+D:\Website_KĐCLGD_7_12\Website_KĐCLGD\Website_KĐCLGD\bin\System.Net.Http.dll
+D:\Website_KĐCLGD_7_12\Website_KĐCLGD\Website_KĐCLGD\bin\System.Net.Http.Formatting.dll
+D:\Website_KĐCLGD_7_12\Website_KĐCLGD\Website_KĐCLGD\bin\System.Net.Http.WebRequest.dll
+D:\Website_KĐCLGD_7_12\Website_KĐCLGD\Website_KĐCLGD\bin\System.Web.Helpers.dll
+D:\Website_KĐCLGD_7_12\Website_KĐCLGD\Website_KĐCLGD\bin\System.Web.Http.dll
+D:\Website_KĐCLGD_7_12\Website_KĐCLGD\Website_KĐCLGD\bin\System.Web.Http.WebHost.dll
+D:\Website_KĐCLGD_7_12\Website_KĐCLGD\Website_KĐCLGD\bin\System.Web.Mvc.dll
+D:\Website_KĐCLGD_7_12\Website_KĐCLGD\Website_KĐCLGD\bin\System.Web.Razor.dll
+D:\Website_KĐCLGD_7_12\Website_KĐCLGD\Website_KĐCLGD\bin\System.Web.WebPages.Deployment.dll
+D:\Website_KĐCLGD_7_12\Website_KĐCLGD\Website_KĐCLGD\bin\System.Web.WebPages.dll
+D:\Website_KĐCLGD_7_12\Website_KĐCLGD\Website_KĐCLGD\bin\System.Web.WebPages.Razor.dll
+D:\Website_KĐCLGD_7_12\Website_KĐCLGD\Website_KĐCLGD\bin\Newtonsoft.Json.xml
+D:\Website_KĐCLGD_7_12\Website_KĐCLGD\Website_KĐCLGD\bin\System.Net.Http.xml
+D:\Website_KĐCLGD_7_12\Website_KĐCLGD\Website_KĐCLGD\bin\System.Net.Http.Formatting.xml
+D:\Website_KĐCLGD_7_12\Website_KĐCLGD\Website_KĐCLGD\bin\System.Net.Http.WebRequest.xml
+D:\Website_KĐCLGD_7_12\Website_KĐCLGD\Website_KĐCLGD\bin\System.Web.Helpers.xml
+D:\Website_KĐCLGD_7_12\Website_KĐCLGD\Website_KĐCLGD\bin\System.Web.Http.xml
+D:\Website_KĐCLGD_7_12\Website_KĐCLGD\Website_KĐCLGD\bin\System.Web.Http.WebHost.xml
+D:\Website_KĐCLGD_7_12\Website_KĐCLGD\Website_KĐCLGD\bin\System.Web.Mvc.xml
+D:\Website_KĐCLGD_7_12\Website_KĐCLGD\Website_KĐCLGD\bin\System.Web.Razor.xml
+D:\Website_KĐCLGD_7_12\Website_KĐCLGD\Website_KĐCLGD\bin\System.Web.WebPages.xml
+D:\Website_KĐCLGD_7_12\Website_KĐCLGD\Website_KĐCLGD\bin\System.Web.WebPages.Deployment.xml
+D:\Website_KĐCLGD_7_12\Website_KĐCLGD\Website_KĐCLGD\bin\System.Web.WebPages.Razor.xml
+D:\Website_KĐCLGD_7_12\Website_KĐCLGD\Website_KĐCLGD\obj\Debug\Website_KĐCLGD.csprojResolveAssemblyReference.cache
+D:\Website_KĐCLGD_7_12\Website_KĐCLGD\Website_KĐCLGD\obj\Debug\Website_KĐCLGD.dll
+D:\Website_KĐCLGD_7_12\Website_KĐCLGD\Website_KĐCLGD\obj\Debug\Website_KĐCLGD.pdb
+D:\1. DoAnTotNghiep\Website_KĐCLGD_8_12\Website_KĐCLGD_8_12\Website_KĐCLGD\Website_KĐCLGD\bin\Website_KĐCLGD.dll
+D:\1. DoAnTotNghiep\Website_KĐCLGD_8_12\Website_KĐCLGD_8_12\Website_KĐCLGD\Website_KĐCLGD\bin\Website_KĐCLGD.pdb
+D:\1. DoAnTotNghiep\Website_KĐCLGD_8_12\Website_KĐCLGD_8_12\Website_KĐCLGD\Website_KĐCLGD\bin\Microsoft.Web.Infrastructure.dll
+D:\1. DoAnTotNghiep\Website_KĐCLGD_8_12\Website_KĐCLGD_8_12\Website_KĐCLGD\Website_KĐCLGD\bin\Newtonsoft.Json.dll
+D:\1. DoAnTotNghiep\Website_KĐCLGD_8_12\Website_KĐCLGD_8_12\Website_KĐCLGD\Website_KĐCLGD\bin\System.Net.Http.dll
+D:\1. DoAnTotNghiep\Website_KĐCLGD_8_12\Website_KĐCLGD_8_12\Website_KĐCLGD\Website_KĐCLGD\bin\System.Net.Http.Formatting.dll
+D:\1. DoAnTotNghiep\Website_KĐCLGD_8_12\Website_KĐCLGD_8_12\Website_KĐCLGD\Website_KĐCLGD\bin\System.Net.Http.WebRequest.dll
+D:\1. DoAnTotNghiep\Website_KĐCLGD_8_12\Website_KĐCLGD_8_12\Website_KĐCLGD\Website_KĐCLGD\bin\System.Web.Helpers.dll
+D:\1. DoAnTotNghiep\Website_KĐCLGD_8_12\Website_KĐCLGD_8_12\Website_KĐCLGD\Website_KĐCLGD\bin\System.Web.Http.dll
+D:\1. DoAnTotNghiep\Website_KĐCLGD_8_12\Website_KĐCLGD_8_12\Website_KĐCLGD\Website_KĐCLGD\bin\System.Web.Http.WebHost.dll
+D:\1. DoAnTotNghiep\Website_KĐCLGD_8_12\Website_KĐCLGD_8_12\Website_KĐCLGD\Website_KĐCLGD\bin\System.Web.Mvc.dll
+D:\1. DoAnTotNghiep\Website_KĐCLGD_8_12\Website_KĐCLGD_8_12\Website_KĐCLGD\Website_KĐCLGD\bin\System.Web.Razor.dll
+D:\1. DoAnTotNghiep\Website_KĐCLGD_8_12\Website_KĐCLGD_8_12\Website_KĐCLGD\Website_KĐCLGD\bin\System.Web.WebPages.Deployment.dll
+D:\1. DoAnTotNghiep\Website_KĐCLGD_8_12\Website_KĐCLGD_8_12\Website_KĐCLGD\Website_KĐCLGD\bin\System.Web.WebPages.dll
+D:\1. DoAnTotNghiep\Website_KĐCLGD_8_12\Website_KĐCLGD_8_12\Website_KĐCLGD\Website_KĐCLGD\bin\System.Web.WebPages.Razor.dll
+D:\1. DoAnTotNghiep\Website_KĐCLGD_8_12\Website_KĐCLGD_8_12\Website_KĐCLGD\Website_KĐCLGD\bin\Newtonsoft.Json.xml
+D:\1. DoAnTotNghiep\Website_KĐCLGD_8_12\Website_KĐCLGD_8_12\Website_KĐCLGD\Website_KĐCLGD\bin\System.Net.Http.xml
+D:\1. DoAnTotNghiep\Website_KĐCLGD_8_12\Website_KĐCLGD_8_12\Website_KĐCLGD\Website_KĐCLGD\bin\System.Net.Http.Formatting.xml
+D:\1. DoAnTotNghiep\Website_KĐCLGD_8_12\Website_KĐCLGD_8_12\Website_KĐCLGD\Website_KĐCLGD\bin\System.Net.Http.WebRequest.xml
+D:\1. DoAnTotNghiep\Website_KĐCLGD_8_12\Website_KĐCLGD_8_12\Website_KĐCLGD\Website_KĐCLGD\bin\System.Web.Helpers.xml
+D:\1. DoAnTotNghiep\Website_KĐCLGD_8_12\Website_KĐCLGD_8_12\Website_KĐCLGD\Website_KĐCLGD\bin\System.Web.Http.xml
+D:\1. DoAnTotNghiep\Website_KĐCLGD_8_12\Website_KĐCLGD_8_12\Website_KĐCLGD\Website_KĐCLGD\bin\System.Web.Http.WebHost.xml
+D:\1. DoAnTotNghiep\Website_KĐCLGD_8_12\Website_KĐCLGD_8_12\Website_KĐCLGD\Website_KĐCLGD\bin\System.Web.Mvc.xml
+D:\1. DoAnTotNghiep\Website_KĐCLGD_8_12\Website_KĐCLGD_8_12\Website_KĐCLGD\Website_KĐCLGD\bin\System.Web.Razor.xml
+D:\1. DoAnTotNghiep\Website_KĐCLGD_8_12\Website_KĐCLGD_8_12\Website_KĐCLGD\Website_KĐCLGD\bin\System.Web.WebPages.xml
+D:\1. DoAnTotNghiep\Website_KĐCLGD_8_12\Website_KĐCLGD_8_12\Website_KĐCLGD\Website_KĐCLGD\bin\System.Web.WebPages.Deployment.xml
+D:\1. DoAnTotNghiep\Website_KĐCLGD_8_12\Website_KĐCLGD_8_12\Website_KĐCLGD\Website_KĐCLGD\bin\System.Web.WebPages.Razor.xml
+D:\1. DoAnTotNghiep\Website_KĐCLGD_8_12\Website_KĐCLGD_8_12\Website_KĐCLGD\Website_KĐCLGD\obj\Debug\Website_KĐCLGD.csprojResolveAssemblyReference.cache
+D:\1. DoAnTotNghiep\Website_KĐCLGD_8_12\Website_KĐCLGD_8_12\Website_KĐCLGD\Website_KĐCLGD\obj\Debug\Website_KĐCLGD.dll
+D:\1. DoAnTotNghiep\Website_KĐCLGD_8_12\Website_KĐCLGD_8_12\Website_KĐCLGD\Website_KĐCLGD\obj\Debug\Website_KĐCLGD.pdb
+D:\Website_KĐCLGD_8_12\Website_KĐCLGD_8_12\Website_KĐCLGD_8_12\Website_KĐCLGD\Website_KĐCLGD\bin\Website_KĐCLGD.dll
+D:\Website_KĐCLGD_8_12\Website_KĐCLGD_8_12\Website_KĐCLGD_8_12\Website_KĐCLGD\Website_KĐCLGD\bin\Website_KĐCLGD.pdb
+D:\Website_KĐCLGD_8_12\Website_KĐCLGD_8_12\Website_KĐCLGD_8_12\Website_KĐCLGD\Website_KĐCLGD\bin\Microsoft.Web.Infrastructure.dll
+D:\Website_KĐCLGD_8_12\Website_KĐCLGD_8_12\Website_KĐCLGD_8_12\Website_KĐCLGD\Website_KĐCLGD\bin\Newtonsoft.Json.dll
+D:\Website_KĐCLGD_8_12\Website_KĐCLGD_8_12\Website_KĐCLGD_8_12\Website_KĐCLGD\Website_KĐCLGD\bin\System.Net.Http.dll
+D:\Website_KĐCLGD_8_12\Website_KĐCLGD_8_12\Website_KĐCLGD_8_12\Website_KĐCLGD\Website_KĐCLGD\bin\System.Net.Http.Formatting.dll
+D:\Website_KĐCLGD_8_12\Website_KĐCLGD_8_12\Website_KĐCLGD_8_12\Website_KĐCLGD\Website_KĐCLGD\bin\System.Net.Http.WebRequest.dll
+D:\Website_KĐCLGD_8_12\Website_KĐCLGD_8_12\Website_KĐCLGD_8_12\Website_KĐCLGD\Website_KĐCLGD\bin\System.Web.Helpers.dll
+D:\Website_KĐCLGD_8_12\Website_KĐCLGD_8_12\Website_KĐCLGD_8_12\Website_KĐCLGD\Website_KĐCLGD\bin\System.Web.Http.dll
+D:\Website_KĐCLGD_8_12\Website_KĐCLGD_8_12\Website_KĐCLGD_8_12\Website_KĐCLGD\Website_KĐCLGD\bin\System.Web.Http.WebHost.dll
+D:\Website_KĐCLGD_8_12\Website_KĐCLGD_8_12\Website_KĐCLGD_8_12\Website_KĐCLGD\Website_KĐCLGD\bin\System.Web.Mvc.dll
+D:\Website_KĐCLGD_8_12\Website_KĐCLGD_8_12\Website_KĐCLGD_8_12\Website_KĐCLGD\Website_KĐCLGD\bin\System.Web.Razor.dll
+D:\Website_KĐCLGD_8_12\Website_KĐCLGD_8_12\Website_KĐCLGD_8_12\Website_KĐCLGD\Website_KĐCLGD\bin\System.Web.WebPages.Deployment.dll
+D:\Website_KĐCLGD_8_12\Website_KĐCLGD_8_12\Website_KĐCLGD_8_12\Website_KĐCLGD\Website_KĐCLGD\bin\System.Web.WebPages.dll
+D:\Website_KĐCLGD_8_12\Website_KĐCLGD_8_12\Website_KĐCLGD_8_12\Website_KĐCLGD\Website_KĐCLGD\bin\System.Web.WebPages.Razor.dll
+D:\Website_KĐCLGD_8_12\Website_KĐCLGD_8_12\Website_KĐCLGD_8_12\Website_KĐCLGD\Website_KĐCLGD\bin\Newtonsoft.Json.xml
+D:\Website_KĐCLGD_8_12\Website_KĐCLGD_8_12\Website_KĐCLGD_8_12\Website_KĐCLGD\Website_KĐCLGD\bin\System.Net.Http.xml
+D:\Website_KĐCLGD_8_12\Website_KĐCLGD_8_12\Website_KĐCLGD_8_12\Website_KĐCLGD\Website_KĐCLGD\bin\System.Net.Http.Formatting.xml
+D:\Website_KĐCLGD_8_12\Website_KĐCLGD_8_12\Website_KĐCLGD_8_12\Website_KĐCLGD\Website_KĐCLGD\bin\System.Net.Http.WebRequest.xml
+D:\Website_KĐCLGD_8_12\Website_KĐCLGD_8_12\Website_KĐCLGD_8_12\Website_KĐCLGD\Website_KĐCLGD\bin\System.Web.Helpers.xml
+D:\Website_KĐCLGD_8_12\Website_KĐCLGD_8_12\Website_KĐCLGD_8_12\Website_KĐCLGD\Website_KĐCLGD\bin\System.Web.Http.xml
+D:\Website_KĐCLGD_8_12\Website_KĐCLGD_8_12\Website_KĐCLGD_8_12\Website_KĐCLGD\Website_KĐCLGD\bin\System.Web.Http.WebHost.xml
+D:\Website_KĐCLGD_8_12\Website_KĐCLGD_8_12\Website_KĐCLGD_8_12\Website_KĐCLGD\Website_KĐCLGD\bin\System.Web.Mvc.xml
+D:\Website_KĐCLGD_8_12\Website_KĐCLGD_8_12\Website_KĐCLGD_8_12\Website_KĐCLGD\Website_KĐCLGD\bin\System.Web.Razor.xml
+D:\Website_KĐCLGD_8_12\Website_KĐCLGD_8_12\Website_KĐCLGD_8_12\Website_KĐCLGD\Website_KĐCLGD\bin\System.Web.WebPages.xml
+D:\Website_KĐCLGD_8_12\Website_KĐCLGD_8_12\Website_KĐCLGD_8_12\Website_KĐCLGD\Website_KĐCLGD\bin\System.Web.WebPages.Deployment.xml
+D:\Website_KĐCLGD_8_12\Website_KĐCLGD_8_12\Website_KĐCLGD_8_12\Website_KĐCLGD\Website_KĐCLGD\bin\System.Web.WebPages.Razor.xml
+D:\Website_KĐCLGD_8_12\Website_KĐCLGD_8_12\Website_KĐCLGD_8_12\Website_KĐCLGD\Website_KĐCLGD\obj\Debug\Website_KĐCLGD.dll
+D:\Website_KĐCLGD_8_12\Website_KĐCLGD_8_12\Website_KĐCLGD_8_12\Website_KĐCLGD\Website_KĐCLGD\obj\Debug\Website_KĐCLGD.pdb
+D:\Website_KĐCLGD_8_12\Website_KĐCLGD_8_12\Website_KĐCLGD_8_12\Website_KĐCLGD\Website_KĐCLGD\obj\Debug\Website_KĐCLGD.csprojResolveAssemblyReference.cache
+D:\Website_KĐCLGD_8_12\Website_KĐCLGD_8_12\Website_KĐCLGD_17_12\Website_KĐCLGD\Website_KĐCLGD\bin\Website_KĐCLGD.dll
+D:\Website_KĐCLGD_8_12\Website_KĐCLGD_8_12\Website_KĐCLGD_17_12\Website_KĐCLGD\Website_KĐCLGD\bin\Website_KĐCLGD.pdb
+D:\Website_KĐCLGD_8_12\Website_KĐCLGD_8_12\Website_KĐCLGD_17_12\Website_KĐCLGD\Website_KĐCLGD\bin\Microsoft.Web.Infrastructure.dll
+D:\Website_KĐCLGD_8_12\Website_KĐCLGD_8_12\Website_KĐCLGD_17_12\Website_KĐCLGD\Website_KĐCLGD\bin\Newtonsoft.Json.dll
+D:\Website_KĐCLGD_8_12\Website_KĐCLGD_8_12\Website_KĐCLGD_17_12\Website_KĐCLGD\Website_KĐCLGD\bin\System.Net.Http.dll
+D:\Website_KĐCLGD_8_12\Website_KĐCLGD_8_12\Website_KĐCLGD_17_12\Website_KĐCLGD\Website_KĐCLGD\bin\System.Net.Http.Formatting.dll
+D:\Website_KĐCLGD_8_12\Website_KĐCLGD_8_12\Website_KĐCLGD_17_12\Website_KĐCLGD\Website_KĐCLGD\bin\System.Net.Http.WebRequest.dll
+D:\Website_KĐCLGD_8_12\Website_KĐCLGD_8_12\Website_KĐCLGD_17_12\Website_KĐCLGD\Website_KĐCLGD\bin\System.Web.Helpers.dll
+D:\Website_KĐCLGD_8_12\Website_KĐCLGD_8_12\Website_KĐCLGD_17_12\Website_KĐCLGD\Website_KĐCLGD\bin\System.Web.Http.dll
+D:\Website_KĐCLGD_8_12\Website_KĐCLGD_8_12\Website_KĐCLGD_17_12\Website_KĐCLGD\Website_KĐCLGD\bin\System.Web.Http.WebHost.dll
+D:\Website_KĐCLGD_8_12\Website_KĐCLGD_8_12\Website_KĐCLGD_17_12\Website_KĐCLGD\Website_KĐCLGD\bin\System.Web.Mvc.dll
+D:\Website_KĐCLGD_8_12\Website_KĐCLGD_8_12\Website_KĐCLGD_17_12\Website_KĐCLGD\Website_KĐCLGD\bin\System.Web.Razor.dll
+D:\Website_KĐCLGD_8_12\Website_KĐCLGD_8_12\Website_KĐCLGD_17_12\Website_KĐCLGD\Website_KĐCLGD\bin\System.Web.WebPages.Deployment.dll
+D:\Website_KĐCLGD_8_12\Website_KĐCLGD_8_12\Website_KĐCLGD_17_12\Website_KĐCLGD\Website_KĐCLGD\bin\System.Web.WebPages.dll
+D:\Website_KĐCLGD_8_12\Website_KĐCLGD_8_12\Website_KĐCLGD_17_12\Website_KĐCLGD\Website_KĐCLGD\bin\System.Web.WebPages.Razor.dll
+D:\Website_KĐCLGD_8_12\Website_KĐCLGD_8_12\Website_KĐCLGD_17_12\Website_KĐCLGD\Website_KĐCLGD\bin\Newtonsoft.Json.xml
+D:\Website_KĐCLGD_8_12\Website_KĐCLGD_8_12\Website_KĐCLGD_17_12\Website_KĐCLGD\Website_KĐCLGD\bin\System.Net.Http.xml
+D:\Website_KĐCLGD_8_12\Website_KĐCLGD_8_12\Website_KĐCLGD_17_12\Website_KĐCLGD\Website_KĐCLGD\bin\System.Net.Http.Formatting.xml
+D:\Website_KĐCLGD_8_12\Website_KĐCLGD_8_12\Website_KĐCLGD_17_12\Website_KĐCLGD\Website_KĐCLGD\bin\System.Net.Http.WebRequest.xml
+D:\Website_KĐCLGD_8_12\Website_KĐCLGD_8_12\Website_KĐCLGD_17_12\Website_KĐCLGD\Website_KĐCLGD\bin\System.Web.Helpers.xml
+D:\Website_KĐCLGD_8_12\Website_KĐCLGD_8_12\Website_KĐCLGD_17_12\Website_KĐCLGD\Website_KĐCLGD\bin\System.Web.Http.xml
+D:\Website_KĐCLGD_8_12\Website_KĐCLGD_8_12\Website_KĐCLGD_17_12\Website_KĐCLGD\Website_KĐCLGD\bin\System.Web.Http.WebHost.xml
+D:\Website_KĐCLGD_8_12\Website_KĐCLGD_8_12\Website_KĐCLGD_17_12\Website_KĐCLGD\Website_KĐCLGD\bin\System.Web.Mvc.xml
+D:\Website_KĐCLGD_8_12\Website_KĐCLGD_8_12\Website_KĐCLGD_17_12\Website_KĐCLGD\Website_KĐCLGD\bin\System.Web.Razor.xml
+D:\Website_KĐCLGD_8_12\Website_KĐCLGD_8_12\Website_KĐCLGD_17_12\Website_KĐCLGD\Website_KĐCLGD\bin\System.Web.WebPages.xml
+D:\Website_KĐCLGD_8_12\Website_KĐCLGD_8_12\Website_KĐCLGD_17_12\Website_KĐCLGD\Website_KĐCLGD\bin\System.Web.WebPages.Deployment.xml
+D:\Website_KĐCLGD_8_12\Website_KĐCLGD_8_12\Website_KĐCLGD_17_12\Website_KĐCLGD\Website_KĐCLGD\bin\System.Web.WebPages.Razor.xml
+D:\Website_KĐCLGD_8_12\Website_KĐCLGD_8_12\Website_KĐCLGD_17_12\Website_KĐCLGD\Website_KĐCLGD\obj\Debug\Website_KĐCLGD.csprojResolveAssemblyReference.cache
+D:\Website_KĐCLGD_8_12\Website_KĐCLGD_8_12\Website_KĐCLGD_17_12\Website_KĐCLGD\Website_KĐCLGD\obj\Debug\Website_KĐCLGD.dll
+D:\Website_KĐCLGD_8_12\Website_KĐCLGD_8_12\Website_KĐCLGD_17_12\Website_KĐCLGD\Website_KĐCLGD\obj\Debug\Website_KĐCLGD.pdb
+D:\Website_KĐCLGD_8_12\Website_KĐCLGD_8_12\Website_KĐCLGD_19_12\Website_KĐCLGD\Website_KĐCLGD\bin\Website_KĐCLGD.dll
+D:\Website_KĐCLGD_8_12\Website_KĐCLGD_8_12\Website_KĐCLGD_19_12\Website_KĐCLGD\Website_KĐCLGD\bin\Website_KĐCLGD.pdb
+D:\Website_KĐCLGD_8_12\Website_KĐCLGD_8_12\Website_KĐCLGD_19_12\Website_KĐCLGD\Website_KĐCLGD\bin\Microsoft.Web.Infrastructure.dll
+D:\Website_KĐCLGD_8_12\Website_KĐCLGD_8_12\Website_KĐCLGD_19_12\Website_KĐCLGD\Website_KĐCLGD\bin\Newtonsoft.Json.dll
+D:\Website_KĐCLGD_8_12\Website_KĐCLGD_8_12\Website_KĐCLGD_19_12\Website_KĐCLGD\Website_KĐCLGD\bin\System.Net.Http.dll
+D:\Website_KĐCLGD_8_12\Website_KĐCLGD_8_12\Website_KĐCLGD_19_12\Website_KĐCLGD\Website_KĐCLGD\bin\System.Net.Http.Formatting.dll
+D:\Website_KĐCLGD_8_12\Website_KĐCLGD_8_12\Website_KĐCLGD_19_12\Website_KĐCLGD\Website_KĐCLGD\bin\System.Net.Http.WebRequest.dll
+D:\Website_KĐCLGD_8_12\Website_KĐCLGD_8_12\Website_KĐCLGD_19_12\Website_KĐCLGD\Website_KĐCLGD\bin\System.Web.Helpers.dll
+D:\Website_KĐCLGD_8_12\Website_KĐCLGD_8_12\Website_KĐCLGD_19_12\Website_KĐCLGD\Website_KĐCLGD\bin\System.Web.Http.dll
+D:\Website_KĐCLGD_8_12\Website_KĐCLGD_8_12\Website_KĐCLGD_19_12\Website_KĐCLGD\Website_KĐCLGD\bin\System.Web.Http.WebHost.dll
+D:\Website_KĐCLGD_8_12\Website_KĐCLGD_8_12\Website_KĐCLGD_19_12\Website_KĐCLGD\Website_KĐCLGD\bin\System.Web.Mvc.dll
+D:\Website_KĐCLGD_8_12\Website_KĐCLGD_8_12\Website_KĐCLGD_19_12\Website_KĐCLGD\Website_KĐCLGD\bin\System.Web.Razor.dll
+D:\Website_KĐCLGD_8_12\Website_KĐCLGD_8_12\Website_KĐCLGD_19_12\Website_KĐCLGD\Website_KĐCLGD\bin\System.Web.WebPages.Deployment.dll
+D:\Website_KĐCLGD_8_12\Website_KĐCLGD_8_12\Website_KĐCLGD_19_12\Website_KĐCLGD\Website_KĐCLGD\bin\System.Web.WebPages.dll
+D:\Website_KĐCLGD_8_12\Website_KĐCLGD_8_12\Website_KĐCLGD_19_12\Website_KĐCLGD\Website_KĐCLGD\bin\System.Web.WebPages.Razor.dll
+D:\Website_KĐCLGD_8_12\Website_KĐCLGD_8_12\Website_KĐCLGD_19_12\Website_KĐCLGD\Website_KĐCLGD\bin\Newtonsoft.Json.xml
+D:\Website_KĐCLGD_8_12\Website_KĐCLGD_8_12\Website_KĐCLGD_19_12\Website_KĐCLGD\Website_KĐCLGD\bin\System.Net.Http.xml
+D:\Website_KĐCLGD_8_12\Website_KĐCLGD_8_12\Website_KĐCLGD_19_12\Website_KĐCLGD\Website_KĐCLGD\bin\System.Net.Http.Formatting.xml
+D:\Website_KĐCLGD_8_12\Website_KĐCLGD_8_12\Website_KĐCLGD_19_12\Website_KĐCLGD\Website_KĐCLGD\bin\System.Net.Http.WebRequest.xml
+D:\Website_KĐCLGD_8_12\Website_KĐCLGD_8_12\Website_KĐCLGD_19_12\Website_KĐCLGD\Website_KĐCLGD\bin\System.Web.Helpers.xml
+D:\Website_KĐCLGD_8_12\Website_KĐCLGD_8_12\Website_KĐCLGD_19_12\Website_KĐCLGD\Website_KĐCLGD\bin\System.Web.Http.xml
+D:\Website_KĐCLGD_8_12\Website_KĐCLGD_8_12\Website_KĐCLGD_19_12\Website_KĐCLGD\Website_KĐCLGD\bin\System.Web.Http.WebHost.xml
+D:\Website_KĐCLGD_8_12\Website_KĐCLGD_8_12\Website_KĐCLGD_19_12\Website_KĐCLGD\Website_KĐCLGD\bin\System.Web.Mvc.xml
+D:\Website_KĐCLGD_8_12\Website_KĐCLGD_8_12\Website_KĐCLGD_19_12\Website_KĐCLGD\Website_KĐCLGD\bin\System.Web.Razor.xml
+D:\Website_KĐCLGD_8_12\Website_KĐCLGD_8_12\Website_KĐCLGD_19_12\Website_KĐCLGD\Website_KĐCLGD\bin\System.Web.WebPages.xml
+D:\Website_KĐCLGD_8_12\Website_KĐCLGD_8_12\Website_KĐCLGD_19_12\Website_KĐCLGD\Website_KĐCLGD\bin\System.Web.WebPages.Deployment.xml
+D:\Website_KĐCLGD_8_12\Website_KĐCLGD_8_12\Website_KĐCLGD_19_12\Website_KĐCLGD\Website_KĐCLGD\bin\System.Web.WebPages.Razor.xml
+D:\Website_KĐCLGD_8_12\Website_KĐCLGD_8_12\Website_KĐCLGD_19_12\Website_KĐCLGD\Website_KĐCLGD\obj\Debug\Website_KĐCLGD.csprojResolveAssemblyReference.cache
+D:\Website_KĐCLGD_8_12\Website_KĐCLGD_8_12\Website_KĐCLGD_19_12\Website_KĐCLGD\Website_KĐCLGD\obj\Debug\Website_KĐCLGD.dll
+D:\Website_KĐCLGD_8_12\Website_KĐCLGD_8_12\Website_KĐCLGD_19_12\Website_KĐCLGD\Website_KĐCLGD\obj\Debug\Website_KĐCLGD.pdb
+D:\1. DoAnTotNghiep\Website_KĐCLGD_21_12\Website_KĐCLGD_19_12\Website_KĐCLGD\Website_KĐCLGD\bin\Website_KĐCLGD.dll
+D:\1. DoAnTotNghiep\Website_KĐCLGD_21_12\Website_KĐCLGD_19_12\Website_KĐCLGD\Website_KĐCLGD\bin\Website_KĐCLGD.pdb
+D:\1. DoAnTotNghiep\Website_KĐCLGD_21_12\Website_KĐCLGD_19_12\Website_KĐCLGD\Website_KĐCLGD\bin\Microsoft.Web.Infrastructure.dll
+D:\1. DoAnTotNghiep\Website_KĐCLGD_21_12\Website_KĐCLGD_19_12\Website_KĐCLGD\Website_KĐCLGD\bin\Newtonsoft.Json.dll
+D:\1. DoAnTotNghiep\Website_KĐCLGD_21_12\Website_KĐCLGD_19_12\Website_KĐCLGD\Website_KĐCLGD\bin\System.Net.Http.dll
+D:\1. DoAnTotNghiep\Website_KĐCLGD_21_12\Website_KĐCLGD_19_12\Website_KĐCLGD\Website_KĐCLGD\bin\System.Net.Http.Formatting.dll
+D:\1. DoAnTotNghiep\Website_KĐCLGD_21_12\Website_KĐCLGD_19_12\Website_KĐCLGD\Website_KĐCLGD\bin\System.Net.Http.WebRequest.dll
+D:\1. DoAnTotNghiep\Website_KĐCLGD_21_12\Website_KĐCLGD_19_12\Website_KĐCLGD\Website_KĐCLGD\bin\System.Web.Helpers.dll
+D:\1. DoAnTotNghiep\Website_KĐCLGD_21_12\Website_KĐCLGD_19_12\Website_KĐCLGD\Website_KĐCLGD\bin\System.Web.Http.dll
+D:\1. DoAnTotNghiep\Website_KĐCLGD_21_12\Website_KĐCLGD_19_12\Website_KĐCLGD\Website_KĐCLGD\bin\System.Web.Http.WebHost.dll
+D:\1. DoAnTotNghiep\Website_KĐCLGD_21_12\Website_KĐCLGD_19_12\Website_KĐCLGD\Website_KĐCLGD\bin\System.Web.Mvc.dll
+D:\1. DoAnTotNghiep\Website_KĐCLGD_21_12\Website_KĐCLGD_19_12\Website_KĐCLGD\Website_KĐCLGD\bin\System.Web.Razor.dll
+D:\1. DoAnTotNghiep\Website_KĐCLGD_21_12\Website_KĐCLGD_19_12\Website_KĐCLGD\Website_KĐCLGD\bin\System.Web.WebPages.Deployment.dll
+D:\1. DoAnTotNghiep\Website_KĐCLGD_21_12\Website_KĐCLGD_19_12\Website_KĐCLGD\Website_KĐCLGD\bin\System.Web.WebPages.dll
+D:\1. DoAnTotNghiep\Website_KĐCLGD_21_12\Website_KĐCLGD_19_12\Website_KĐCLGD\Website_KĐCLGD\bin\System.Web.WebPages.Razor.dll
+D:\1. DoAnTotNghiep\Website_KĐCLGD_21_12\Website_KĐCLGD_19_12\Website_KĐCLGD\Website_KĐCLGD\bin\Newtonsoft.Json.xml
+D:\1. DoAnTotNghiep\Website_KĐCLGD_21_12\Website_KĐCLGD_19_12\Website_KĐCLGD\Website_KĐCLGD\bin\System.Net.Http.xml
+D:\1. DoAnTotNghiep\Website_KĐCLGD_21_12\Website_KĐCLGD_19_12\Website_KĐCLGD\Website_KĐCLGD\bin\System.Net.Http.Formatting.xml
+D:\1. DoAnTotNghiep\Website_KĐCLGD_21_12\Website_KĐCLGD_19_12\Website_KĐCLGD\Website_KĐCLGD\bin\System.Net.Http.WebRequest.xml
+D:\1. DoAnTotNghiep\Website_KĐCLGD_21_12\Website_KĐCLGD_19_12\Website_KĐCLGD\Website_KĐCLGD\bin\System.Web.Helpers.xml
+D:\1. DoAnTotNghiep\Website_KĐCLGD_21_12\Website_KĐCLGD_19_12\Website_KĐCLGD\Website_KĐCLGD\bin\System.Web.Http.xml
+D:\1. DoAnTotNghiep\Website_KĐCLGD_21_12\Website_KĐCLGD_19_12\Website_KĐCLGD\Website_KĐCLGD\bin\System.Web.Http.WebHost.xml
+D:\1. DoAnTotNghiep\Website_KĐCLGD_21_12\Website_KĐCLGD_19_12\Website_KĐCLGD\Website_KĐCLGD\bin\System.Web.Mvc.xml
+D:\1. DoAnTotNghiep\Website_KĐCLGD_21_12\Website_KĐCLGD_19_12\Website_KĐCLGD\Website_KĐCLGD\bin\System.Web.Razor.xml
+D:\1. DoAnTotNghiep\Website_KĐCLGD_21_12\Website_KĐCLGD_19_12\Website_KĐCLGD\Website_KĐCLGD\bin\System.Web.WebPages.xml
+D:\1. DoAnTotNghiep\Website_KĐCLGD_21_12\Website_KĐCLGD_19_12\Website_KĐCLGD\Website_KĐCLGD\bin\System.Web.WebPages.Deployment.xml
+D:\1. DoAnTotNghiep\Website_KĐCLGD_21_12\Website_KĐCLGD_19_12\Website_KĐCLGD\Website_KĐCLGD\bin\System.Web.WebPages.Razor.xml
+D:\1. DoAnTotNghiep\Website_KĐCLGD_21_12\Website_KĐCLGD_19_12\Website_KĐCLGD\Website_KĐCLGD\obj\Debug\Website_KĐCLGD.csprojResolveAssemblyReference.cache
+D:\1. DoAnTotNghiep\Website_KĐCLGD_21_12\Website_KĐCLGD_19_12\Website_KĐCLGD\Website_KĐCLGD\obj\Debug\Website_KĐCLGD.dll
+D:\1. DoAnTotNghiep\Website_KĐCLGD_21_12\Website_KĐCLGD_19_12\Website_KĐCLGD\Website_KĐCLGD\obj\Debug\Website_KĐCLGD.pdb
+D:\ĐATN\Website_KĐCLGD_23_12\Website_KĐCLGD_19_12\Website_KĐCLGD\Website_KĐCLGD\bin\Website_KĐCLGD.dll
+D:\ĐATN\Website_KĐCLGD_23_12\Website_KĐCLGD_19_12\Website_KĐCLGD\Website_KĐCLGD\bin\Website_KĐCLGD.pdb
+D:\ĐATN\Website_KĐCLGD_23_12\Website_KĐCLGD_19_12\Website_KĐCLGD\Website_KĐCLGD\bin\Microsoft.Web.Infrastructure.dll
+D:\ĐATN\Website_KĐCLGD_23_12\Website_KĐCLGD_19_12\Website_KĐCLGD\Website_KĐCLGD\bin\Newtonsoft.Json.dll
+D:\ĐATN\Website_KĐCLGD_23_12\Website_KĐCLGD_19_12\Website_KĐCLGD\Website_KĐCLGD\bin\System.Net.Http.dll
+D:\ĐATN\Website_KĐCLGD_23_12\Website_KĐCLGD_19_12\Website_KĐCLGD\Website_KĐCLGD\bin\System.Net.Http.Formatting.dll
+D:\ĐATN\Website_KĐCLGD_23_12\Website_KĐCLGD_19_12\Website_KĐCLGD\Website_KĐCLGD\bin\System.Net.Http.WebRequest.dll
+D:\ĐATN\Website_KĐCLGD_23_12\Website_KĐCLGD_19_12\Website_KĐCLGD\Website_KĐCLGD\bin\System.Web.Helpers.dll
+D:\ĐATN\Website_KĐCLGD_23_12\Website_KĐCLGD_19_12\Website_KĐCLGD\Website_KĐCLGD\bin\System.Web.Http.dll
+D:\ĐATN\Website_KĐCLGD_23_12\Website_KĐCLGD_19_12\Website_KĐCLGD\Website_KĐCLGD\bin\System.Web.Http.WebHost.dll
+D:\ĐATN\Website_KĐCLGD_23_12\Website_KĐCLGD_19_12\Website_KĐCLGD\Website_KĐCLGD\bin\System.Web.Mvc.dll
+D:\ĐATN\Website_KĐCLGD_23_12\Website_KĐCLGD_19_12\Website_KĐCLGD\Website_KĐCLGD\bin\System.Web.Razor.dll
+D:\ĐATN\Website_KĐCLGD_23_12\Website_KĐCLGD_19_12\Website_KĐCLGD\Website_KĐCLGD\bin\System.Web.WebPages.Deployment.dll
+D:\ĐATN\Website_KĐCLGD_23_12\Website_KĐCLGD_19_12\Website_KĐCLGD\Website_KĐCLGD\bin\System.Web.WebPages.dll
+D:\ĐATN\Website_KĐCLGD_23_12\Website_KĐCLGD_19_12\Website_KĐCLGD\Website_KĐCLGD\bin\System.Web.WebPages.Razor.dll
+D:\ĐATN\Website_KĐCLGD_23_12\Website_KĐCLGD_19_12\Website_KĐCLGD\Website_KĐCLGD\bin\Newtonsoft.Json.xml
+D:\ĐATN\Website_KĐCLGD_23_12\Website_KĐCLGD_19_12\Website_KĐCLGD\Website_KĐCLGD\bin\System.Net.Http.xml
+D:\ĐATN\Website_KĐCLGD_23_12\Website_KĐCLGD_19_12\Website_KĐCLGD\Website_KĐCLGD\bin\System.Net.Http.Formatting.xml
+D:\ĐATN\Website_KĐCLGD_23_12\Website_KĐCLGD_19_12\Website_KĐCLGD\Website_KĐCLGD\bin\System.Net.Http.WebRequest.xml
+D:\ĐATN\Website_KĐCLGD_23_12\Website_KĐCLGD_19_12\Website_KĐCLGD\Website_KĐCLGD\bin\System.Web.Helpers.xml
+D:\ĐATN\Website_KĐCLGD_23_12\Website_KĐCLGD_19_12\Website_KĐCLGD\Website_KĐCLGD\bin\System.Web.Http.xml
+D:\ĐATN\Website_KĐCLGD_23_12\Website_KĐCLGD_19_12\Website_KĐCLGD\Website_KĐCLGD\bin\System.Web.Http.WebHost.xml
+D:\ĐATN\Website_KĐCLGD_23_12\Website_KĐCLGD_19_12\Website_KĐCLGD\Website_KĐCLGD\bin\System.Web.Mvc.xml
+D:\ĐATN\Website_KĐCLGD_23_12\Website_KĐCLGD_19_12\Website_KĐCLGD\Website_KĐCLGD\bin\System.Web.Razor.xml
+D:\ĐATN\Website_KĐCLGD_23_12\Website_KĐCLGD_19_12\Website_KĐCLGD\Website_KĐCLGD\bin\System.Web.WebPages.xml
+D:\ĐATN\Website_KĐCLGD_23_12\Website_KĐCLGD_19_12\Website_KĐCLGD\Website_KĐCLGD\bin\System.Web.WebPages.Deployment.xml
+D:\ĐATN\Website_KĐCLGD_23_12\Website_KĐCLGD_19_12\Website_KĐCLGD\Website_KĐCLGD\bin\System.Web.WebPages.Razor.xml
+D:\ĐATN\Website_KĐCLGD_23_12\Website_KĐCLGD_19_12\Website_KĐCLGD\Website_KĐCLGD\obj\Debug\Website_KĐCLGD.csprojResolveAssemblyReference.cache
+D:\ĐATN\Website_KĐCLGD_23_12\Website_KĐCLGD_19_12\Website_KĐCLGD\Website_KĐCLGD\obj\Debug\Website_KĐCLGD.dll
+D:\ĐATN\Website_KĐCLGD_23_12\Website_KĐCLGD_19_12\Website_KĐCLGD\Website_KĐCLGD\obj\Debug\Website_KĐCLGD.pdb
+D:\1. DoAnTotNghiep\Website_KĐCLGD_3_1\Website_KĐCLGD_19_12\Website_KĐCLGD\Website_KĐCLGD\obj\Debug\Website_KĐCLGD.csprojResolveAssemblyReference.cache
+D:\1. DoAnTotNghiep\Website_KĐCLGD_3_1\Website_KĐCLGD_19_12\Website_KĐCLGD\Website_KĐCLGD\obj\Debug\Website_KĐCLGD.dll
+D:\1. DoAnTotNghiep\Website_KĐCLGD_3_1\Website_KĐCLGD_19_12\Website_KĐCLGD\Website_KĐCLGD\bin\Website_KĐCLGD.dll
+D:\1. DoAnTotNghiep\Website_KĐCLGD_3_1\Website_KĐCLGD_19_12\Website_KĐCLGD\Website_KĐCLGD\bin\Website_KĐCLGD.pdb
+D:\1. DoAnTotNghiep\Website_KĐCLGD_3_1\Website_KĐCLGD_19_12\Website_KĐCLGD\Website_KĐCLGD\bin\Microsoft.Web.Infrastructure.dll
+D:\1. DoAnTotNghiep\Website_KĐCLGD_3_1\Website_KĐCLGD_19_12\Website_KĐCLGD\Website_KĐCLGD\bin\Newtonsoft.Json.dll
+D:\1. DoAnTotNghiep\Website_KĐCLGD_3_1\Website_KĐCLGD_19_12\Website_KĐCLGD\Website_KĐCLGD\bin\System.Net.Http.dll
+D:\1. DoAnTotNghiep\Website_KĐCLGD_3_1\Website_KĐCLGD_19_12\Website_KĐCLGD\Website_KĐCLGD\bin\System.Net.Http.Formatting.dll
+D:\1. DoAnTotNghiep\Website_KĐCLGD_3_1\Website_KĐCLGD_19_12\Website_KĐCLGD\Website_KĐCLGD\bin\System.Net.Http.WebRequest.dll
+D:\1. DoAnTotNghiep\Website_KĐCLGD_3_1\Website_KĐCLGD_19_12\Website_KĐCLGD\Website_KĐCLGD\bin\System.Web.Helpers.dll
+D:\1. DoAnTotNghiep\Website_KĐCLGD_3_1\Website_KĐCLGD_19_12\Website_KĐCLGD\Website_KĐCLGD\bin\System.Web.Http.dll
+D:\1. DoAnTotNghiep\Website_KĐCLGD_3_1\Website_KĐCLGD_19_12\Website_KĐCLGD\Website_KĐCLGD\bin\System.Web.Http.WebHost.dll
+D:\1. DoAnTotNghiep\Website_KĐCLGD_3_1\Website_KĐCLGD_19_12\Website_KĐCLGD\Website_KĐCLGD\bin\System.Web.Mvc.dll
+D:\1. DoAnTotNghiep\Website_KĐCLGD_3_1\Website_KĐCLGD_19_12\Website_KĐCLGD\Website_KĐCLGD\bin\System.Web.Razor.dll
+D:\1. DoAnTotNghiep\Website_KĐCLGD_3_1\Website_KĐCLGD_19_12\Website_KĐCLGD\Website_KĐCLGD\bin\System.Web.WebPages.Deployment.dll
+D:\1. DoAnTotNghiep\Website_KĐCLGD_3_1\Website_KĐCLGD_19_12\Website_KĐCLGD\Website_KĐCLGD\bin\System.Web.WebPages.dll
+D:\1. DoAnTotNghiep\Website_KĐCLGD_3_1\Website_KĐCLGD_19_12\Website_KĐCLGD\Website_KĐCLGD\bin\System.Web.WebPages.Razor.dll
+D:\1. DoAnTotNghiep\Website_KĐCLGD_3_1\Website_KĐCLGD_19_12\Website_KĐCLGD\Website_KĐCLGD\bin\Newtonsoft.Json.xml
+D:\1. DoAnTotNghiep\Website_KĐCLGD_3_1\Website_KĐCLGD_19_12\Website_KĐCLGD\Website_KĐCLGD\bin\System.Net.Http.xml
+D:\1. DoAnTotNghiep\Website_KĐCLGD_3_1\Website_KĐCLGD_19_12\Website_KĐCLGD\Website_KĐCLGD\bin\System.Net.Http.Formatting.xml
+D:\1. DoAnTotNghiep\Website_KĐCLGD_3_1\Website_KĐCLGD_19_12\Website_KĐCLGD\Website_KĐCLGD\bin\System.Net.Http.WebRequest.xml
+D:\1. DoAnTotNghiep\Website_KĐCLGD_3_1\Website_KĐCLGD_19_12\Website_KĐCLGD\Website_KĐCLGD\bin\System.Web.Helpers.xml
+D:\1. DoAnTotNghiep\Website_KĐCLGD_3_1\Website_KĐCLGD_19_12\Website_KĐCLGD\Website_KĐCLGD\bin\System.Web.Http.xml
+D:\1. DoAnTotNghiep\Website_KĐCLGD_3_1\Website_KĐCLGD_19_12\Website_KĐCLGD\Website_KĐCLGD\bin\System.Web.Http.WebHost.xml
+D:\1. DoAnTotNghiep\Website_KĐCLGD_3_1\Website_KĐCLGD_19_12\Website_KĐCLGD\Website_KĐCLGD\bin\System.Web.Mvc.xml
+D:\1. DoAnTotNghiep\Website_KĐCLGD_3_1\Website_KĐCLGD_19_12\Website_KĐCLGD\Website_KĐCLGD\bin\System.Web.Razor.xml
+D:\1. DoAnTotNghiep\Website_KĐCLGD_3_1\Website_KĐCLGD_19_12\Website_KĐCLGD\Website_KĐCLGD\bin\System.Web.WebPages.xml
+D:\1. DoAnTotNghiep\Website_KĐCLGD_3_1\Website_KĐCLGD_19_12\Website_KĐCLGD\Website_KĐCLGD\bin\System.Web.WebPages.Deployment.xml
+D:\1. DoAnTotNghiep\Website_KĐCLGD_3_1\Website_KĐCLGD_19_12\Website_KĐCLGD\Website_KĐCLGD\bin\System.Web.WebPages.Razor.xml
+D:\1. DoAnTotNghiep\Website_KĐCLGD_3_1\Website_KĐCLGD_19_12\Website_KĐCLGD\Website_KĐCLGD\obj\Debug\Website_KĐCLGD.pdb
+D:\ĐATN\Website_KĐCLGD_new\Website_KĐCLGD_3_1\Website_KĐCLGD_19_12\Website_KĐCLGD\Website_KĐCLGD\bin\Website_KĐCLGD.dll
+D:\ĐATN\Website_KĐCLGD_new\Website_KĐCLGD_3_1\Website_KĐCLGD_19_12\Website_KĐCLGD\Website_KĐCLGD\bin\Website_KĐCLGD.pdb
+D:\ĐATN\Website_KĐCLGD_new\Website_KĐCLGD_3_1\Website_KĐCLGD_19_12\Website_KĐCLGD\Website_KĐCLGD\bin\Microsoft.Web.Infrastructure.dll
+D:\ĐATN\Website_KĐCLGD_new\Website_KĐCLGD_3_1\Website_KĐCLGD_19_12\Website_KĐCLGD\Website_KĐCLGD\bin\Newtonsoft.Json.dll
+D:\ĐATN\Website_KĐCLGD_new\Website_KĐCLGD_3_1\Website_KĐCLGD_19_12\Website_KĐCLGD\Website_KĐCLGD\bin\System.Net.Http.dll
+D:\ĐATN\Website_KĐCLGD_new\Website_KĐCLGD_3_1\Website_KĐCLGD_19_12\Website_KĐCLGD\Website_KĐCLGD\bin\System.Net.Http.Formatting.dll
+D:\ĐATN\Website_KĐCLGD_new\Website_KĐCLGD_3_1\Website_KĐCLGD_19_12\Website_KĐCLGD\Website_KĐCLGD\bin\System.Net.Http.WebRequest.dll
+D:\ĐATN\Website_KĐCLGD_new\Website_KĐCLGD_3_1\Website_KĐCLGD_19_12\Website_KĐCLGD\Website_KĐCLGD\bin\System.Web.Helpers.dll
+D:\ĐATN\Website_KĐCLGD_new\Website_KĐCLGD_3_1\Website_KĐCLGD_19_12\Website_KĐCLGD\Website_KĐCLGD\bin\System.Web.Http.dll
+D:\ĐATN\Website_KĐCLGD_new\Website_KĐCLGD_3_1\Website_KĐCLGD_19_12\Website_KĐCLGD\Website_KĐCLGD\bin\System.Web.Http.WebHost.dll
+D:\ĐATN\Website_KĐCLGD_new\Website_KĐCLGD_3_1\Website_KĐCLGD_19_12\Website_KĐCLGD\Website_KĐCLGD\bin\System.Web.Mvc.dll
+D:\ĐATN\Website_KĐCLGD_new\Website_KĐCLGD_3_1\Website_KĐCLGD_19_12\Website_KĐCLGD\Website_KĐCLGD\bin\System.Web.Razor.dll
+D:\ĐATN\Website_KĐCLGD_new\Website_KĐCLGD_3_1\Website_KĐCLGD_19_12\Website_KĐCLGD\Website_KĐCLGD\bin\System.Web.WebPages.Deployment.dll
+D:\ĐATN\Website_KĐCLGD_new\Website_KĐCLGD_3_1\Website_KĐCLGD_19_12\Website_KĐCLGD\Website_KĐCLGD\bin\System.Web.WebPages.dll
+D:\ĐATN\Website_KĐCLGD_new\Website_KĐCLGD_3_1\Website_KĐCLGD_19_12\Website_KĐCLGD\Website_KĐCLGD\bin\System.Web.WebPages.Razor.dll
+D:\ĐATN\Website_KĐCLGD_new\Website_KĐCLGD_3_1\Website_KĐCLGD_19_12\Website_KĐCLGD\Website_KĐCLGD\bin\Newtonsoft.Json.xml
+D:\ĐATN\Website_KĐCLGD_new\Website_KĐCLGD_3_1\Website_KĐCLGD_19_12\Website_KĐCLGD\Website_KĐCLGD\bin\System.Net.Http.xml
+D:\ĐATN\Website_KĐCLGD_new\Website_KĐCLGD_3_1\Website_KĐCLGD_19_12\Website_KĐCLGD\Website_KĐCLGD\bin\System.Net.Http.Formatting.xml
+D:\ĐATN\Website_KĐCLGD_new\Website_KĐCLGD_3_1\Website_KĐCLGD_19_12\Website_KĐCLGD\Website_KĐCLGD\bin\System.Net.Http.WebRequest.xml
+D:\ĐATN\Website_KĐCLGD_new\Website_KĐCLGD_3_1\Website_KĐCLGD_19_12\Website_KĐCLGD\Website_KĐCLGD\bin\System.Web.Helpers.xml
+D:\ĐATN\Website_KĐCLGD_new\Website_KĐCLGD_3_1\Website_KĐCLGD_19_12\Website_KĐCLGD\Website_KĐCLGD\bin\System.Web.Http.xml
+D:\ĐATN\Website_KĐCLGD_new\Website_KĐCLGD_3_1\Website_KĐCLGD_19_12\Website_KĐCLGD\Website_KĐCLGD\bin\System.Web.Http.WebHost.xml
+D:\ĐATN\Website_KĐCLGD_new\Website_KĐCLGD_3_1\Website_KĐCLGD_19_12\Website_KĐCLGD\Website_KĐCLGD\bin\System.Web.Mvc.xml
+D:\ĐATN\Website_KĐCLGD_new\Website_KĐCLGD_3_1\Website_KĐCLGD_19_12\Website_KĐCLGD\Website_KĐCLGD\bin\System.Web.Razor.xml
+D:\ĐATN\Website_KĐCLGD_new\Website_KĐCLGD_3_1\Website_KĐCLGD_19_12\Website_KĐCLGD\Website_KĐCLGD\bin\System.Web.WebPages.xml
+D:\ĐATN\Website_KĐCLGD_new\Website_KĐCLGD_3_1\Website_KĐCLGD_19_12\Website_KĐCLGD\Website_KĐCLGD\bin\System.Web.WebPages.Deployment.xml
+D:\ĐATN\Website_KĐCLGD_new\Website_KĐCLGD_3_1\Website_KĐCLGD_19_12\Website_KĐCLGD\Website_KĐCLGD\bin\System.Web.WebPages.Razor.xml
+D:\ĐATN\Website_KĐCLGD_new\Website_KĐCLGD_3_1\Website_KĐCLGD_19_12\Website_KĐCLGD\Website_KĐCLGD\obj\Debug\Website_KĐCLGD.csprojResolveAssemblyReference.cache
+D:\ĐATN\Website_KĐCLGD_new\Website_KĐCLGD_3_1\Website_KĐCLGD_19_12\Website_KĐCLGD\Website_KĐCLGD\obj\Debug\Website_KĐCLGD.dll
+D:\ĐATN\Website_KĐCLGD_new\Website_KĐCLGD_3_1\Website_KĐCLGD_19_12\Website_KĐCLGD\Website_KĐCLGD\obj\Debug\Website_KĐCLGD.pdb
+D:\ĐATN\Website_KĐCLGD_new\Website_KĐCLGD_19_12\Website_KĐCLGD\Website_KĐCLGD\bin\Website_KĐCLGD.dll
+D:\ĐATN\Website_KĐCLGD_new\Website_KĐCLGD_19_12\Website_KĐCLGD\Website_KĐCLGD\bin\Website_KĐCLGD.pdb
+D:\ĐATN\Website_KĐCLGD_new\Website_KĐCLGD_19_12\Website_KĐCLGD\Website_KĐCLGD\bin\Microsoft.Web.Infrastructure.dll
+D:\ĐATN\Website_KĐCLGD_new\Website_KĐCLGD_19_12\Website_KĐCLGD\Website_KĐCLGD\bin\Newtonsoft.Json.dll
+D:\ĐATN\Website_KĐCLGD_new\Website_KĐCLGD_19_12\Website_KĐCLGD\Website_KĐCLGD\bin\System.Net.Http.dll
+D:\ĐATN\Website_KĐCLGD_new\Website_KĐCLGD_19_12\Website_KĐCLGD\Website_KĐCLGD\bin\System.Net.Http.Formatting.dll
+D:\ĐATN\Website_KĐCLGD_new\Website_KĐCLGD_19_12\Website_KĐCLGD\Website_KĐCLGD\bin\System.Net.Http.WebRequest.dll
+D:\ĐATN\Website_KĐCLGD_new\Website_KĐCLGD_19_12\Website_KĐCLGD\Website_KĐCLGD\bin\System.Web.Helpers.dll
+D:\ĐATN\Website_KĐCLGD_new\Website_KĐCLGD_19_12\Website_KĐCLGD\Website_KĐCLGD\bin\System.Web.Http.dll
+D:\ĐATN\Website_KĐCLGD_new\Website_KĐCLGD_19_12\Website_KĐCLGD\Website_KĐCLGD\bin\System.Web.Http.WebHost.dll
+D:\ĐATN\Website_KĐCLGD_new\Website_KĐCLGD_19_12\Website_KĐCLGD\Website_KĐCLGD\bin\System.Web.Mvc.dll
+D:\ĐATN\Website_KĐCLGD_new\Website_KĐCLGD_19_12\Website_KĐCLGD\Website_KĐCLGD\bin\System.Web.Razor.dll
+D:\ĐATN\Website_KĐCLGD_new\Website_KĐCLGD_19_12\Website_KĐCLGD\Website_KĐCLGD\bin\System.Web.WebPages.Deployment.dll
+D:\ĐATN\Website_KĐCLGD_new\Website_KĐCLGD_19_12\Website_KĐCLGD\Website_KĐCLGD\bin\System.Web.WebPages.dll
+D:\ĐATN\Website_KĐCLGD_new\Website_KĐCLGD_19_12\Website_KĐCLGD\Website_KĐCLGD\bin\System.Web.WebPages.Razor.dll
+D:\ĐATN\Website_KĐCLGD_new\Website_KĐCLGD_19_12\Website_KĐCLGD\Website_KĐCLGD\bin\Newtonsoft.Json.xml
+D:\ĐATN\Website_KĐCLGD_new\Website_KĐCLGD_19_12\Website_KĐCLGD\Website_KĐCLGD\bin\System.Net.Http.xml
+D:\ĐATN\Website_KĐCLGD_new\Website_KĐCLGD_19_12\Website_KĐCLGD\Website_KĐCLGD\bin\System.Net.Http.Formatting.xml
+D:\ĐATN\Website_KĐCLGD_new\Website_KĐCLGD_19_12\Website_KĐCLGD\Website_KĐCLGD\bin\System.Net.Http.WebRequest.xml
+D:\ĐATN\Website_KĐCLGD_new\Website_KĐCLGD_19_12\Website_KĐCLGD\Website_KĐCLGD\bin\System.Web.Helpers.xml
+D:\ĐATN\Website_KĐCLGD_new\Website_KĐCLGD_19_12\Website_KĐCLGD\Website_KĐCLGD\bin\System.Web.Http.xml
+D:\ĐATN\Website_KĐCLGD_new\Website_KĐCLGD_19_12\Website_KĐCLGD\Website_KĐCLGD\bin\System.Web.Http.WebHost.xml
+D:\ĐATN\Website_KĐCLGD_new\Website_KĐCLGD_19_12\Website_KĐCLGD\Website_KĐCLGD\bin\System.Web.Mvc.xml
+D:\ĐATN\Website_KĐCLGD_new\Website_KĐCLGD_19_12\Website_KĐCLGD\Website_KĐCLGD\bin\System.Web.Razor.xml
+D:\ĐATN\Website_KĐCLGD_new\Website_KĐCLGD_19_12\Website_KĐCLGD\Website_KĐCLGD\bin\System.Web.WebPages.xml
+D:\ĐATN\Website_KĐCLGD_new\Website_KĐCLGD_19_12\Website_KĐCLGD\Website_KĐCLGD\bin\System.Web.WebPages.Deployment.xml
+D:\ĐATN\Website_KĐCLGD_new\Website_KĐCLGD_19_12\Website_KĐCLGD\Website_KĐCLGD\bin\System.Web.WebPages.Razor.xml
+D:\ĐATN\Website_KĐCLGD_new\Website_KĐCLGD_19_12\Website_KĐCLGD\Website_KĐCLGD\obj\Debug\Website_KĐCLGD.csprojResolveAssemblyReference.cache
+D:\ĐATN\Website_KĐCLGD_new\Website_KĐCLGD_19_12\Website_KĐCLGD\Website_KĐCLGD\obj\Debug\Website_KĐCLGD.dll
+D:\ĐATN\Website_KĐCLGD_new\Website_KĐCLGD_19_12\Website_KĐCLGD\Website_KĐCLGD\obj\Debug\Website_KĐCLGD.pdb
+D:\ĐATN\Website_KĐCLGD_new\084_DoAnTotNghiep_NguyenVoThanhDuy_LeTranDuyNhat\Website_KĐCLGD\Website_KĐCLGD\bin\Website_KĐCLGD.dll
+D:\ĐATN\Website_KĐCLGD_new\084_DoAnTotNghiep_NguyenVoThanhDuy_LeTranDuyNhat\Website_KĐCLGD\Website_KĐCLGD\bin\Website_KĐCLGD.pdb
+D:\ĐATN\Website_KĐCLGD_new\084_DoAnTotNghiep_NguyenVoThanhDuy_LeTranDuyNhat\Website_KĐCLGD\Website_KĐCLGD\bin\Microsoft.Web.Infrastructure.dll
+D:\ĐATN\Website_KĐCLGD_new\084_DoAnTotNghiep_NguyenVoThanhDuy_LeTranDuyNhat\Website_KĐCLGD\Website_KĐCLGD\bin\Newtonsoft.Json.dll
+D:\ĐATN\Website_KĐCLGD_new\084_DoAnTotNghiep_NguyenVoThanhDuy_LeTranDuyNhat\Website_KĐCLGD\Website_KĐCLGD\bin\System.Net.Http.dll
+D:\ĐATN\Website_KĐCLGD_new\084_DoAnTotNghiep_NguyenVoThanhDuy_LeTranDuyNhat\Website_KĐCLGD\Website_KĐCLGD\bin\System.Net.Http.Formatting.dll
+D:\ĐATN\Website_KĐCLGD_new\084_DoAnTotNghiep_NguyenVoThanhDuy_LeTranDuyNhat\Website_KĐCLGD\Website_KĐCLGD\bin\System.Net.Http.WebRequest.dll
+D:\ĐATN\Website_KĐCLGD_new\084_DoAnTotNghiep_NguyenVoThanhDuy_LeTranDuyNhat\Website_KĐCLGD\Website_KĐCLGD\bin\System.Web.Helpers.dll
+D:\ĐATN\Website_KĐCLGD_new\084_DoAnTotNghiep_NguyenVoThanhDuy_LeTranDuyNhat\Website_KĐCLGD\Website_KĐCLGD\bin\System.Web.Http.dll
+D:\ĐATN\Website_KĐCLGD_new\084_DoAnTotNghiep_NguyenVoThanhDuy_LeTranDuyNhat\Website_KĐCLGD\Website_KĐCLGD\bin\System.Web.Http.WebHost.dll
+D:\ĐATN\Website_KĐCLGD_new\084_DoAnTotNghiep_NguyenVoThanhDuy_LeTranDuyNhat\Website_KĐCLGD\Website_KĐCLGD\bin\System.Web.Mvc.dll
+D:\ĐATN\Website_KĐCLGD_new\084_DoAnTotNghiep_NguyenVoThanhDuy_LeTranDuyNhat\Website_KĐCLGD\Website_KĐCLGD\bin\System.Web.Razor.dll
+D:\ĐATN\Website_KĐCLGD_new\084_DoAnTotNghiep_NguyenVoThanhDuy_LeTranDuyNhat\Website_KĐCLGD\Website_KĐCLGD\bin\System.Web.WebPages.Deployment.dll
+D:\ĐATN\Website_KĐCLGD_new\084_DoAnTotNghiep_NguyenVoThanhDuy_LeTranDuyNhat\Website_KĐCLGD\Website_KĐCLGD\bin\System.Web.WebPages.dll
+D:\ĐATN\Website_KĐCLGD_new\084_DoAnTotNghiep_NguyenVoThanhDuy_LeTranDuyNhat\Website_KĐCLGD\Website_KĐCLGD\bin\System.Web.WebPages.Razor.dll
+D:\ĐATN\Website_KĐCLGD_new\084_DoAnTotNghiep_NguyenVoThanhDuy_LeTranDuyNhat\Website_KĐCLGD\Website_KĐCLGD\bin\Newtonsoft.Json.xml
+D:\ĐATN\Website_KĐCLGD_new\084_DoAnTotNghiep_NguyenVoThanhDuy_LeTranDuyNhat\Website_KĐCLGD\Website_KĐCLGD\bin\System.Net.Http.xml
+D:\ĐATN\Website_KĐCLGD_new\084_DoAnTotNghiep_NguyenVoThanhDuy_LeTranDuyNhat\Website_KĐCLGD\Website_KĐCLGD\bin\System.Net.Http.Formatting.xml
+D:\ĐATN\Website_KĐCLGD_new\084_DoAnTotNghiep_NguyenVoThanhDuy_LeTranDuyNhat\Website_KĐCLGD\Website_KĐCLGD\bin\System.Net.Http.WebRequest.xml
+D:\ĐATN\Website_KĐCLGD_new\084_DoAnTotNghiep_NguyenVoThanhDuy_LeTranDuyNhat\Website_KĐCLGD\Website_KĐCLGD\bin\System.Web.Helpers.xml
+D:\ĐATN\Website_KĐCLGD_new\084_DoAnTotNghiep_NguyenVoThanhDuy_LeTranDuyNhat\Website_KĐCLGD\Website_KĐCLGD\bin\System.Web.Http.xml
+D:\ĐATN\Website_KĐCLGD_new\084_DoAnTotNghiep_NguyenVoThanhDuy_LeTranDuyNhat\Website_KĐCLGD\Website_KĐCLGD\bin\System.Web.Http.WebHost.xml
+D:\ĐATN\Website_KĐCLGD_new\084_DoAnTotNghiep_NguyenVoThanhDuy_LeTranDuyNhat\Website_KĐCLGD\Website_KĐCLGD\bin\System.Web.Mvc.xml
+D:\ĐATN\Website_KĐCLGD_new\084_DoAnTotNghiep_NguyenVoThanhDuy_LeTranDuyNhat\Website_KĐCLGD\Website_KĐCLGD\bin\System.Web.Razor.xml
+D:\ĐATN\Website_KĐCLGD_new\084_DoAnTotNghiep_NguyenVoThanhDuy_LeTranDuyNhat\Website_KĐCLGD\Website_KĐCLGD\bin\System.Web.WebPages.xml
+D:\ĐATN\Website_KĐCLGD_new\084_DoAnTotNghiep_NguyenVoThanhDuy_LeTranDuyNhat\Website_KĐCLGD\Website_KĐCLGD\bin\System.Web.WebPages.Deployment.xml
+D:\ĐATN\Website_KĐCLGD_new\084_DoAnTotNghiep_NguyenVoThanhDuy_LeTranDuyNhat\Website_KĐCLGD\Website_KĐCLGD\bin\System.Web.WebPages.Razor.xml
+D:\ĐATN\Website_KĐCLGD_new\084_DoAnTotNghiep_NguyenVoThanhDuy_LeTranDuyNhat\Website_KĐCLGD\Website_KĐCLGD\obj\Debug\Website_KĐCLGD.csprojResolveAssemblyReference.cache
+D:\ĐATN\Website_KĐCLGD_new\084_DoAnTotNghiep_NguyenVoThanhDuy_LeTranDuyNhat\Website_KĐCLGD\Website_KĐCLGD\obj\Debug\Website_KĐCLGD.dll
+D:\ĐATN\Website_KĐCLGD_new\084_DoAnTotNghiep_NguyenVoThanhDuy_LeTranDuyNhat\Website_KĐCLGD\Website_KĐCLGD\obj\Debug\Website_KĐCLGD.pdb
+C:\Users\GF65\Desktop\084_DoAnTotNghiep_NguyenVoThanhDuy_LeTranDuyNhat_Final\Website_KĐCLGD\Website_KĐCLGD\bin\Website_KĐCLGD.dll.config
+C:\Users\GF65\Desktop\084_DoAnTotNghiep_NguyenVoThanhDuy_LeTranDuyNhat_Final\Website_KĐCLGD\Website_KĐCLGD\bin\Website_KĐCLGD.dll
+C:\Users\GF65\Desktop\084_DoAnTotNghiep_NguyenVoThanhDuy_LeTranDuyNhat_Final\Website_KĐCLGD\Website_KĐCLGD\bin\Website_KĐCLGD.pdb
+C:\Users\GF65\Desktop\084_DoAnTotNghiep_NguyenVoThanhDuy_LeTranDuyNhat_Final\Website_KĐCLGD\Website_KĐCLGD\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\GF65\Desktop\084_DoAnTotNghiep_NguyenVoThanhDuy_LeTranDuyNhat_Final\Website_KĐCLGD\Website_KĐCLGD\bin\Newtonsoft.Json.dll
+C:\Users\GF65\Desktop\084_DoAnTotNghiep_NguyenVoThanhDuy_LeTranDuyNhat_Final\Website_KĐCLGD\Website_KĐCLGD\bin\System.Net.Http.dll
+C:\Users\GF65\Desktop\084_DoAnTotNghiep_NguyenVoThanhDuy_LeTranDuyNhat_Final\Website_KĐCLGD\Website_KĐCLGD\bin\System.Net.Http.Formatting.dll
+C:\Users\GF65\Desktop\084_DoAnTotNghiep_NguyenVoThanhDuy_LeTranDuyNhat_Final\Website_KĐCLGD\Website_KĐCLGD\bin\System.Net.Http.WebRequest.dll
+C:\Users\GF65\Desktop\084_DoAnTotNghiep_NguyenVoThanhDuy_LeTranDuyNhat_Final\Website_KĐCLGD\Website_KĐCLGD\bin\System.Web.Helpers.dll
+C:\Users\GF65\Desktop\084_DoAnTotNghiep_NguyenVoThanhDuy_LeTranDuyNhat_Final\Website_KĐCLGD\Website_KĐCLGD\bin\System.Web.Http.dll
+C:\Users\GF65\Desktop\084_DoAnTotNghiep_NguyenVoThanhDuy_LeTranDuyNhat_Final\Website_KĐCLGD\Website_KĐCLGD\bin\System.Web.Http.WebHost.dll
+C:\Users\GF65\Desktop\084_DoAnTotNghiep_NguyenVoThanhDuy_LeTranDuyNhat_Final\Website_KĐCLGD\Website_KĐCLGD\bin\System.Web.Mvc.dll
+C:\Users\GF65\Desktop\084_DoAnTotNghiep_NguyenVoThanhDuy_LeTranDuyNhat_Final\Website_KĐCLGD\Website_KĐCLGD\bin\System.Web.Razor.dll
+C:\Users\GF65\Desktop\084_DoAnTotNghiep_NguyenVoThanhDuy_LeTranDuyNhat_Final\Website_KĐCLGD\Website_KĐCLGD\bin\System.Web.WebPages.Deployment.dll
+C:\Users\GF65\Desktop\084_DoAnTotNghiep_NguyenVoThanhDuy_LeTranDuyNhat_Final\Website_KĐCLGD\Website_KĐCLGD\bin\System.Web.WebPages.dll
+C:\Users\GF65\Desktop\084_DoAnTotNghiep_NguyenVoThanhDuy_LeTranDuyNhat_Final\Website_KĐCLGD\Website_KĐCLGD\bin\System.Web.WebPages.Razor.dll
+C:\Users\GF65\Desktop\084_DoAnTotNghiep_NguyenVoThanhDuy_LeTranDuyNhat_Final\Website_KĐCLGD\Website_KĐCLGD\bin\Newtonsoft.Json.xml
+C:\Users\GF65\Desktop\084_DoAnTotNghiep_NguyenVoThanhDuy_LeTranDuyNhat_Final\Website_KĐCLGD\Website_KĐCLGD\bin\System.Net.Http.xml
+C:\Users\GF65\Desktop\084_DoAnTotNghiep_NguyenVoThanhDuy_LeTranDuyNhat_Final\Website_KĐCLGD\Website_KĐCLGD\bin\System.Net.Http.Formatting.xml
+C:\Users\GF65\Desktop\084_DoAnTotNghiep_NguyenVoThanhDuy_LeTranDuyNhat_Final\Website_KĐCLGD\Website_KĐCLGD\bin\System.Net.Http.WebRequest.xml
+C:\Users\GF65\Desktop\084_DoAnTotNghiep_NguyenVoThanhDuy_LeTranDuyNhat_Final\Website_KĐCLGD\Website_KĐCLGD\bin\System.Web.Helpers.xml
+C:\Users\GF65\Desktop\084_DoAnTotNghiep_NguyenVoThanhDuy_LeTranDuyNhat_Final\Website_KĐCLGD\Website_KĐCLGD\bin\System.Web.Http.xml
+C:\Users\GF65\Desktop\084_DoAnTotNghiep_NguyenVoThanhDuy_LeTranDuyNhat_Final\Website_KĐCLGD\Website_KĐCLGD\bin\System.Web.Http.WebHost.xml
+C:\Users\GF65\Desktop\084_DoAnTotNghiep_NguyenVoThanhDuy_LeTranDuyNhat_Final\Website_KĐCLGD\Website_KĐCLGD\bin\System.Web.Mvc.xml
+C:\Users\GF65\Desktop\084_DoAnTotNghiep_NguyenVoThanhDuy_LeTranDuyNhat_Final\Website_KĐCLGD\Website_KĐCLGD\bin\System.Web.Razor.xml
+C:\Users\GF65\Desktop\084_DoAnTotNghiep_NguyenVoThanhDuy_LeTranDuyNhat_Final\Website_KĐCLGD\Website_KĐCLGD\bin\System.Web.WebPages.xml
+C:\Users\GF65\Desktop\084_DoAnTotNghiep_NguyenVoThanhDuy_LeTranDuyNhat_Final\Website_KĐCLGD\Website_KĐCLGD\bin\System.Web.WebPages.Deployment.xml
+C:\Users\GF65\Desktop\084_DoAnTotNghiep_NguyenVoThanhDuy_LeTranDuyNhat_Final\Website_KĐCLGD\Website_KĐCLGD\bin\System.Web.WebPages.Razor.xml
+C:\Users\GF65\Desktop\084_DoAnTotNghiep_NguyenVoThanhDuy_LeTranDuyNhat_Final\Website_KĐCLGD\Website_KĐCLGD\obj\Debug\Website_KĐCLGD.csproj.AssemblyReference.cache
+C:\Users\GF65\Desktop\084_DoAnTotNghiep_NguyenVoThanhDuy_LeTranDuyNhat_Final\Website_KĐCLGD\Website_KĐCLGD\obj\Debug\Website_KĐCLGD.csproj.CoreCompileInputs.cache
+C:\Users\GF65\Desktop\084_DoAnTotNghiep_NguyenVoThanhDuy_LeTranDuyNhat_Final\Website_KĐCLGD\Website_KĐCLGD\obj\Debug\Website_KĐCLGD.dll
+C:\Users\GF65\Desktop\084_DoAnTotNghiep_NguyenVoThanhDuy_LeTranDuyNhat_Final\Website_KĐCLGD\Website_KĐCLGD\obj\Debug\Website_KĐCLGD.pdb
+C:\Users\Admin\Desktop\084_DoAnTotNghiep_NguyenVoThanhDuy_LeTranDuyNhat_Final\Website_KĐCLGD\Website_KĐCLGD\bin\Website_KĐCLGD.dll.config
+C:\Users\Admin\Desktop\084_DoAnTotNghiep_NguyenVoThanhDuy_LeTranDuyNhat_Final\Website_KĐCLGD\Website_KĐCLGD\bin\Website_KĐCLGD.dll
+C:\Users\Admin\Desktop\084_DoAnTotNghiep_NguyenVoThanhDuy_LeTranDuyNhat_Final\Website_KĐCLGD\Website_KĐCLGD\bin\Website_KĐCLGD.pdb
+C:\Users\Admin\Desktop\084_DoAnTotNghiep_NguyenVoThanhDuy_LeTranDuyNhat_Final\Website_KĐCLGD\Website_KĐCLGD\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Admin\Desktop\084_DoAnTotNghiep_NguyenVoThanhDuy_LeTranDuyNhat_Final\Website_KĐCLGD\Website_KĐCLGD\bin\Newtonsoft.Json.dll
+C:\Users\Admin\Desktop\084_DoAnTotNghiep_NguyenVoThanhDuy_LeTranDuyNhat_Final\Website_KĐCLGD\Website_KĐCLGD\bin\System.Net.Http.Formatting.dll
+C:\Users\Admin\Desktop\084_DoAnTotNghiep_NguyenVoThanhDuy_LeTranDuyNhat_Final\Website_KĐCLGD\Website_KĐCLGD\bin\System.Web.Helpers.dll
+C:\Users\Admin\Desktop\084_DoAnTotNghiep_NguyenVoThanhDuy_LeTranDuyNhat_Final\Website_KĐCLGD\Website_KĐCLGD\bin\System.Web.Http.dll
+C:\Users\Admin\Desktop\084_DoAnTotNghiep_NguyenVoThanhDuy_LeTranDuyNhat_Final\Website_KĐCLGD\Website_KĐCLGD\bin\System.Web.Http.WebHost.dll
+C:\Users\Admin\Desktop\084_DoAnTotNghiep_NguyenVoThanhDuy_LeTranDuyNhat_Final\Website_KĐCLGD\Website_KĐCLGD\bin\System.Web.Mvc.dll
+C:\Users\Admin\Desktop\084_DoAnTotNghiep_NguyenVoThanhDuy_LeTranDuyNhat_Final\Website_KĐCLGD\Website_KĐCLGD\bin\System.Web.Razor.dll
+C:\Users\Admin\Desktop\084_DoAnTotNghiep_NguyenVoThanhDuy_LeTranDuyNhat_Final\Website_KĐCLGD\Website_KĐCLGD\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Admin\Desktop\084_DoAnTotNghiep_NguyenVoThanhDuy_LeTranDuyNhat_Final\Website_KĐCLGD\Website_KĐCLGD\bin\System.Web.WebPages.dll
+C:\Users\Admin\Desktop\084_DoAnTotNghiep_NguyenVoThanhDuy_LeTranDuyNhat_Final\Website_KĐCLGD\Website_KĐCLGD\bin\System.Web.WebPages.Razor.dll
+C:\Users\Admin\Desktop\084_DoAnTotNghiep_NguyenVoThanhDuy_LeTranDuyNhat_Final\Website_KĐCLGD\Website_KĐCLGD\bin\Newtonsoft.Json.xml
+C:\Users\Admin\Desktop\084_DoAnTotNghiep_NguyenVoThanhDuy_LeTranDuyNhat_Final\Website_KĐCLGD\Website_KĐCLGD\bin\System.Net.Http.Formatting.xml
+C:\Users\Admin\Desktop\084_DoAnTotNghiep_NguyenVoThanhDuy_LeTranDuyNhat_Final\Website_KĐCLGD\Website_KĐCLGD\bin\System.Web.Helpers.xml
+C:\Users\Admin\Desktop\084_DoAnTotNghiep_NguyenVoThanhDuy_LeTranDuyNhat_Final\Website_KĐCLGD\Website_KĐCLGD\bin\System.Web.Http.xml
+C:\Users\Admin\Desktop\084_DoAnTotNghiep_NguyenVoThanhDuy_LeTranDuyNhat_Final\Website_KĐCLGD\Website_KĐCLGD\bin\System.Web.Http.WebHost.xml
+C:\Users\Admin\Desktop\084_DoAnTotNghiep_NguyenVoThanhDuy_LeTranDuyNhat_Final\Website_KĐCLGD\Website_KĐCLGD\bin\System.Web.Mvc.xml
+C:\Users\Admin\Desktop\084_DoAnTotNghiep_NguyenVoThanhDuy_LeTranDuyNhat_Final\Website_KĐCLGD\Website_KĐCLGD\bin\System.Web.Razor.xml
+C:\Users\Admin\Desktop\084_DoAnTotNghiep_NguyenVoThanhDuy_LeTranDuyNhat_Final\Website_KĐCLGD\Website_KĐCLGD\bin\System.Web.WebPages.xml
+C:\Users\Admin\Desktop\084_DoAnTotNghiep_NguyenVoThanhDuy_LeTranDuyNhat_Final\Website_KĐCLGD\Website_KĐCLGD\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Admin\Desktop\084_DoAnTotNghiep_NguyenVoThanhDuy_LeTranDuyNhat_Final\Website_KĐCLGD\Website_KĐCLGD\bin\System.Web.WebPages.Razor.xml
+C:\Users\Admin\Desktop\084_DoAnTotNghiep_NguyenVoThanhDuy_LeTranDuyNhat_Final\Website_KĐCLGD\Website_KĐCLGD\obj\Debug\Website_KĐCLGD.csproj.AssemblyReference.cache
+C:\Users\Admin\Desktop\084_DoAnTotNghiep_NguyenVoThanhDuy_LeTranDuyNhat_Final\Website_KĐCLGD\Website_KĐCLGD\obj\Debug\Website_KĐCLGD.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\084_DoAnTotNghiep_NguyenVoThanhDuy_LeTranDuyNhat_Final\Website_KĐCLGD\Website_KĐCLGD\obj\Debug\Website_KĐCLGD.csproj.CopyComplete
+C:\Users\Admin\Desktop\084_DoAnTotNghiep_NguyenVoThanhDuy_LeTranDuyNhat_Final\Website_KĐCLGD\Website_KĐCLGD\obj\Debug\Website_KĐCLGD.dll
+C:\Users\Admin\Desktop\084_DoAnTotNghiep_NguyenVoThanhDuy_LeTranDuyNhat_Final\Website_KĐCLGD\Website_KĐCLGD\obj\Debug\Website_KĐCLGD.pdb
+C:\Users\Admin\Desktop\084_DoAnTotNghiep_NguyenVoThanhDuy_LeTranDuyNhat_Final\Website_Clone\Website_KĐCLGD\bin\Website_KĐCLGD.dll.config
+C:\Users\Admin\Desktop\084_DoAnTotNghiep_NguyenVoThanhDuy_LeTranDuyNhat_Final\Website_Clone\Website_KĐCLGD\bin\Website_KĐCLGD.dll
+C:\Users\Admin\Desktop\084_DoAnTotNghiep_NguyenVoThanhDuy_LeTranDuyNhat_Final\Website_Clone\Website_KĐCLGD\bin\Website_KĐCLGD.pdb
+C:\Users\Admin\Desktop\084_DoAnTotNghiep_NguyenVoThanhDuy_LeTranDuyNhat_Final\Website_Clone\Website_KĐCLGD\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Admin\Desktop\084_DoAnTotNghiep_NguyenVoThanhDuy_LeTranDuyNhat_Final\Website_Clone\Website_KĐCLGD\bin\Newtonsoft.Json.dll
+C:\Users\Admin\Desktop\084_DoAnTotNghiep_NguyenVoThanhDuy_LeTranDuyNhat_Final\Website_Clone\Website_KĐCLGD\bin\System.Net.Http.Formatting.dll
+C:\Users\Admin\Desktop\084_DoAnTotNghiep_NguyenVoThanhDuy_LeTranDuyNhat_Final\Website_Clone\Website_KĐCLGD\bin\System.Web.Helpers.dll
+C:\Users\Admin\Desktop\084_DoAnTotNghiep_NguyenVoThanhDuy_LeTranDuyNhat_Final\Website_Clone\Website_KĐCLGD\bin\System.Web.Http.dll
+C:\Users\Admin\Desktop\084_DoAnTotNghiep_NguyenVoThanhDuy_LeTranDuyNhat_Final\Website_Clone\Website_KĐCLGD\bin\System.Web.Http.WebHost.dll
+C:\Users\Admin\Desktop\084_DoAnTotNghiep_NguyenVoThanhDuy_LeTranDuyNhat_Final\Website_Clone\Website_KĐCLGD\bin\System.Web.Mvc.dll
+C:\Users\Admin\Desktop\084_DoAnTotNghiep_NguyenVoThanhDuy_LeTranDuyNhat_Final\Website_Clone\Website_KĐCLGD\bin\System.Web.Razor.dll
+C:\Users\Admin\Desktop\084_DoAnTotNghiep_NguyenVoThanhDuy_LeTranDuyNhat_Final\Website_Clone\Website_KĐCLGD\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Admin\Desktop\084_DoAnTotNghiep_NguyenVoThanhDuy_LeTranDuyNhat_Final\Website_Clone\Website_KĐCLGD\bin\System.Web.WebPages.dll
+C:\Users\Admin\Desktop\084_DoAnTotNghiep_NguyenVoThanhDuy_LeTranDuyNhat_Final\Website_Clone\Website_KĐCLGD\bin\System.Web.WebPages.Razor.dll
+C:\Users\Admin\Desktop\084_DoAnTotNghiep_NguyenVoThanhDuy_LeTranDuyNhat_Final\Website_Clone\Website_KĐCLGD\bin\Newtonsoft.Json.xml
+C:\Users\Admin\Desktop\084_DoAnTotNghiep_NguyenVoThanhDuy_LeTranDuyNhat_Final\Website_Clone\Website_KĐCLGD\bin\System.Net.Http.Formatting.xml
+C:\Users\Admin\Desktop\084_DoAnTotNghiep_NguyenVoThanhDuy_LeTranDuyNhat_Final\Website_Clone\Website_KĐCLGD\bin\System.Web.Helpers.xml
+C:\Users\Admin\Desktop\084_DoAnTotNghiep_NguyenVoThanhDuy_LeTranDuyNhat_Final\Website_Clone\Website_KĐCLGD\bin\System.Web.Http.xml
+C:\Users\Admin\Desktop\084_DoAnTotNghiep_NguyenVoThanhDuy_LeTranDuyNhat_Final\Website_Clone\Website_KĐCLGD\bin\System.Web.Http.WebHost.xml
+C:\Users\Admin\Desktop\084_DoAnTotNghiep_NguyenVoThanhDuy_LeTranDuyNhat_Final\Website_Clone\Website_KĐCLGD\bin\System.Web.Mvc.xml
+C:\Users\Admin\Desktop\084_DoAnTotNghiep_NguyenVoThanhDuy_LeTranDuyNhat_Final\Website_Clone\Website_KĐCLGD\bin\System.Web.Razor.xml
+C:\Users\Admin\Desktop\084_DoAnTotNghiep_NguyenVoThanhDuy_LeTranDuyNhat_Final\Website_Clone\Website_KĐCLGD\bin\System.Web.WebPages.xml
+C:\Users\Admin\Desktop\084_DoAnTotNghiep_NguyenVoThanhDuy_LeTranDuyNhat_Final\Website_Clone\Website_KĐCLGD\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Admin\Desktop\084_DoAnTotNghiep_NguyenVoThanhDuy_LeTranDuyNhat_Final\Website_Clone\Website_KĐCLGD\bin\System.Web.WebPages.Razor.xml
+C:\Users\Admin\Desktop\084_DoAnTotNghiep_NguyenVoThanhDuy_LeTranDuyNhat_Final\Website_Clone\Website_KĐCLGD\obj\Debug\Website_KĐCLGD.csproj.AssemblyReference.cache
+C:\Users\Admin\Desktop\084_DoAnTotNghiep_NguyenVoThanhDuy_LeTranDuyNhat_Final\Website_Clone\Website_KĐCLGD\obj\Debug\Website_KĐCLGD.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\084_DoAnTotNghiep_NguyenVoThanhDuy_LeTranDuyNhat_Final\Website_Clone\Website_KĐCLGD\obj\Debug\Website_KĐCLGD.csproj.CopyComplete
+C:\Users\Admin\Desktop\084_DoAnTotNghiep_NguyenVoThanhDuy_LeTranDuyNhat_Final\Website_Clone\Website_KĐCLGD\obj\Debug\Website_KĐCLGD.dll
+C:\Users\Admin\Desktop\084_DoAnTotNghiep_NguyenVoThanhDuy_LeTranDuyNhat_Final\Website_Clone\Website_KĐCLGD\obj\Debug\Website_KĐCLGD.pdb

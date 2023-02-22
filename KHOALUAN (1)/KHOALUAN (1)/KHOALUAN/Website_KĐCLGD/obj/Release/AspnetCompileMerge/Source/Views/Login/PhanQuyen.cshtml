@@ -1,0 +1,156 @@
+﻿@using Website_KĐCLGD.Models;
+@model NHANSU
+<style>
+    .active li{
+        font-weight: bold;
+        color: white;
+    }
+    
+</style>
+@{
+    if(Model.MA_NQ == null) {
+        <a class="nav-link" href="@Url.Action("Login","Login")">VUI LÒNG ĐĂNG NHẬP HỆ THỐNG</a>
+    }
+    else { 
+        if(Model.MA_NQ == 1) {
+            <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+                <ul class="navbar-nav" style="font-size:18px; margin: 0 auto;">
+                    <li class="nav-item active" onclick="active(this)">
+                        <a class="nav-link" href="@Url.Action("QL_Nhansu","Website_KĐCLGD")">QUẢN LÝ NHÂN SỰ |</a>
+                    </li>
+                    <li class="nav-item" onclick="active(this)">
+                        <a class="nav-link" href="@Url.Action("QLHS_P1","Website_KĐCLGD")">QUẢN LÝ HỒ SƠ |</a>
+                    </li>
+                    <li class="nav-item" onclick="active(this)">
+                        <a class="nav-link" href="@Url.Action("KiemDuyet_P1","Website_KĐCLGD")">KIỂM DUYỆT HỒ SƠ |</a>
+                    </li>
+                    <li class="nav-item" onclick="active(this)">
+                        <a class="nav-link" href="@Url.Action("DanhGia_P1","Website_KĐCLGD")">ĐÁNH GIÁ CHẤT LƯỢNG |</a>
+                    </li>
+                    <li class="nav-item" onclick="active(this)">
+                        <a class="nav-link" href="@Url.Action("QL_CongViec","Website_KĐCLGD")">QUẢN LÝ CÔNG VIỆC |</a>
+                    </li>
+                    <li class="nav-item" onclick="active(this)">
+                        <a class="nav-link" href="@Url.Action("thongke_DG","Website_KĐCLGD")">THỐNG KÊ</a>
+                    </li>
+                </ul>
+                <@*form class="form-inline" action="/action_page.php" style ="display:flexbox; margin-left:90px;">
+                    <input class="form-control mr-sm-2" type="text" placeholder="Tìm kiếm...">
+                    <button class="btn btn-success" type="submit">Tìm kiếm</button>
+                </form>*@
+            </nav>
+        }
+        else if(Model.MA_NQ == 2) {
+            <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+                <ul class="navbar-nav" style="font-size:18px;margin: 0 auto;">
+                    <li class="nav-item" onclick="active(this)">
+                        <p class="lock" style="margin-bottom: 0px; user-select:none;">QUẢN LÝ NHÂN SỰ |</p>
+                    </li>
+                    <li class="nav-item active" onclick="active(this)">
+                        <a class="nav-link" href="@Url.Action("QLHS_P1","Website_KĐCLGD")">QUẢN LÝ HỒ SƠ |</a>
+                    </li>
+                    <li class="nav-item" onclick="active(this)">
+                        <p class="lock" style="margin-bottom: 0px; user-select:none;">KIỂM DUYỆT HỒ SƠ |</p>
+                    
+                    </li>
+                    <li class="nav-item" onclick="active(this)">
+                        <p class="lock" style="margin-bottom: 0px; user-select:none;">ĐÁNH GIÁ CHẤT LƯỢNG |</p>
+                    </li>
+                    <li class="nav-item" onclick="active(this)">
+                        <a class="nav-link" href="@Url.Action("QL_CongViec","Website_KĐCLGD")">QUẢN LÝ CÔNG VIỆC </a>
+                    </li>
+                </ul>
+            </nav>
+        }
+        else if(Model.MA_NQ == 3) {
+            <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+                <ul class="navbar-nav" style="font-size:18px;margin: 0 auto;">
+                    <li class="nav-item active" onclick="active(this)">
+                        <a class="nav-link" href="@Url.Action("QL_Nhansu","Website_KĐCLGD")">QUẢN LÝ NHÂN SỰ |</a>
+                    </li>
+                    <li class="nav-item" onclick="active(this)">
+                        <p class="lock" stylxe="margin-bottom: 0px; user-select:none;">QUẢN LÝ HỒ SƠ |</p>
+                    </li>
+                    <li class="nav-item" onclick="active(this)">
+                        <p class="lock" style="margin-bottom: 0px; user-select:none;">KIỂM DUYỆT HỒ SƠ |</p>
+                    
+                    </li>
+                    <li class="nav-item" onclick="active(this)">
+                        <p class="lock" style="margin-bottom: 0px; user-select:none;">ĐÁNH GIÁ CHẤT LƯỢNG |</p>
+                    </li>
+                    <li class="nav-item" onclick="active(this)">
+                        <a class="nav-link" href="@Url.Action("QL_CongViec","Website_KĐCLGD")">QUẢN LÝ CÔNG VIỆC </a>
+                    </li>
+                </ul>
+            </nav>
+        }
+        else if(Model.MA_NQ == 4) {
+            <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+                <ul class="navbar-nav" style="font-size:18px;margin: 0 auto;">
+                    <li class="nav-item" onclick="active(this)">
+                        <a class="nav-link" href="@Url.Action("QL_Nhansu","Website_KĐCLGD")">QUẢN LÝ NHÂN SỰ |</a>
+                    </li>
+                    <li class="nav-item" onclick="active(this)">
+                        <a class="nav-link" href="@Url.Action("QLHS_P1","Website_KĐCLGD")">QUẢN LÝ HỒ SƠ |</a>
+                    </li>
+                    <li class="nav-item active" onclick="active(this)">
+                        <a class="nav-link" href="@Url.Action("KiemDuyet_P1","Website_KĐCLGD")">KIỂM DUYỆT HỒ SƠ |</a>
+                    
+                    </li>
+                    <li class="nav-item" onclick="active(this)">
+                        <p class="lock" style="margin-bottom: 0px; user-select:none;">ĐÁNH GIÁ CHẤT LƯỢNG |</p>
+                    </li>
+                    <li class="nav-item" onclick="active(this)">
+                        <a class="nav-link" href="@Url.Action("QL_CongViec","Website_KĐCLGD")">QUẢN LÝ CÔNG VIỆC </a>
+                    </li>
+                </ul>
+            </nav>
+        }
+        else if(Model.MA_NQ == 5) {
+            <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+                <ul class="navbar-nav" style="font-size:18px;margin: 0 auto;">
+                    <li class="nav-item" onclick="active(this)">
+                        <p class="lock" style="margin-bottom: 0px; user-select:none;">QUẢN LÝ NHÂN SỰ |</p>
+                    </li>
+                    <li class="nav-item" onclick="active(this)">
+                        <p class="lock" style="margin-bottom: 0px; user-select:none;">QUẢN LÝ HỒ SƠ |</p>
+                    </li>
+                    <li class="nav-item" onclick="active(this)">
+                        <p class="lock" style="margin-bottom: 0px; user-select:none;">KIỂM DUYỆT HỒ SƠ |</p>
+                    </li>
+                    <li class="nav-item active" onclick="active(this)">
+                        <a class="nav-link" href="@Url.Action("DanhGia_P1","Website_KĐCLGD")">ĐÁNH GIÁ CHẤT LƯỢNG |</a>
+                    </li>
+                    @*<li class="nav-item" onclick="active(this)">
+                        <p class="lock" style="margin-bottom: 0px; user-select:none;">QUẢN LÝ CÔNG VIỆC </p>
+                    </li>*@
+                    <li class="nav-item active" onclick="active(this)">
+                        <a class="nav-link" href="@Url.Action("thongke_DG","Website_KĐCLGD")">THỐNG KÊ ĐÁNH GIÁ</a>
+                    </li>
+                </ul>
+            </nav>
+        }
+    }
+}
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+    function active(obj) {
+        localStorage.obj = obj.innerHTML;
+    }
+
+    $(document).ready(function () {
+        if (localStorage.hasOwnProperty('obj')) {
+            var item = document.getElementsByClassName('nav-item');
+            var len = item.length;
+            var obj = localStorage.getItem('obj');
+            var doc = new DOMParser().parseFromString(obj, "text/xml");
+            for (var i = 0; i < len; i++) {
+                item[i].classList.remove('active');
+                if (item[i].firstElementChild.innerHTML == doc.firstElementChild.innerHTML) {
+                    item[i].classList.add('active');
+                }
+            }
+            localStorage.removeItem('obj');
+        }
+    })
+</script>

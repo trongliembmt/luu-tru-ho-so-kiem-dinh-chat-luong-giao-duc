@@ -1,0 +1,138 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>DangNhap</title>
+    <meta content="minimum-scale=1.0, width=device-width, maximum-scale=1.0, user-scalable=no" name="viewport" />
+	<meta charset="UTF-8">
+	<title>KIỂM ĐỊNH CHƯƠNG TRÌNH ĐÀO TẠO NGÀNH CÔNG NGHỆ THÔNG TIN</title>
+	<link rel="stylesheet" href="~/Assets/Client/js/wow/animate.css?t=1">
+	<link rel="stylesheet" href="~/Assets/Client/css/font-awesome.min.css">
+	<link rel="stylesheet" href="~/Assets/Client/css/style.css?t=3">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+	<link rel="stylesheet" href="~/Assets/Client/css/responsive.css?t=3">
+	<script src="~/Assets/Client/js/jquery.js?t=1"></script>
+    @*<meta name="viewport" content="width=device-width, initial-scale=1">*@
+</head>
+<body>
+    <div class="login-form">
+        <form action="" method="post">
+            @*<div class="avatar">
+            <img src="/examples/images/avatar.png" alt="Avatar">
+        </div>*@
+            @Html.AntiForgeryToken()
+            <h2 class="text-center">Member Login</h2>
+            <div class="form-group">
+                <input type="text" class="form-control" name="username" placeholder="Username" required="required">
+            </div>
+            <div class="form-group">
+                <input type="password" class="form-control" name="password" placeholder="Password" required="required">
+            </div>
+            <div class="form-group">
+                <button type="submit" class="btn btn-primary btn-lg btn-block">Sign in</button>
+            </div>
+            <div class="clearfix">
+                <label class="pull-left checkbox-inline"><input type="checkbox"> Remember me</label>
+                <a href="#" class="pull-right">Forgot Password?</a>
+            </div>
+        </form>
+    </div>
+    }
+    @if (ViewBag.Message != null)
+    {
+        <script type="text/javascript">
+            window.onload = function () {
+                alert("@ViewBag.Message");
+            };
+        </script>
+    }
+    <div>
+        <section class="section-1 parallax-window" data-parallax="scroll" data-image-src="Content/image/panner/panerDN.jpg" style="height:63rem" >
+	        <div class="content wow pulse" data-wow-duration="1.5s">
+		       
+                @using (Html.BeginForm("DangNhap", "Website_KĐCLGD", FormMethod.Post))
+                { 
+                    @Html.AntiForgeryToken()
+                <section class="form-dark" style="font-size:13px;width: 300px;margin-left: 150px">
+
+                  
+                  <div class="card card-image"style="background-image: url('Content/image/panner/dn.jpg'); width: 30rem;height:40rem">
+                    <div class="text-white rgba-stylish-strong py-5 px-5 z-depth-4">
+
+                      
+                      <div class="text-center">
+                        <h3 class="white-text mb-5 mt-4 font-weight-bold" style="color:#0094ff; font-size:13px"><strong>SIGN</strong> <a
+                            class="green-text font-weight-bold" style="font-size:13px; color:#12048d"><strong> UP</strong></a></h3>
+                      </div>
+
+                      
+                      <div class="md-form">
+                        <input type="text" name="Username" id="Form-email5" class="form-control white-text">
+                        <label for="Form-email5" style="color:#0ff">Your account</label>
+                      </div>
+
+                      <div class="md-form pb-3">
+                        <input type="password" name="Password" id="Form-pass5" class="form-control white-text">
+                        <label for="Form-pass5" style="color:#0ff">Your password</label>
+                        <div class="form-check my-4">
+                          <input class="form-check-input" type="checkbox" value="" id="defaultCheck17">
+                          <label class="form-check-label white-text" for="defaultCheck17" style="color:#0ff">Remember me !</label>
+                        </div>
+                      </div>
+
+                      
+                      <div class="row d-flex align-items-center mb-4">
+
+                        
+                        <div class="text-center mb-3 col-md-12">
+                          <input type="button" onclick="@("location.href='"+ Url.Action("DangNhap","Website_KĐCLGD")+ "'")" />
+                          <button type="submit" class="btn btn-success btn-block btn-rounded z-depth-1" style="color:#fff;font-size:15px">@*<a href="@Url.Action("KiemDuyet_TC","Website_KĐCLGD")">*@Sign in@*</a>*@</button>
+                        </div>
+                        
+                      </div>
+                      
+                        @{
+                    if (ViewData["ErrorLogin"] != null)
+                    {
+                                <h2>@ViewData["ErrorLogin"].ToString()</h2>
+                    }
+                            }
+                    
+                      <div class="col-md-12">
+                        <p class="font-small white-text d-flex justify-content-end" style="color:#0ff">Have an account? @*<a href="#" class="green-text ml-1 font-weight-bold"> Log in</a>*@
+                    <button type="submit" class="green-text ml-1 font-weight-bold"> Log in</button>
+                        </p>
+                      </div>
+                     
+
+                    </div>
+                  </div>
+                 
+
+                </section>
+                }
+                 
+	        </div>
+        </section>
+    </div>
+    <script src="~/Assets/Client/js/parallax.min.js?t=1"></script>
+<script src="~/Assets/Client/js/wow/wow.min.js?t=1"></script>
+<script src="~/Assets/Client/js/script.js?t=2"></script>
+<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+ <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

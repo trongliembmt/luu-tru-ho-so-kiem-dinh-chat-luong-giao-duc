@@ -1,0 +1,17 @@
+﻿@{
+    Layout = null;
+}
+<select onchange="la(this.value)" style="width: 30%; margin-top: 7px; font-size: 15px;"> 
+    <option hidden selected>--Chọn phần kiểm duyệt--</option>
+    <option value="@Url.Action("KiemDuyet_P1","Website_KĐCLGD")">Phần 1. Khái quát</option>
+    <option value="@Url.Action("KiemDuyet_TC","Website_KĐCLGD")">Phần 2. Tự đánh giá</option>
+    <option value="@Url.Action("KiemDuyet_P3","Website_KĐCLGD")">Phần 3. Kết luận</option>
+    <option value="@Url.Action("KiemDuyet_P4","Website_KĐCLGD")">Phần 4. Phụ lục</option>
+</select>
+
+<script>
+    function la(src)
+    {
+        window.location = src;
+    }
+</script>

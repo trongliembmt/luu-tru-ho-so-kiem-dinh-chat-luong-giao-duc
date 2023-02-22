@@ -1,0 +1,117 @@
+﻿@using Website_KĐCLGD.Models;
+@model IEnumerable<Website_KĐCLGD.Models.VW_TIEUCHI_TIEUCHUAN>
+@{
+    ViewBag.Title = "KiemDuyet_TC2";
+    Layout = "~/Views/shared/layout_web.cshtml";
+}
+
+@helper rutgon(string str) {
+    if(str.Length < 13) {
+        @str;
+    }
+    else {
+        @str.Substring(0, 13)
+    }
+}
+
+<div class="section-4" style="background:#eee">
+    <div id="panner" class="carousel slide" data-ride="carousel">
+         @{Html.RenderPartial("~/Views/slider/panner_header.cshtml");}
+    </div>
+    <div class="container">
+        <div class="row ">
+            <div class="col-lg-12">
+                @{Html.RenderPartial("~/Views/partital/MenuChucNang.cshtml");}
+                <br>
+            </div>
+        </div>
+        <div class="row ">
+             <div class="col-md-3" >
+                @{Html.RenderPartial("~/Views/partital/MenuBC(4phan).cshtml");}
+            </div>
+            <div class="col-md-9" >
+                @{Html.RenderPartial("~/Views/partital/ComboBox_CauTruc.cshtml");}
+                <div class="heading wow pulse" style="margin-bottom: -1rem;margin-top: 1rem;">
+			        <h2 style="font-weight:700;">KIỂM DUYỆT HỒ SƠ PHẦN 2</h2> <br />
+                    <h3 style="font-weight:600;margin-bottom: 16px;margin-top: -32px;">(DANH MỤC TIÊU CHÍ)</h3>
+		        </div>
+                        <table class="table table-striped "style="font-size:15px">
+                            <thead class="table-dark" style="font-weight:600">
+                                <tr>
+                                    <td>STT</td>
+                                    <td>TIÊU ĐỀ</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                            @{
+                                var index = 1;
+                                foreach (var item in Model)
+                                {
+                                <tr>
+                                    <td>@index</td>
+                                    <td>
+                                       <div class="btn-xem"> <div style="cursor:pointer;" onclick="document.getElementById('@item.MATIEUCHI').style.display='block'"> @item.TIEUDETIEUCHI</div>
+                                          <div id="@item.MATIEUCHI" class="modal">
+                                              <div class="modal-content">
+                                                  <span onclick="document.getElementById('@item.MATIEUCHI').style.display='none'" class="close" title="Đóng">×</span>
+                                                  <div style="background-color:#f1f1f1; position: absolute; left:0; right: 0; transform:translateY(-10%);">
+                                                      <iframe src="@item.DUONGDAN_ND"  width="100%" height="480"></iframe>
+                                                  </div>
+                                              </div>
+                                          </div>
+                                      </div>
+                                    </td>
+                                </tr>
+                                index++;
+                                }   
+                            }
+                    </tbody>
+                </table> 
+                <br />
+                @using (Html.BeginForm("KiemDuyet_TC2", "Website_KĐCLGD", FormMethod.Post))
+                    {
+                    <fieldset>
+                     <table class="table"style="font-size:13px">
+                    
+                    <thead class="thead-dark">
+                    <tr>
+                      <th scope="col">TIÊU CHÍ</th>
+                      <th scope="col">DUYỆT</th>
+                      <th scope="col">GÓP Ý</th>
+                      <th scope="col">NGÀY KIỂM DUYỆT</th>
+                    </tr>
+                  </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <select name="MATIEUCHI">
+                                    <option value="" hidden>--Chọn tiêu chí--</option>
+                                      @{
+                                foreach (var item in Model)
+                                {
+                                    <option value="@item.MATIEUCHI">@rutgon(@item.TIEUDETIEUCHI)</option>
+                                }   
+                            }
+                                </select>
+                            </td>
+                            <td>
+                                <input type="checkbox" value="DUYỆT" class="form-control" id="ckbduyet" name="ckbduyet" style="width:15%;"/>   
+                            </td>
+                            <td>
+                                <textarea class="form-control" id="GHICHU" rows ="5" name="GHICHU" style="font-size:inherit; height:28px;" placeholder="Góp ý kiến tại đây..."></textarea>
+                            </td>
+                            <td><input class="form-control" value="@DateTime.Now.ToString("dd-MM-yyyy HH:mm:ss")" type="datetime" id="NGAYKD" name="NGAYKD" readonly="true"></td>
+                        </tr>
+                    </tbody>
+                </table>  
+                <div class="btn-luu" style="text-align:center;"><button class="btn gopy">Lưu góp ý</button></div>   
+                        </fieldset>
+                    }
+                <p style="font-family:'Times New Roman';font-size:18px"><br />* Download file báo cáo 
+                    <a href="https://drive.google.com/u/0/uc?id=1-eaDN4pw4NZP5FT5Vv1mR_L--3h1NwWb&export=download " download="" class="fa fa-download">TẠI ĐÂY.</a>
+                </p>
+            </div>
+        </div>
+    </div>
+    
+</div>

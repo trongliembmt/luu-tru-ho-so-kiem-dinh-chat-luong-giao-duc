@@ -1,0 +1,77 @@
+﻿@model IEnumerable<Website_KĐCLGD.Models.HOSOBC>
+@using Website_KĐCLGD.Models;
+@{
+    ViewBag.Title = "select_Phan_TV";
+    Layout = "~/Views/shared/layout_web.cshtml";
+}
+<script type="text/javascript">
+    (function () {
+        'use strict';
+        window.addEventListener('load', function () {
+            var form = document.getElementById('needs-validation');
+            form.addEventListener('submit', function (event) {
+                if (form.checkValidity() === false) {
+                    event.preventDefault();
+                    event.stopPropagation();
+                }
+                form.classList.add('was-validated');
+            }, false);
+        }, false);
+    })();
+</script>
+<div class="section-4" style="background: #eee">
+    <div id="panner" class="carousel slide" data-ride="carousel">
+        @{Html.RenderPartial("~/Views/slider/panner_header.cshtml");}
+    </div>
+    <div class="container">
+        <div class="row ">
+            <div class="col-lg-12">
+                @{Html.RenderPartial("~/Views/partital/MenuChucNang.cshtml");}
+                <br>
+            </div>
+        </div>
+        <div class="row ">
+            <div class="col-md-3">
+                @{Html.RenderPartial("~/Views/partital/Menu_QLPC.cshtml");}
+            </div>
+            <div class="col-md-9">
+                <div class="heading wow pulse" data-wow-duration="2.0s" style="margin-bottom: -1rem; margin-top: 1rem;">
+                    <h2 style="font-weight: 700">PHÂN CÔNG BÁO CÁO</h2>
+                    <br />
+                </div>
+                <table class="table table-striped " style="font-size: 15px">
+                    <thead class="table-dark">
+                        <tr>
+                            <td>STT</td>
+                            <td>CẤU TRÚC BÁO CÁO</td>
+                            <td></td>
+                        </tr>
+                    </thead>
+                    <tbody>
+
+                        @{
+                    
+                            var index = 1;
+                            var title = "bc";
+                            foreach (var item in Model)
+                            {
+                                if (index == 1 || index == 3 || index == 4) { title = "hd"; }
+                                else { title = "bc"; }
+                            <tr>
+                                <td>@index</td>
+                                <td>
+                                    @item.CHUDE_BC
+                                </td>
+                                <td>
+                                    <button type="button" class="btn btn-success"><a href="@Url.Action("Create_PhanCong", "Website_KĐCLGD", new { mabaocao = @item.MABAOCAO, kihieu = @title })" style="color:#fff;text-decoration: none">PHÂN CÔNG</a></button></td>
+                            </tr>
+                                index++;
+                            }   
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+</div>

@@ -1,0 +1,20 @@
+﻿@using Website_KĐCLGD.Models;
+@model NHANSU
+@{
+    if(Model == null) {
+        <li class="icon-user"><a href="@Url.Action("Login", "Login")"><img src="~/Content/image/logo/user1.png" style="max-width:50px;"/></a>
+        </li>
+    }
+    else
+    {
+        <li class="icon-user">
+            <img src="~/Content/image/user/@Model.HINHANH" style="width:32px; height: 32px; border-radius: 50%;"/>
+            <div class="dropdown-user">
+                <ul>
+                    <li><a>Xin chào @Model.TEN_NS</a></li>
+                    <li><a href="@Url.Action("DangXuat", "Login")">Đăng xuất</a></li>
+                </ul>
+            </div>
+        </li>
+    }
+}

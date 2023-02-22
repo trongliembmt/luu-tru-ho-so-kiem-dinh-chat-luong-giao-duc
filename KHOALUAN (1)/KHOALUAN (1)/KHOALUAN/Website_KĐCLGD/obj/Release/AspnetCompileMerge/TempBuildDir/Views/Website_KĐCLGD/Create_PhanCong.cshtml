@@ -1,0 +1,147 @@
+﻿@using Website_KĐCLGD.Models;
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+    $(document).ready(function () {
+        $('#selectionNoiDung').on('change', function () {
+            $.ajax({
+                url: '@Url.Action("Select_TieuChi", "Website_KĐCLGD")?noidung=' + $('#selectionNoiDung').val(),
+                success: function(data) {
+                    if (data.ok == "YES") {
+                        if ($('#selectionTieuChi')) {
+                            $('#selectionTieuChi').html(data.result);
+                        }
+                    }
+                }
+            })
+        })
+    })
+</script>
+@{
+    ViewBag.Title = "Create_PhanCong";
+    Layout = "~/Views/shared/layout_web1.cshtml";
+    //List<NHOM> lstNhom = (List<NHOM>)ViewData["lstNhom"];
+    List<NHANSU> lstNhanSu = (List<NHANSU>)ViewData["lstNhanSu"];
+}
+<div class="section-4" style="background: #eee">
+    <div id="panner" class="carousel slide" data-ride="carousel">
+
+        @{Html.RenderPartial("~/Views/slider/panner_header.cshtml");}
+
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                @{Html.RenderPartial("~/Views/partital/MenuChucNang.cshtml");}
+                <br>
+            </div>
+        </div>
+        <div class="row ">
+            <div class="container">
+                @using (Html.BeginForm("Create_PhanCong", "Website_KĐCLGD", FormMethod.Post))
+                {
+                    <fieldset class="was-validated">
+                        <div class="heading wow pulse" style="margin-top: 10px;">
+                            <h2><b>THÊM PHÂN CÔNG BÁO CÁO</b></h2>
+                        </div>
+                        <div class="form-group col-md-4">
+                            <label for="uname" style="font-size: 16px">NHÂN SỰ</label>
+                            <div class="dropdown" style="font-size: 14px" required>
+                                <select id="nhansu" name="selectionNhanSu">
+
+                                    @{
+                                    foreach (NHANSU item in lstNhanSu)
+                                    { 
+                                                        <option hidden selected>--Chọn nhân sự--</option>
+                                                        <option value= "@item.MA_NS">@item.TEN_NS</option>
+                                    }
+                                    }
+                                </select>
+                            </div>
+
+                        </div>
+
+                        <div class="form-group">
+                            <label for="uname" style="font-size: 16px">CÔNG VIỆC</label>
+                            <select name="selectionNoiDung" class="form-control" id="selectionNoiDung" style="font-size: 14px;">
+                                <option hidden selected>--Chọn nội dung công việc--</option>
+                                @{
+                    if (ViewData["khaiquat"] != null)
+                    {
+                        var ds = ViewData["khaiquat"] as List<P1_KHAIQUAT>;
+                        foreach (P1_KHAIQUAT item in ds)
+                        {
+                                    <option value="@item.TEN_TP">@item.TEN_TP</option>
+                        }
+                    }
+                    else if (ViewData["danhgia"] != null)
+                    {
+                        var ds = ViewData["danhgia"] as List<P2_DANHGIA>;
+                        foreach (P2_DANHGIA item in ds)
+                        {
+                                    <option value="@item.MADANHGIA">@item.TEN_TP</option>
+                        }
+                    }
+                    else if (ViewData["ketluan"] != null)
+                    {
+                        var ds = ViewData["ketluan"] as List<P3_KETLUAN>;
+                        if (@ViewBag.mabaocao != 2)
+                        {
+                            foreach (P3_KETLUAN item in ds)
+                            {
+                                        <option value="@item.TEN_TP">@item.TEN_TP</option>
+                            }
+                        }
+                        else {
+                            foreach (P3_KETLUAN item in ds)
+                            {
+                                <option value="@item.MATP">@item.TEN_TP</option>
+                            }
+                        }
+                    }
+                    else if (ViewData["phuluc"] != null)
+                    {
+                        var ds = ViewData["phuluc"] as List<P4_PHULUC>;
+                        foreach (P4_PHULUC item in ds)
+                        {
+                                    <option value="@item.TEN_PL">@item.TEN_PL</option>
+                        }
+                    }         
+                                }
+                            </select>
+                        </div>
+                       @{
+                    if (@ViewBag.mabaocao == 2)
+                    { 
+                        <div class="form-group">
+                            <label for="uname" style="font-size: 16px">DANH SÁCH TIÊU CHÍ</label>
+                            <select id="selectionTieuChi" name="selectionTieuChi" class="form-control" style="font-size: 14px;">
+                                <option value="">-- Chọn tiêu chí --</option>
+                            </select>           
+                        </div>
+                    }
+                           }
+                        <div class="form-group">
+                            <label for="uname" style="font-size: 16px">NGÀY PHÂN CÔNG</label>
+                            <input class="form-control" type="date" id="NGAYPHANCONG" name="NGAYPHANCONG" style="font-size: 14px" required>
+                            <div class="valid-feedback">Có hiệu lực.</div>
+                            <div class="invalid-feedback">Vui lòng điền vào trường này.</div>
+                            <input class="form-control" id="MABAOCAO" name="MABAOCAO" style="font-size: 14px" value="@ViewBag.mabaocao" hidden/>
+                        </div>
+                        <div class="form-group">
+                            <label for="uname" style="font-size: 16px">THỜI HẠN</label>
+                            <input type="date" class="form-control" id="THOIHAN" name="THOIHAN" style="font-size: 14px" required />
+                            <div class="valid-feedback">Có hiệu lực.</div>
+                            <div class="invalid-feedback">Vui lòng điền vào trường này.</div>
+                        </div>
+
+                        <div class="btn-luu" style="text-align: center; margin-top: 5px">
+                            <button class="btn gopy" type="submit" style="width: 60px">Lưu </button>
+                        </div>
+                    </fieldset>
+                }
+            </div>
+        </div>
+
+    </div>
+
+</div>

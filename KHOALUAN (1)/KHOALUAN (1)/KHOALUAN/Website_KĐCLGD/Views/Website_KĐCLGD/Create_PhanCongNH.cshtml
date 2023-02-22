@@ -1,0 +1,189 @@
+﻿@using Website_KĐCLGD.Models;
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+@{
+    ViewBag.Title = "Create_PhanCongNH";
+    Layout = "~/Views/shared/layout_web.cshtml";
+    List<NHOM> lstNhom = (List<NHOM>)ViewData["lstNhom"];
+    
+}
+<div class="section-4" style="background: #eee">
+    <div id="panner" class="carousel slide" data-ride="carousel">
+
+        @{Html.RenderPartial("~/Views/slider/panner_header.cshtml");}
+
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                @{Html.RenderPartial("~/Views/partital/MenuChucNang.cshtml");}
+                <br>
+            </div>
+        </div>
+        <div class="row ">
+            <div class="container">
+                @using (Html.BeginForm("Create_PhanCongNH", "Website_KĐCLGD", FormMethod.Post))
+                {
+                    <fieldset  class="was-validated">
+                        <div class="heading wow pulse" style="margin-top: 10px;">
+                            <h2><b>PHÂN CÔNG BÁO CÁO</b></h2>
+		                    </div>
+                        <div class="form-group col-md-4">
+                            <label for="uname" style="font-size: 16px">NHÓM</label>
+                            <div class="dropdown" style="font-size: 14px" required>
+                                <select name="selectionNhom">
+
+                                    @{
+                                        foreach (NHOM item in lstNhom)
+                                        { 
+                                            <option hidden selected>--Chọn nhân sự--</option>
+                                            <option value= "@item.MA_NH">@item.TEN_NH</option>
+                                        }
+                                    }
+                                </select>
+                            </div>
+                            
+                        </div>
+                        @*@{
+                           if(mabaocao.MABAOCAO == 1 )
+                           {
+                                <div class="form-group">
+                                    <label for="uname" style="font-size: 16px">NỘI DUNG CÔNG VIỆC</label>
+                                    <select name="selectionPhanBC" class="form-control" id="phanBC" style="font-size:14px">
+                                        @{
+                                            foreach (P1_KHAIQUAT item in lstPhan1)
+                                            { 
+                                                <option hidden selected>--Phân công--</option>
+                                                <option >@item.TEN_TP</option>
+                                            }
+                                            }
+                                    </select>
+                                </div>
+                           }
+                           else if(mabaocao.MABAOCAO == 2 )
+                           {
+                                <div class="form-group">
+                                    <label for="uname" style="font-size: 16px">NỘI DUNG CÔNG VIỆC</label>
+                                    <select name="selectionPhanBC" class="form-control" id="phanBC" style="font-size:14px">
+                                        @{
+                               foreach (P2_DANHGIA item in lstPhan2)
+                               { 
+                                                <option hidden selected>--Phân công--</option>
+                                                <option >@item.TEN_TP</option>
+                               }
+                                            }
+                                    </select>
+                                </div>
+                           }
+                           else if (mabaocao.MABAOCAO == 3)
+                           {
+                                <div class="form-group">
+                                    <label for="uname" style="font-size: 16px">NỘI DUNG CÔNG VIỆC</label>
+                                    <select name="selectionPhanBC" class="form-control" id="phanBC" style="font-size:14px">
+                                        @{
+                               foreach (P3_KETLUAN item in lstPhan3)
+                               { 
+                                                <option hidden selected>--Phân công--</option>
+                                                <option >@item.TEN_TP</option>
+                               }
+                                            }
+                                    </select>
+                                </div>
+                           }
+                           else if (mabaocao.MABAOCAO == 4)
+                           {
+                                <div class="form-group">
+                                    <label for="uname" style="font-size: 16px">NỘI DUNG CÔNG VIỆC</label>
+                                    <select name="selectionPhanBC" class="form-control" id="phanBC" style="font-size:14px">
+                                        @{
+                               foreach (P4_PHULUC item in lstPhan4)
+                               { 
+                                                <option hidden selected>--Phân công--</option>
+                                                <option >@item.TEN_PL</option>
+                               }
+                                            }
+                                    </select>
+                                </div>
+                           }
+                           
+                            }*@
+                   
+                        <div class="form-group" >
+                            <label for="uname" style="font-size: 16px">NỘI DUNG CÔNG VIỆC</label>
+                            @*<select name="selectionPhanBC" class="form-control" id ="phanBC" style="font-size:14px;" 
+                                data-items ='[{"1": "@{ List<string> ls = new List<string>();
+
+                                                            foreach(P1_KHAIQUAT item in lstPhan1) {
+                                                                ls.Add(@item.TEN_TP);
+                                                            }
+
+                                                            foreach (string item in ls)
+                                                            {
+                                                                Console.WriteLine(item.ToString()); ;
+                                                            }
+                                                                  }"},
+                                {"2": "@{foreach(P2_DANHGIA item in lstPhan2) {@item.TEN_TP}}"}]' >*@
+                                @*'[{"key1":"value1"},{"key2":"value2"}]'*@
+
+                               @* {"3": "@{foreach(P3_KETLUAN item in lstPhan3) {@item.TEN_TP}}}"
+                                ,{"4": "@{foreach(P4_PHULUC item in lstPhan4) {@item.TEN_PL}}}"*@
+                            <select name="selectionPhanBC" class="form-control" id ="phanBC" style="font-size:14px;">
+                                <option hidden selected>--Phân công--</option>
+                                @{
+                                    if (ViewData["khaiquat"] != null)
+                                    {
+                                        var ds = ViewData["khaiquat"] as List<P1_KHAIQUAT>;
+                                        foreach (P1_KHAIQUAT item in ds)
+                                        {
+                                            <option value="@item.TEN_TP">@item.TEN_TP</option>
+                                        }
+                                    }
+                                    else if (ViewData["danhgia"] != null)
+                                    {
+                                        var ds = ViewData["danhgia"] as List<P2_DANHGIA>;
+                                        foreach (P2_DANHGIA item in ds)
+                                        {
+                                            <option value="@item.TEN_TP">@item.TEN_TP</option>
+                                        }
+                                    }
+                                    else if (ViewData["ketluan"] != null)
+                                    {
+                                        var ds = ViewData["ketluan"] as List<P3_KETLUAN>;
+                                        foreach (P3_KETLUAN item in ds)
+                                        {
+                                            <option value="@item.TEN_TP">@item.TEN_TP</option>
+                                        }
+                                    }
+                                    else if (ViewData["phuluc"] != null)
+                                    {
+                                        var ds = ViewData["phuluc"] as List<P4_PHULUC>;
+                                        foreach (P4_PHULUC item in ds)
+                                        {
+                                            <option value="@item.TEN_PL">@item.TEN_PL</option>
+                                        }
+                                    }         
+                                }    
+                            </select>
+                        </div>  
+                        <div class="form-group">
+                            <label for="uname" style="font-size: 16px">NGÀY PHÂN CÔNG</label>
+                            <input class="form-control" type="date" id="NGAYPHANCONG" name="NGAYPHANCONG" style="font-size: 14px" required>
+                            <div class="valid-feedback">Có hiệu lực.</div>
+                            <div class="invalid-feedback">Vui lòng điền vào trường này.</div>
+                        </div>
+                        <div class="form-group">
+                            <label for="uname" style="font-size: 16px">THỜI HẠN</label>
+                            <input type="date" class="form-control" id="THOIHAN" name="THOIHAN" style="font-size: 14px" required />
+                            <div class="valid-feedback">Có hiệu lực.</div>
+                            <div class="invalid-feedback">Vui lòng điền vào trường này.</div>
+                            <input class="form-control" id="MABAOCAO" name="MABAOCAO" style="font-size: 14px" value="@ViewBag.mabaocao" hidden/>
+                        </div>
+
+                        <div class="btn-luu" style="text-align:center; margin-top:5px"><button class="btn gopy" type="submit" style="width:60px">Lưu </button></div> 
+                    </fieldset>
+                }
+            </div>
+        </div>
+
+    </div>
+
+</div>

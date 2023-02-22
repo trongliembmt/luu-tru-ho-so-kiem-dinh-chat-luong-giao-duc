@@ -1,0 +1,66 @@
+﻿
+@{
+    ViewBag.Title = "KiemDuyet_P1";
+    Layout = "~/Views/shared/layout_web.cshtml";
+}
+<link rel="stylesheet" href="Assets/Client/css/style.css">
+<div class="section-4" style="background:#eee">
+    <div id="panner" class="carousel slide" data-ride="carousel">
+
+  @{Html.RenderPartial("~/Views/slider/panner_header.cshtml");}
+</div>
+    <div class="container">
+        <div class="row ">
+            <div class="col-lg-12">
+                @{Html.RenderPartial("~/Views/partital/MenuChucNang.cshtml");}
+                <br>
+            </div>
+        </div>
+        <div class="row ">
+            <div class="col-md-3" >
+                @{Html.RenderPartial("~/Views/partital/MenuBC(4phan).cshtml");}
+            </div>
+            <div class="col-md-9" >
+                @*@{Html.Action("~/Views/partital/ComboBox_CauTruc.cshtml");}*@
+                @Html.Action("Cbbox_CauTruc", "Website_KĐCLGD")
+                <div class="heading wow pulse"  style="margin-bottom: -1rem;margin-top: 1rem;">
+			        <h2 style="font-weight:700; font-size:25px;">KIỂM DUYỆT PHẦN 1</h2>
+		        </div>
+                <div>
+                    <iframe src="https://drive.google.com/file/d/1gzYEqNvn6Xa74JlP8xmAyF7j2cBQJwj8/preview" width="100%" height="1000px"></iframe>
+                </div> 
+                <br />
+                @using (Html.BeginForm("KiemDuyet_P1", "Website_KĐCLGD", FormMethod.Post))
+                    {
+                    <fieldset>
+                     <table class="table"style="font-size:13px">
+                    
+                    <thead class="thead-dark">
+                    <tr>
+                      <th scope="col">DUYỆT</th>
+                      <th scope="col">GÓP Ý</th>
+                      <th scope="col">NGÀY KIỂM DUYỆT</th>
+                    </tr>
+                  </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                          <input type="checkbox" value="DUYỆT" class="form-control" id="ckbduyet" name="ckbduyet" style="width:15%;"/>   
+                      </td>
+                      <td>
+                          <textarea class="form-control" id="GHICHU" rows ="5" name="GHICHU" style="font-size:inherit; height:28px;" placeholder="Góp ý kiến tại đây..."></textarea>
+                          
+                      </td>
+                            <td><input class="form-control" value="@DateTime.Now.ToString("dd-MM-yyyy HH:mm:ss")" type="datetime" id="NGAYKD" name="NGAYKD" readonly="true"></td>
+                        </tr>
+                    </tbody>
+                </table>  
+                <div class="btn-luu" style="text-align:center;"><button class="btn gopy">Lưu góp ý</button></div>   
+                        </fieldset>
+                    }       
+                </div>
+            </div>
+        </div>
+    </div>
+
+

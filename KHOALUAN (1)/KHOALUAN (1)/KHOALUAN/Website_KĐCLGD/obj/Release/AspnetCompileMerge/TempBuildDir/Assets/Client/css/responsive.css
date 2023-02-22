@@ -1,0 +1,114 @@
+﻿@media (max-width: 1140px) {
+	.container {
+		padding: 0 15px;
+	}
+}
+@media (max-width: 1024px) {
+	.js-menu-mobile {
+    	display: inline-block;
+    	vertical-align: top;
+    	zoom: 1; /* Fix for IE7 */
+    	*display: inline; /* Fix for IE7 */
+	}
+	.main-nav, .header .lang {
+		display: none;
+	}
+	.section-2 .news .item {
+		width: 49%;
+	}
+	.section-2 .news .item:nth-child(2n) {
+		margin-right: 0;
+	}
+	.section-2 .news .item:nth-child(1), .section-2 .news .item:nth-child(2) {
+		margin-bottom: 2rem;
+	}
+	.section-2 .news .item:nth-child(3), .section-2 .news .item:nth-child(4) {
+		margin-top: 0;
+	}
+}
+@media (max-width: 800px) {
+	
+}
+
+@media (max-width: 768px) {
+	.section-4 .list-news {
+	    display: block;
+	}
+	.section-4 .list-news .item {
+		width: 100%;
+		margin-right: 0;
+	}
+}
+
+@media (max-width: 600px) {
+	.js-menu-mobile {
+	    margin-top: 0.5rem
+	}
+	.header {
+		background-color: rgba(255, 255, 255, 0.5);
+		box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+	}
+	.header .logo {
+		padding: 1rem 0;
+	}
+	.header .lang {
+		margin-top:  1.7rem;
+	}
+	.section-2 {
+		padding: 2rem 0;
+	}
+	.section-2 .news .item {
+		width: 100%;
+		margin-right: 0 !important;
+		margin-top: 1rem !important	;
+		margin-bottom: 1rem !important;
+	}
+	.section-1 .title {
+	    font-size: 22px;
+	}
+	.section-1 .content {
+		width: 100%;
+		left: 0;
+		top: 12rem;
+	}
+	.section-3 .heading h2, .section-4 .heading h2  {
+		font-size: 2.6rem;
+	}
+	.section-3 .years {
+	    display: flex;
+	    flex-flow: row wrap;
+	}
+	.section-1 {
+		min-height: 30rem;
+	}
+	.footer {
+		font-size: 1.4rem;
+	}
+}
+@media (max-width: 420px) {
+	.section-3 .heading h2, .section-4 .heading h2  {
+	    font-size: 2rem;
+	}
+	.header .logo {
+		width: 21rem;
+	}
+	.js-menu-mobile {
+	    margin-top: 0.7rem;
+	    width: 40px;
+		height: 36px;
+	}
+	.js-menu-mobile .trigger-menu {
+	    width: 36px;
+	    height: 36px;
+	}
+	.js-menu-mobile .trigger-menu .three-bars-icon {
+    	margin: 17px 7px;
+	}
+}
+@media (max-width: 320px) {
+	.section-3 .years .item {
+	    padding: 2rem 1rem;
+	    font-size: 2.6rem;
+	    margin:  1rem;
+	}
+}

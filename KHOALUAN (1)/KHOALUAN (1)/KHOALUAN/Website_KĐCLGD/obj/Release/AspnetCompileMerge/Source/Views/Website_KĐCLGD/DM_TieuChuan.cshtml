@@ -1,0 +1,58 @@
+﻿@model IEnumerable<Website_KĐCLGD.Models.TIEUCHUAN>
+@{
+    ViewBag.Title = "DM_TieuChuan";
+    Layout = "~/Views/shared/layout_web.cshtml";
+}
+
+<div class="section-4" style="background:#eee">
+    <div id="panner" class="carousel slide" data-ride="carousel">
+         @{Html.RenderPartial("~/Views/slider/panner_header.cshtml");}
+    </div>
+    <div class="container">
+        <div class="row ">
+             <div class="col-md-3" >
+                @{Html.RenderPartial("~/Views/partital/Menu_BC.cshtml");}
+            </div>
+            <div class="col-md-9" >
+                <div class="heading wow pulse" style="margin-bottom: -1rem;margin-top: 1rem;">
+			        <h2 style="font-weight:700">DANH MỤC TIÊU CHUẨN</h2>
+		        </div>
+        <table class="table table-striped "style="font-size:15px">
+            <thead class="table-dark" style="font-weight:600">
+                <tr>
+                    <td>STT</td>
+                    <td>TIÊU ĐỀ</td>
+                </tr>
+            </thead>
+            <tbody>
+                
+                @{
+                    
+                    var index = 1;
+                    foreach (var item in Model)
+                    { 
+                    <tr>
+                        <td>@index</td>
+                        <td>
+                           <a style="text-decoration:none !important" href="@Url.Action("DM_TieuChi", "Website_KĐCLGD", new { matieuchuan = @item.MATIEUCHUAN })">@item.TIEUDETIEUCHUAN</a>
+                        </td>
+                    </tr>
+                        index++;
+                    }   
+                }
+            </tbody>
+        </table>
+                <p style="font-family:'Times New Roman';font-size:18px"><br />* Download file
+                    <a href="https://drive.google.com/u/0/uc?id=18W7vjTgr8dFgnrSWZS9Ob71fUvquotwq&export=download" download="" class="fa fa-download">tại đây!.</a>
+                </p>
+                <div id="fb-root"></div>
+                <script async defer crossorigin="anonymous" src="https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v9.0" nonce="I4YIkz16"></script>
+                <div id="comment_fb">
+                    <div class="fb-comments" data-href="https://vn.fifaaddict.com/fo4db/pidbgwvjnklz" data-width="800" data-numposts="5" style="margin-top:100px;"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</div>
+

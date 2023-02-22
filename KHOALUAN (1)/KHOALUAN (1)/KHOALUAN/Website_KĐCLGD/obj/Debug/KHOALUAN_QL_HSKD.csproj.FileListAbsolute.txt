@@ -1,0 +1,116 @@
+C:\Users\Admin\Desktop\DOAN\Website_Clone\Website_KĐCLGD\bin\Website_KĐCLGD.dll.config
+C:\Users\Admin\Desktop\DOAN\Website_Clone\Website_KĐCLGD\bin\Website_KĐCLGD.dll
+C:\Users\Admin\Desktop\DOAN\Website_Clone\Website_KĐCLGD\bin\Website_KĐCLGD.pdb
+C:\Users\Admin\Desktop\DOAN\Website_Clone\Website_KĐCLGD\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Admin\Desktop\DOAN\Website_Clone\Website_KĐCLGD\bin\Newtonsoft.Json.dll
+C:\Users\Admin\Desktop\DOAN\Website_Clone\Website_KĐCLGD\bin\System.Net.Http.Formatting.dll
+C:\Users\Admin\Desktop\DOAN\Website_Clone\Website_KĐCLGD\bin\System.Web.Helpers.dll
+C:\Users\Admin\Desktop\DOAN\Website_Clone\Website_KĐCLGD\bin\System.Web.Http.dll
+C:\Users\Admin\Desktop\DOAN\Website_Clone\Website_KĐCLGD\bin\System.Web.Http.WebHost.dll
+C:\Users\Admin\Desktop\DOAN\Website_Clone\Website_KĐCLGD\bin\System.Web.Mvc.dll
+C:\Users\Admin\Desktop\DOAN\Website_Clone\Website_KĐCLGD\bin\System.Web.Razor.dll
+C:\Users\Admin\Desktop\DOAN\Website_Clone\Website_KĐCLGD\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Admin\Desktop\DOAN\Website_Clone\Website_KĐCLGD\bin\System.Web.WebPages.dll
+C:\Users\Admin\Desktop\DOAN\Website_Clone\Website_KĐCLGD\bin\System.Web.WebPages.Razor.dll
+C:\Users\Admin\Desktop\DOAN\Website_Clone\Website_KĐCLGD\bin\Newtonsoft.Json.xml
+C:\Users\Admin\Desktop\DOAN\Website_Clone\Website_KĐCLGD\bin\System.Net.Http.Formatting.xml
+C:\Users\Admin\Desktop\DOAN\Website_Clone\Website_KĐCLGD\bin\System.Web.Helpers.xml
+C:\Users\Admin\Desktop\DOAN\Website_Clone\Website_KĐCLGD\bin\System.Web.Http.xml
+C:\Users\Admin\Desktop\DOAN\Website_Clone\Website_KĐCLGD\bin\System.Web.Http.WebHost.xml
+C:\Users\Admin\Desktop\DOAN\Website_Clone\Website_KĐCLGD\bin\System.Web.Mvc.xml
+C:\Users\Admin\Desktop\DOAN\Website_Clone\Website_KĐCLGD\bin\System.Web.Razor.xml
+C:\Users\Admin\Desktop\DOAN\Website_Clone\Website_KĐCLGD\bin\System.Web.WebPages.xml
+C:\Users\Admin\Desktop\DOAN\Website_Clone\Website_KĐCLGD\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Admin\Desktop\DOAN\Website_Clone\Website_KĐCLGD\bin\System.Web.WebPages.Razor.xml
+C:\Users\Admin\Desktop\DOAN\Website_Clone\Website_KĐCLGD\obj\Debug\KHOALUAN_QL_HSKD.csproj.AssemblyReference.cache
+C:\Users\Admin\Desktop\DOAN\Website_Clone\Website_KĐCLGD\obj\Debug\KHOALUAN_QL_HSKD.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\DOAN\Website_Clone\Website_KĐCLGD\obj\Debug\KHOALUAN_QL_HSKD.csproj.CopyComplete
+C:\Users\Admin\Desktop\DOAN\Website_Clone\Website_KĐCLGD\obj\Debug\Website_KĐCLGD.dll
+C:\Users\Admin\Desktop\DOAN\Website_Clone\Website_KĐCLGD\obj\Debug\Website_KĐCLGD.pdb
+C:\Users\Admin\Desktop\KHOALUAN\Website_KĐCLGD\bin\Website_KĐCLGD.dll.config
+C:\Users\Admin\Desktop\KHOALUAN\Website_KĐCLGD\bin\Website_KĐCLGD.dll
+C:\Users\Admin\Desktop\KHOALUAN\Website_KĐCLGD\bin\Website_KĐCLGD.pdb
+C:\Users\Admin\Desktop\KHOALUAN\Website_KĐCLGD\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Admin\Desktop\KHOALUAN\Website_KĐCLGD\bin\Newtonsoft.Json.dll
+C:\Users\Admin\Desktop\KHOALUAN\Website_KĐCLGD\bin\System.Net.Http.Formatting.dll
+C:\Users\Admin\Desktop\KHOALUAN\Website_KĐCLGD\bin\System.Web.Helpers.dll
+C:\Users\Admin\Desktop\KHOALUAN\Website_KĐCLGD\bin\System.Web.Http.dll
+C:\Users\Admin\Desktop\KHOALUAN\Website_KĐCLGD\bin\System.Web.Http.WebHost.dll
+C:\Users\Admin\Desktop\KHOALUAN\Website_KĐCLGD\bin\System.Web.Mvc.dll
+C:\Users\Admin\Desktop\KHOALUAN\Website_KĐCLGD\bin\System.Web.Razor.dll
+C:\Users\Admin\Desktop\KHOALUAN\Website_KĐCLGD\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Admin\Desktop\KHOALUAN\Website_KĐCLGD\bin\System.Web.WebPages.dll
+C:\Users\Admin\Desktop\KHOALUAN\Website_KĐCLGD\bin\System.Web.WebPages.Razor.dll
+C:\Users\Admin\Desktop\KHOALUAN\Website_KĐCLGD\bin\Newtonsoft.Json.xml
+C:\Users\Admin\Desktop\KHOALUAN\Website_KĐCLGD\bin\System.Net.Http.Formatting.xml
+C:\Users\Admin\Desktop\KHOALUAN\Website_KĐCLGD\bin\System.Web.Helpers.xml
+C:\Users\Admin\Desktop\KHOALUAN\Website_KĐCLGD\bin\System.Web.Http.xml
+C:\Users\Admin\Desktop\KHOALUAN\Website_KĐCLGD\bin\System.Web.Http.WebHost.xml
+C:\Users\Admin\Desktop\KHOALUAN\Website_KĐCLGD\bin\System.Web.Mvc.xml
+C:\Users\Admin\Desktop\KHOALUAN\Website_KĐCLGD\bin\System.Web.Razor.xml
+C:\Users\Admin\Desktop\KHOALUAN\Website_KĐCLGD\bin\System.Web.WebPages.xml
+C:\Users\Admin\Desktop\KHOALUAN\Website_KĐCLGD\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Admin\Desktop\KHOALUAN\Website_KĐCLGD\bin\System.Web.WebPages.Razor.xml
+C:\Users\Admin\Desktop\KHOALUAN\Website_KĐCLGD\obj\Debug\KHOALUAN_QL_HSKD.csproj.AssemblyReference.cache
+C:\Users\Admin\Desktop\KHOALUAN\Website_KĐCLGD\obj\Debug\KHOALUAN_QL_HSKD.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\KHOALUAN\Website_KĐCLGD\obj\Debug\KHOALUAN_QL_HSKD.csproj.CopyComplete
+C:\Users\Admin\Desktop\KHOALUAN\Website_KĐCLGD\obj\Debug\Website_KĐCLGD.dll
+C:\Users\Admin\Desktop\KHOALUAN\Website_KĐCLGD\obj\Debug\Website_KĐCLGD.pdb
+C:\Users\USER\Desktop\KHOALUAN (1)\KHOALUAN\Website_KĐCLGD\bin\Website_KĐCLGD.dll.config
+C:\Users\USER\Desktop\KHOALUAN (1)\KHOALUAN\Website_KĐCLGD\bin\Website_KĐCLGD.dll
+C:\Users\USER\Desktop\KHOALUAN (1)\KHOALUAN\Website_KĐCLGD\bin\Website_KĐCLGD.pdb
+C:\Users\USER\Desktop\KHOALUAN (1)\KHOALUAN\Website_KĐCLGD\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\USER\Desktop\KHOALUAN (1)\KHOALUAN\Website_KĐCLGD\bin\Newtonsoft.Json.dll
+C:\Users\USER\Desktop\KHOALUAN (1)\KHOALUAN\Website_KĐCLGD\bin\System.Net.Http.Formatting.dll
+C:\Users\USER\Desktop\KHOALUAN (1)\KHOALUAN\Website_KĐCLGD\bin\System.Web.Helpers.dll
+C:\Users\USER\Desktop\KHOALUAN (1)\KHOALUAN\Website_KĐCLGD\bin\System.Web.Http.dll
+C:\Users\USER\Desktop\KHOALUAN (1)\KHOALUAN\Website_KĐCLGD\bin\System.Web.Http.WebHost.dll
+C:\Users\USER\Desktop\KHOALUAN (1)\KHOALUAN\Website_KĐCLGD\bin\System.Web.Mvc.dll
+C:\Users\USER\Desktop\KHOALUAN (1)\KHOALUAN\Website_KĐCLGD\bin\System.Web.Razor.dll
+C:\Users\USER\Desktop\KHOALUAN (1)\KHOALUAN\Website_KĐCLGD\bin\System.Web.WebPages.Deployment.dll
+C:\Users\USER\Desktop\KHOALUAN (1)\KHOALUAN\Website_KĐCLGD\bin\System.Web.WebPages.dll
+C:\Users\USER\Desktop\KHOALUAN (1)\KHOALUAN\Website_KĐCLGD\bin\System.Web.WebPages.Razor.dll
+C:\Users\USER\Desktop\KHOALUAN (1)\KHOALUAN\Website_KĐCLGD\bin\Newtonsoft.Json.xml
+C:\Users\USER\Desktop\KHOALUAN (1)\KHOALUAN\Website_KĐCLGD\bin\System.Net.Http.Formatting.xml
+C:\Users\USER\Desktop\KHOALUAN (1)\KHOALUAN\Website_KĐCLGD\bin\System.Web.Helpers.xml
+C:\Users\USER\Desktop\KHOALUAN (1)\KHOALUAN\Website_KĐCLGD\bin\System.Web.Http.xml
+C:\Users\USER\Desktop\KHOALUAN (1)\KHOALUAN\Website_KĐCLGD\bin\System.Web.Http.WebHost.xml
+C:\Users\USER\Desktop\KHOALUAN (1)\KHOALUAN\Website_KĐCLGD\bin\System.Web.Mvc.xml
+C:\Users\USER\Desktop\KHOALUAN (1)\KHOALUAN\Website_KĐCLGD\bin\System.Web.Razor.xml
+C:\Users\USER\Desktop\KHOALUAN (1)\KHOALUAN\Website_KĐCLGD\bin\System.Web.WebPages.xml
+C:\Users\USER\Desktop\KHOALUAN (1)\KHOALUAN\Website_KĐCLGD\bin\System.Web.WebPages.Deployment.xml
+C:\Users\USER\Desktop\KHOALUAN (1)\KHOALUAN\Website_KĐCLGD\bin\System.Web.WebPages.Razor.xml
+C:\Users\USER\Desktop\KHOALUAN (1)\KHOALUAN\Website_KĐCLGD\obj\Debug\KHOALUAN_QL_HSKD.csproj.AssemblyReference.cache
+C:\Users\USER\Desktop\KHOALUAN (1)\KHOALUAN\Website_KĐCLGD\obj\Debug\KHOALUAN_QL_HSKD.csproj.CoreCompileInputs.cache
+C:\Users\USER\Desktop\KHOALUAN (1)\KHOALUAN\Website_KĐCLGD\obj\Debug\KHOALUAN_QL_HSKD.csproj.CopyComplete
+C:\Users\USER\Desktop\KHOALUAN (1)\KHOALUAN\Website_KĐCLGD\obj\Debug\Website_KĐCLGD.dll
+C:\Users\USER\Desktop\KHOALUAN (1)\KHOALUAN\Website_KĐCLGD\obj\Debug\Website_KĐCLGD.pdb
+C:\Users\USER\Desktop\KHOALUAN (1)\KHOALUAN (1)\KHOALUAN\Website_KĐCLGD\bin\Website_KĐCLGD.dll.config
+C:\Users\USER\Desktop\KHOALUAN (1)\KHOALUAN (1)\KHOALUAN\Website_KĐCLGD\bin\Website_KĐCLGD.dll
+C:\Users\USER\Desktop\KHOALUAN (1)\KHOALUAN (1)\KHOALUAN\Website_KĐCLGD\bin\Website_KĐCLGD.pdb
+C:\Users\USER\Desktop\KHOALUAN (1)\KHOALUAN (1)\KHOALUAN\Website_KĐCLGD\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\USER\Desktop\KHOALUAN (1)\KHOALUAN (1)\KHOALUAN\Website_KĐCLGD\bin\Newtonsoft.Json.dll
+C:\Users\USER\Desktop\KHOALUAN (1)\KHOALUAN (1)\KHOALUAN\Website_KĐCLGD\bin\System.Net.Http.Formatting.dll
+C:\Users\USER\Desktop\KHOALUAN (1)\KHOALUAN (1)\KHOALUAN\Website_KĐCLGD\bin\System.Web.Helpers.dll
+C:\Users\USER\Desktop\KHOALUAN (1)\KHOALUAN (1)\KHOALUAN\Website_KĐCLGD\bin\System.Web.Http.dll
+C:\Users\USER\Desktop\KHOALUAN (1)\KHOALUAN (1)\KHOALUAN\Website_KĐCLGD\bin\System.Web.Http.WebHost.dll
+C:\Users\USER\Desktop\KHOALUAN (1)\KHOALUAN (1)\KHOALUAN\Website_KĐCLGD\bin\System.Web.Mvc.dll
+C:\Users\USER\Desktop\KHOALUAN (1)\KHOALUAN (1)\KHOALUAN\Website_KĐCLGD\bin\System.Web.Razor.dll
+C:\Users\USER\Desktop\KHOALUAN (1)\KHOALUAN (1)\KHOALUAN\Website_KĐCLGD\bin\System.Web.WebPages.Deployment.dll
+C:\Users\USER\Desktop\KHOALUAN (1)\KHOALUAN (1)\KHOALUAN\Website_KĐCLGD\bin\System.Web.WebPages.dll
+C:\Users\USER\Desktop\KHOALUAN (1)\KHOALUAN (1)\KHOALUAN\Website_KĐCLGD\bin\System.Web.WebPages.Razor.dll
+C:\Users\USER\Desktop\KHOALUAN (1)\KHOALUAN (1)\KHOALUAN\Website_KĐCLGD\bin\Newtonsoft.Json.xml
+C:\Users\USER\Desktop\KHOALUAN (1)\KHOALUAN (1)\KHOALUAN\Website_KĐCLGD\bin\System.Net.Http.Formatting.xml
+C:\Users\USER\Desktop\KHOALUAN (1)\KHOALUAN (1)\KHOALUAN\Website_KĐCLGD\bin\System.Web.Helpers.xml
+C:\Users\USER\Desktop\KHOALUAN (1)\KHOALUAN (1)\KHOALUAN\Website_KĐCLGD\bin\System.Web.Http.xml
+C:\Users\USER\Desktop\KHOALUAN (1)\KHOALUAN (1)\KHOALUAN\Website_KĐCLGD\bin\System.Web.Http.WebHost.xml
+C:\Users\USER\Desktop\KHOALUAN (1)\KHOALUAN (1)\KHOALUAN\Website_KĐCLGD\bin\System.Web.Mvc.xml
+C:\Users\USER\Desktop\KHOALUAN (1)\KHOALUAN (1)\KHOALUAN\Website_KĐCLGD\bin\System.Web.Razor.xml
+C:\Users\USER\Desktop\KHOALUAN (1)\KHOALUAN (1)\KHOALUAN\Website_KĐCLGD\bin\System.Web.WebPages.xml
+C:\Users\USER\Desktop\KHOALUAN (1)\KHOALUAN (1)\KHOALUAN\Website_KĐCLGD\bin\System.Web.WebPages.Deployment.xml
+C:\Users\USER\Desktop\KHOALUAN (1)\KHOALUAN (1)\KHOALUAN\Website_KĐCLGD\bin\System.Web.WebPages.Razor.xml
+C:\Users\USER\Desktop\KHOALUAN (1)\KHOALUAN (1)\KHOALUAN\Website_KĐCLGD\obj\Debug\KHOALUAN_QL_HSKD.csproj.AssemblyReference.cache
+C:\Users\USER\Desktop\KHOALUAN (1)\KHOALUAN (1)\KHOALUAN\Website_KĐCLGD\obj\Debug\KHOALUAN_QL_HSKD.csproj.CoreCompileInputs.cache
+C:\Users\USER\Desktop\KHOALUAN (1)\KHOALUAN (1)\KHOALUAN\Website_KĐCLGD\obj\Debug\KHOALUAN_QL_HSKD.csproj.CopyComplete
+C:\Users\USER\Desktop\KHOALUAN (1)\KHOALUAN (1)\KHOALUAN\Website_KĐCLGD\obj\Debug\Website_KĐCLGD.dll
+C:\Users\USER\Desktop\KHOALUAN (1)\KHOALUAN (1)\KHOALUAN\Website_KĐCLGD\obj\Debug\Website_KĐCLGD.pdb

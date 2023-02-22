@@ -1,0 +1,60 @@
+﻿@model IEnumerable<Website_KĐCLGD.Models.NHANSU>
+@{
+    ViewBag.Title = "QL_NguoiDung";
+    Layout = "~/Views/shared/layout_web.cshtml";
+}
+
+<div class="section-4" style="background:#eee">
+    <div id="panner" class="carousel slide" data-ride="carousel">
+         @{Html.RenderPartial("~/Views/slider/panner_header.cshtml");}
+    </div>
+    <div class="container">
+        <div class="row ">
+            <div class="col-lg-12">
+                @{Html.RenderPartial("~/Views/partital/MenuChucNang.cshtml");}
+                <br>
+            </div>
+        </div>
+        <div class="row ">
+             <div class="col-md-3" >
+                @{Html.RenderPartial("~/Views/partital/Menu_QLNS.cshtml");}
+            </div>
+            <div class="col-md-9" >
+                <div class="heading wow pulse" style="margin-bottom: -1rem;margin-top: 1rem;">
+			        <h2 style="font-weight:700">DANH SÁCH NGƯỜI DÙNG</h2>
+		        </div>
+                <form action="~/Views/Website_KĐCLGD/QL_Nhansu" method="post">
+                <a href="/Website_KĐCLGD/eCreat_NhanSu" class="btn btn-primary" style="font-size:15px">Thêm mới</a>
+                    </form>
+                    <table class="table table-striped "style="font-size:15px">
+                        <thead class="table-dark">
+                            <tr>
+                                <td>STT</td>
+                                <td>TÊN NGƯỜI DÙNG</td>
+                                <td>THÔNG TIN</td>
+                                <td>SỬA</td>
+                                <td>XÓA</td>
+                            </tr>
+                        </thead>
+                        <tbody>
+                @{
+                    var index = 1;
+                    foreach (var item in Model)
+                    { 
+                    <tr>
+                        <td>@index</td>
+                        <td>@item.TEN_NS</td>
+                        <td><button type="button" class="btn btn-success"><a href="/Website_KĐCLGD/Detail_NhanSu/@item.MA_NS" style="color:#fff">Chi tiết</a></button></td>
+                        <td><button type="button" class="btn btn-success"><a href="@Url.Action("Edit_NhanSu", "Website_KĐCLGD", new { manhansu = item.MA_NS })" style="color:#fff">Sửa</a></button></td>
+                        <td><button type="button" class="btn btn-danger"><a href="/Website_KĐCLGD/Delete_NhanSu/@item.MA_NS" style="color:#fff">Xóa</a></button></td>
+                    </tr>
+                        index++;
+                    }   
+                }
+            </tbody>
+        </table>
+            </div>
+        </div>
+    </div>
+    
+</div>

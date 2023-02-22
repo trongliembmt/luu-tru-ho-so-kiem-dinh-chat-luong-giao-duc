@@ -1,0 +1,88 @@
+﻿@model IEnumerable<Website_KĐCLGD.Models.TIEUCHUAN>
+@{
+    ViewBag.Title = "QLHS_TieuChuan";
+    Layout = "~/Views/shared/layout_web.cshtml";
+}
+<div class="section-4" style="background:#eee">
+    <div id="panner" class="carousel slide" data-ride="carousel">
+         @{Html.RenderPartial("~/Views/slider/panner_header.cshtml");}
+    </div>
+    <div class="container">
+        <div class="row ">
+            <div class="col-lg-12">
+                @{Html.RenderPartial("~/Views/partital/MenuChucNang.cshtml");}
+                <br>
+            </div>
+        </div>
+        <div class="row ">
+             <div class="col-md-3" >
+                @{Html.RenderPartial("~/Views/partital/MenuBC(4phan).cshtml");}
+            </div>
+            <div class="col-md-9" >
+                @{Html.RenderPartial("~/Views/partital/ComboBox_QLHS.cshtml");}
+                <div class="heading wow pulse" style="margin-bottom: -1rem;margin-top: 1rem;">
+			        <h2 style="font-weight:700">QUẢN LÝ HỒ SƠ PHẦN 2</h2><br />
+                    <h3 style="font-weight:600;margin-bottom: 16px;margin-top: -32px;">(DANH MỤC TIÊU CHUẨN)</h3>
+		        </div>
+                <tr>
+                    <td>@Html.ActionLink("Thêm mới", "Create_TieuChuan", "Website_KĐCLGD", new { @class = "btn btn-primary" })</td>
+                </tr>
+        <table class="table table-striped "style="font-size:15px">
+            <thead class="table-dark" style="font-weight:600">
+                <tr>
+                    <td>STT</td>
+                    <td>TIÊU ĐỀ</td>
+                    <td>SỬA</td>
+                    <td>XÓA</td>
+                </tr>
+            </thead>
+            <tbody>
+                
+                @{
+                    
+                    var index = 1;
+                    foreach (var item in Model)
+                    { 
+                    <tr>
+                        <td>@index</td>
+                        <td>
+                            @Html.ActionLink(@item.TIEUDETIEUCHUAN, "QLHS_TieuChi", "Website_KĐCLGD", new { id = @item.MATIEUCHUAN }, new {@style="text-decoration: none !important" })
+                        </td>
+                        <td><button type="button" class="btn btn-success"><a href="/Website_KĐCLGD/Edit_TieuChuan/@item.MATIEUCHUAN" style="color:#fff;text-decoration: none">Sửa</a></button></td>
+                         <td><button type="button" onclick="xoaTieuChuan(@item.MATIEUCHUAN)" class="btn btn-danger">Xóa</button></td>
+
+                    </tr>
+                        index++;
+                    }   
+                }
+            </tbody>
+        </table>
+            </div>
+        </div>
+    </div>
+    
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+    function xoaTieuChuan(id) {
+        var option = confirm("Bạn có chắc muốn xóa dữ liệu này không?");
+        if (!option) return false;
+        $.ajax({
+            url: '@Url.Action("Xoa_TieuChuan", "Website_KĐCLGD")',
+            type: 'POST',
+            data: {
+                matc: id,
+            },
+            success: function(data) {
+                if (data.result == "NO") {
+                    alert("Không thể xóa dữ liệu này");
+                }
+                else {
+                    alert("Xóa thành công");
+                    document.location.reload(true);
+                }
+            }
+        })
+    }
+</script>

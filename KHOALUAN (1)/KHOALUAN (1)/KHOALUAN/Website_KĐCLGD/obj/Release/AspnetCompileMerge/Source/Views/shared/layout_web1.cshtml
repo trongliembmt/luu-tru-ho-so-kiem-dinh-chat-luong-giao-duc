@@ -1,0 +1,328 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta content="minimum-scale=1.0, width=device-width, maximum-scale=1.0, user-scalable=no" name="viewport" />
+    <meta charset="UTF-8">
+    <title>KIỂM ĐỊNH CHƯƠNG TRÌNH ĐÀO TẠO NGÀNH CÔNG NGHỆ THÔNG TIN</title>
+    <link rel="stylesheet" href="~/Assets/Client/css/font-awesome.min.css">
+    <link rel="stylesheet" href="~/Assets/Client/css/font-awesome.min.css">
+    <link rel="stylesheet" href="~/Assets/Client/css/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="~/Assets/Client/css/responsive.css">
+    <script src="~/Assets/Client/js/jquery.js"></script>
+    <!-- MDB -->
+    <!--<link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.1.0/mdb.min.css"
+          rel="stylesheet" />-->
+
+    <style type="text/css">
+
+        .tb {
+            display: table;
+            width: 100%;
+        }
+
+        .td {
+            display: table-cell;
+            vertical-align: middle;
+        }
+
+        input,
+        button {
+            color: #fff;
+            font-family: Nunito;
+            padding: 0;
+            margin: 0;
+            border: 0;
+            background-color: transparent;
+        }
+
+        #cover {
+            position: absolute;
+            top: 50%;
+            left: 0;
+            right: 0;
+            height: 100px;
+            width: 500px;
+            padding: 35px;
+            margin: -83px auto 0 auto;
+            background-color: #ff7575;
+            border-radius: 20px;
+            box-shadow: 0 10px 40px #ff7c7c, 0 0 0 20px #ffffffeb;
+            transform: scale(0.6);
+        }
+
+        form {
+            height: 100px;
+        }
+
+        input[type="text"] {
+            width: 100%;
+            height: 50px;
+            font-size: 50px;
+            line-height: 1;
+        }
+
+            input[type="text"]::placeholder {
+                color: #e16868;
+                font-size: 23px;
+            }
+
+        #s-cover {
+            width: 1px;
+            padding-left: 35px;
+        }
+
+        button {
+            position: relative;
+            display: block;
+            width: 30px;
+            height: 30px;
+            cursor: pointer;
+        }
+
+        #s-circle {
+            position: relative;
+            top: -8px;
+            left: 0;
+            width: 30px;
+            height: 30px;
+            margin-top: 0;
+            border-width: 15px;
+            border: 15px solid #fff;
+            background-color: transparent;
+            border-radius: 50%;
+            transition: 0.5s ease all;
+        }
+
+        button span {
+            position: absolute;
+            top: 68px;
+            left: 43px;
+            display: block;
+            width: 45px;
+            height: 20px;
+            background-color: transparent;
+            border-radius: 10px;
+            transform: rotateZ(52deg);
+            transition: 0.5s ease all;
+        }
+
+            button span:before,
+            button span:after {
+                content: "";
+                position: absolute;
+                bottom: 0;
+                right: 0;
+                width: 45px;
+                height: 15px;
+                background-color: #fff;
+                border-radius: 10px;
+                transform: rotateZ(0);
+                transition: 0.5s ease all;
+            }
+
+        #s-cover:hover #s-circle {
+            top: -1px;
+            width: 67px;
+            height: 15px;
+            border-width: 0;
+            background-color: #fff;
+            border-radius: 20px;
+        }
+
+        #s-cover:hover span {
+            top: 50%;
+            left: 56px;
+            width: 25px;
+            margin-top: -9px;
+            transform: rotateZ(0);
+        }
+
+        #s-cover:hover button span:before {
+            bottom: 11px;
+            transform: rotateZ(52deg);
+        }
+
+        #s-cover:hover button span:after {
+            bottom: -11px;
+            transform: rotateZ(-52deg);
+        }
+
+        #s-cover:hover button span:before,
+        #s-cover:hover button span:after {
+            right: -6px;
+            width: 40px;
+            background-color: #fff;
+        }
+    </style>
+</head>
+<body style="overflow-x:hidden">
+    <header class="header wow slideInDown">
+        <a href="@Url.Action("Index","Website_KĐCLGD")" class="logo"><img src="~/Content/image/logo/logoheader.png" style="height:60px; width:415px;margin-top:-10px;margin-left:17px;" alt=""></a>
+        <div class="js-menu-mobile"><div class="trigger-menu"><span class="three-bars-icon"></span></div></div>
+        <ul class="lang">
+            @Html.Action("ThayDoiNguoiDung", "Login")
+        </ul>
+
+        <nav class="main-nav">
+            <ul class="nav">
+                <li class="item">
+                    <a href="/vi"><b>Giới thiệu</b> </a>
+                    <ul style="width: 386.1px; left: -17.55px; height: 300px;">
+                        <li class="item">
+                            <a href="/vi">Trường Đại học Công nghiệp Thực phẩm TP.HCM</a>
+                            <ul>
+                                <li class="item">
+                                    <a href="https://hufi.edu.vn/gioi-thieu" target="_blank">Tổng quan về HUFI</a>
+                                </li>
+                                <li class="item">
+                                    <a href="https://hufi.edu.vn/so-do-to-chuc" target="_blank">Sơ đồ tổ chức</a>
+                                </li>
+                                <li class="item">
+                                    <a href="https://hufi.edu.vn/gioi-thieu/co-so-vat-chat" target="_blank">Cơ sở vật chất</a>
+                                </li>
+                                <li class="item">
+                                    <a href="https://hufi.edu.vn/gioi-thieu/su-mang-tam-nhin" target="_blank">Sứ mạng - Tầm nhìn</a>
+                                </li>
+                                <li class="item">
+                                    <a href="https://hufi.edu.vn/gioi-thieu/thanh-tich" targer="_blank">Thành tựu</a>
+                                </li>
+                                <li class="item">
+                                    <a href="https://hufi.edu.vn/gioi-thieu/lich-su-phat-trien/" target="_blank">Lịch sử phát triển</a>
+
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="item">
+                            <a href="/vi">Khoa Công nghệ Thông tin</a>
+                            <ul>
+                                <li class="item">
+                                    <a href="https://fit.hufi.edu.vn/gioi-thieu/gioi-thieu-khoa-cntt?&lang=vi" target="_blank">Tổng quan về khoa CNTT</a>
+                                </li>
+                                <li class="item">
+                                    <a href="https://fit.hufi.edu.vn/gioi-thieu/so-do-to-chuc" target="_blank">Cơ cấu tổ chức</a>
+                                </li>
+                                <li class="item">
+                                    <a href="https://fit.hufi.edu.vn/gioi-thieu/gioi-thieu-cac-bo-mon" target="_blank">Các bộ môn</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="item">
+                            <a href="/vi">Tin tức - Sự kiện</a>
+                            <ul>
+                                <li class="item">
+                                    <a href="https://fit.hufi.edu.vn/thong-bao" target="_blank">Tin tức - Thông báo</a>
+                                </li>
+                                <li class="item">
+                                    <a href="https://fit.hufi.edu.vn/su-kien" target="_blank">Các sự kiện</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+
+                <li class="item">
+                    <a href="/vi"><b>Đào tạo khoa CNTT</b></a>
+                    <ul style="width: 386.1px; left: -17.55px; height: 200px;">
+                        <li class="item">
+                            <a href="/vi">Chương trình đào tạo</a>
+                            <ul>
+                                <li class="item">
+                                    <a href="https://fit.hufi.edu.vn/dao-tao/nganh-cong-nghe-thong-tin-he-dai-hoc" target="_blank">Chương trình đào tạo ngành CNTT - hệ đại học</a>
+                                </li>
+                                <li class="item">
+                                    <a href="https://fit.hufi.edu.vn/dao-tao/nganh-an-toan-thong-tin-he-dai-hoc" target="_blank">Chương trình đào tạo ngành ATTT - hệ đại học</a>
+                                </li>
+                                <li class="item">
+                                    <a href="https://fit.hufi.edu.vn/dao-tao/chuong-trinh-dao-tao-thac-si-nganh-cong-nghe-thong-tin" target="_blank">Đào tạo sau đại học</a>
+                                </li>
+                                <li class="item">
+                                    <a href="https://fit.hufi.edu.vn/dao-tao/chuan-dau-ra" target="_blank">Chuẩn đầu ra</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="item">
+                            <a href="/vi">Báo cáo tự đánh giá</a>
+                            <ul>
+                                <li class="item">
+                                    <a href="https://fit.hufi.edu.vn/tin-tuc/thong-bao-so-444tb-dct-ve-viec-ho-tro-cung-cap-minh-chung-cho-bao-cao-tu-danh-gia-chat-luong-co-so-giao-duc-giai-doan-2017-2021 " target="_blank">Báo cáo tự đánh giá chất lượng chất lượng cơ sở giáo dục: Chương trình đào tạo ngành CNTT</a>
+                                </li>
+
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+
+                <li class="item">
+                    <a href="https://fit.hufi.edu.vn/nghien-cuu" target="_blank"><b>Nghiên cứu - học thuật</b></a>
+                </li>
+                <li class="item">
+                    <a href="https://fit.hufi.edu.vn/doan-hoi" target="_blank"><b>Đoàn hội</b></a>
+                </li>
+
+            </ul>
+        </nav>
+        @*</div>*@
+    </header>
+
+    @*<--MobileMenu-->*@
+    <div class="slidebar">
+        <div class="mobile-wrap-menu">
+            <div class="head">
+                <span class="icon closeSidebar"><i class="fas fa-close"></i></span>
+            </div>
+            <div class="content">
+
+            </div>
+        </div>
+    </div>
+    @RenderBody()
+
+    @*<--footer-->*@
+    <!--<section class="section-3 parallax-window" data-parallax="scroll" data-image-src="/Content/image/logo/darkgray2.jpg">
+        <div class="footer-container-wrapper" style="margin-top:-20px">
+            <div class="row row-ibl" style="text-align:left;font-size:15px;margin-left:35px;margin-right:-100px;margin-top:50px">
+                <div class="col-md-6 col-sm-6 col-xs-6 wow fadeInUp">
+                    <h3 class="ft-title">Thông tin liên hệ - Khoa Công nghệ Thông tin</h3>
+                    <p><strong><i class="fa fa-map-marker"></i>&nbsp;Địa chỉ:</strong> <span> 140 Lê Trọng Tấn, Phường Tây Thạnh, Quận Tân Phú, TP. HCM</span></p>
+                    <div class="desc">
+                        <div class="desc">
+                            <p><strong><i class="fa fa-phone"></i>&nbsp;Điện thoại:</strong> 0283 8163 318</p>
+                            <p><strong><i class="fa fa-envelope" style="font-size: 18px;"></i>&nbsp;Email:</strong> infor@hufi.edu.vn</p>
+                            <p>
+                                <a href="https://www.facebook.com/tuvantuyensinhfit.hufi/" target="_blank" rel="noopener noreferrer"> <img src="~/Content/image/logo/14.png" caption="false" width="100" height="90" style="margin-right:10px" /></a>
+                                <a href="https://www.youtube.com/watch?v=hUlpex9jBvc" target="_blank" rel="noopener noreferrer"><img src="~/Content/image/logo/15.png" caption="false" width="80" height="80" style="margin-right:30px" /> </a>
+                                <a href="https://vt.tiktok.com/ZSJNKjowo" target="_blank" rel="noopener noreferrer"><img src="~/Content/image/logo/tiktok.png" caption="false" width="70" height="70" style="margin-right:30px" /> </a>
+                                <a href="https://www.instagram.com/hufi_media/" target="_blank" rel="noopener noreferrer"><img src="~/Content/image/logo/insta.png" caption="false" width="70" height="70" style="margin-right:30px" /> </a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 col-xs-6 wow fadeInUp">
+                    <div class="desc">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.059942831912!2d106.62645201415!3d10.806721061590398!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752be27d8b4f4d%3A0x92dcba2950430867!2zVHLGsOG7nW5nIMSQYcyjaSBob8yjYyBDw7RuZyBuZ2hp4buHcCBUaOG7sWMgcGjhuqltIFRow6BuaCBwaOG7kSBI4buTIENow60gTWluaA!5e0!3m2!1svi!2s!4v1606985963659!5m2!1svi!2s" width="650" height="250" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>-->
+    <script src="~/Assets/Client/js/parallax.min.js"></script>
+    <script src="~/Assets/Client/js/wow/wow.min.js"></script>
+    <script src="~/Assets/Client/js/script.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- MDB -->
+    <script type="text/javascript"
+            src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.1.0/mdb.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="QL_HSKDConnectionString-Web.config Connection String" description="QL_HSKDConnectionString Connection String used in web.config by the application to access the database." defaultValue="Data Source=MMTNGUYENTRONGL\SQLEXPRESS;Initial Catalog=QL_KIEMDINH;User ID=sa;Password=123" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\USER\\Desktop\\KHOALUAN\ \(1\)\\KHOALUAN\\Website_KĐCLGD\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='QL_HSKDConnectionString']/@connectionString" />
+  </parameter>
+  <parameter name="QL_HSKDConnectionString1-Web.config Connection String" description="QL_HSKDConnectionString1 Connection String used in web.config by the application to access the database." defaultValue="Data Source=MMTNGUYENTRONGL\SQLEXPRESS;Initial Catalog=QL_KIEMDINH;User ID=sa;Password=123" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\USER\\Desktop\\KHOALUAN\ \(1\)\\KHOALUAN\\Website_KĐCLGD\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='QL_HSKDConnectionString1']/@connectionString" />
+  </parameter>
+</parameters>

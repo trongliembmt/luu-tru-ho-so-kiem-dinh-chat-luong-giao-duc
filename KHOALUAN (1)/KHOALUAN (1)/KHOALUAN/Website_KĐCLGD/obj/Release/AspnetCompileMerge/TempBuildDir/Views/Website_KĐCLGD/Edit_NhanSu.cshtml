@@ -1,0 +1,185 @@
+﻿@using Website_KĐCLGD.Models;
+
+@{
+    ViewBag.Title = "Edit_NhanSu";
+    Layout = "~/Views/shared/layout_web1.cshtml";
+    NHANSU item = (NHANSU)ViewData["data"];
+    List<NHOM> lstNhom = (List<NHOM>)ViewData["lstNhom"];
+    List<CHUCVU> lstChucVu = (List<CHUCVU>)ViewData["lstChucVu"];
+    List<NHOMQUYEN> lstNhomQuyen = (List<NHOMQUYEN>)ViewData["lstNhomQuyen"];
+}
+<div class="section-4" style="background: #eee">
+    <div id="panner" class="carousel slide" data-ride="carousel">
+
+        @{Html.RenderPartial("~/Views/slider/panner_header.cshtml");}
+
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                @{Html.RenderPartial("~/Views/partital/MenuChucNang.cshtml");}
+                <br>
+            </div>
+        </div>
+        <div class="row ">
+
+            <div class="container">
+
+                @Html.AntiForgeryToken()
+
+                @Html.ValidationSummary(true)
+
+                @using (Html.BeginForm("Edit_NhanSu", "Website_KĐCLGD", FormMethod.Post))
+                {
+                        
+                    <fieldset class="was-validated">
+                        <div class="heading wow pulse" style="margin-top: 10px;">
+                            <h2><b>CHỈNH SỬA THÔNG TIN NHÂN SỰ</b></h2>
+                        </div>
+                        <form action="~/Views/Website_KĐCLGD/Create_TieuChi" method="post">
+                            <div class="form-group">
+                                <input type="hidden" class="form-control" value="@item.MA_NS" name="MA_NS" />
+                            </div>
+                            <div class="form-group">
+                                <label for="uname" style="font-size: 18px">TÊN NHÂN SỰ</label>
+                                <input type="text" class="form-control" id="TEN_NS" value="@item.TEN_NS" name="TEN_NS" style="font-size:14px" required />
+                                <div class="valid-feedback">Có hiệu lực.</div>
+                                <div class="invalid-feedback">Vui lòng điền vào trường này.</div>
+                            </div>
+                            <div class="form-row" style="margin-top: 18px">
+                                <div class="form-group col-md-6">
+                                    <label for="uname" style="font-size: 18px">SỐ ĐIỆN THOẠI</label>
+                                    <input type="text" class="form-control" value="@item.SDT" id="SDT" name="SDT" style="font-size:14px" required/>
+                                    <div class="valid-feedback">Có hiệu lực.</div>
+                                    <div class="invalid-feedback">Vui lòng điền vào trường này.</div>
+                                </div>
+                                <div class="form-group col-md-6">
+                                    <label for="uname" style="font-size: 18px">GIỚI TÍNH</label>
+                                    <input type="text" class="form-control" value="@item.GIOITINH" id="GIOITINH" name="GIOITINH" style="font-size:14px" required/>
+                                    <div class="valid-feedback">Có hiệu lực.</div>
+                                    <div class="invalid-feedback">Vui lòng điền vào trường này.</div>
+                                </div>
+                            </div>
+
+                            <div class="form-row" style="margin-top: 8px">
+                                <div class="form-group col-md-6">
+                                    <label for="uname" style="font-size: 18px">EMAIL</label>
+                                    <input type="text" class="form-control" value="@item.EMAIL" id="EMAIL" name="EMAIL" style="font-size:14px" required />
+                                    <div class="valid-feedback">Có hiệu lực.</div>
+                                    <div class="invalid-feedback">Vui lòng điền vào trường này.</div>
+                                </div>
+                                <div class="form-group col-md-6">
+                                    <label for="uname" style="font-size: 18px">NGÀY SINH</label>
+                                    @*<input class="form-control" type="date" value="@item.NGAYSINH" id="NGAYSINH" name="NGAYSINH" style="font-size:14px" required>
+                                         <div class="valid-feedback">Có hiệu lực.</div>
+                                           <div class="invalid-feedback">Vui lòng điền vào trường này.</div>*@
+                                    @Html.TextBox("NGAYSINH", item.NGAYSINH, "{0:yyyy-MM-dd}", new { @class = "form-control",@style = "font-size:14px", type = "date" })
+                                </div>
+                            </div>
+                            <div class="form-group" style="margin-top: 8px">
+                                <label for="uname" style="font-size: 18px">ĐỊA CHỈ</label>
+                                <input type="text" class="form-control" value="@item.DIACHI" id="DIACHI" name="DIACHI" style="font-size:14px" required />
+                                <div class="valid-feedback">Có hiệu lực.</div>
+                                <div class="invalid-feedback">Vui lòng điền vào trường này.</div>
+                            </div>
+                            <div class="form-row" style="margin-top: 18px">
+                                <div class="form-group col-md-6">
+                                    <label for="uname" style="font-size: 18px">TÀI KHOẢN</label>
+                                    <input type="text" class="form-control" value="@item.TAIKHOAN" id="TAIKHOAN" name="TAIKHOAN" style="font-size:14px" required/>
+                                    <div class="valid-feedback">Có hiệu lực.</div>
+                                    <div class="invalid-feedback">Vui lòng điền vào trường này.</div>
+                                </div>
+                                <div class="form-group col-md-6">
+                                    <label for="uname" style="font-size: 18px">MẬT KHẨU ĐĂNG NHẬP</label>
+                                    <input type="text" class="form-control" value="@item.MATKHAU" id="MATKHAU" name="MATKHAU" style="font-size:14px" required/>
+                                    <div class="valid-feedback">Có hiệu lực.</div>
+                                    <div class="invalid-feedback">Vui lòng điền vào trường này.</div>
+                                </div>
+                            </div>
+                            <div class="form-row" style="margin-top: 18px">
+                                <div class="form-group col-md-4">
+                                    <label for="uname" style="font-size: 18px">THUỘC NHÓM</label>
+                                    <select name="selectionNHOM" style="font-size: 14px">
+
+                                        @{
+                    foreach (NHOM itemNhom in lstNhom)
+                    {
+                        if (itemNhom.MA_NH == item.MA_NH)
+                        { 
+                                            <option value= "@itemNhom.MA_NH" selected>@itemNhom.TEN_NH</option>
+                        }
+                        else
+                        {
+                                            <option value= "@itemNhom.MA_NH">@itemNhom.TEN_NH</option>
+                        }
+
+                    }
+                                        }
+
+
+
+                                    </select>
+                                </div>
+                                <div class="form-group col-md-4">
+                                    <label for="uname" style="font-size: 18px">CHỨC VỤ</label>
+                                    <select name="selectionCHUCVU" style="font-size: 14px">
+
+                                        @{
+                    foreach (CHUCVU itemChucVu in lstChucVu)
+                    {
+                        if (itemChucVu.MA_CV == item.MA_CV)
+                        { 
+                                            <option value= "@itemChucVu.MA_CV" selected>@itemChucVu.TEN_CV</option>
+                        }
+                        else
+                        {
+                                            <option value= "@itemChucVu.MA_CV">@itemChucVu.TEN_CV</option>
+                        }
+
+                    }
+                                        }
+
+
+
+                                    </select>
+                                </div>
+                                <div class="form-group col-md-4">
+                                    <label for="uname" style="font-size: 18px">NHÓM QUYỀN</label>
+                                    <select name="selectionNhomQuyen" style="font-size: 14px">
+
+                                        @{
+                    foreach (NHOMQUYEN itemNQ in lstNhomQuyen)
+                    {
+                        if (itemNQ.MA_NQ == item.MA_NQ)
+                        { 
+                                            <option value= "@itemNQ.MA_NQ" selected>@itemNQ.TEN_NQ</option>
+                        }
+                        else
+                        {
+                                            <option value= "@itemNQ.MA_NQ">@itemNQ.TEN_NQ</option>
+                        }
+
+                    }
+                                        }
+
+
+
+                                    </select>
+                                </div>
+
+                            </div>
+                        </form>
+                        <div class="btn-luu" style="text-align: center; margin-top: 5px">
+                            <button class="btn gopy" type="submit" style="width: 60px">Lưu </button>
+                        </div>
+                    </fieldset>
+                }
+            </div>
+        </div>
+
+    </div>
+
+</div>
+
+
+

@@ -1,0 +1,169 @@
+﻿@*@using System.Data*@
+@*@using Modules.Common
+@using Modules.Common.Data*@
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/shared/layout_web.cshtml";
+
+}
+
+<section class="section-1 parallax-window" data-parallax="scroll" data-image-src="Content/image/panner/z.jpg" style="height:500px" >
+	<div class="content wow pulse"  data-wow-duration="1.5s">
+		<h2 class="title", style="color:red;font-size:35px">KHOA CÔNG NGHỆ THÔNG TIN</h2><h4 style="font-size:25px;color:blue">KIỂM ĐỊNH CHẤT LƯỢNG CHƯƠNG TRÌNH ĐÀO TẠO THEO CHUẨN MOET</h4>
+            <form class="example" action="Website_KĐCLGD/Search" method="get" style="margin-top:50px;"                    
+                    <div id="cover">
+                        <form method="get" action="">
+                            <div class="tb">
+                                <div class="td"><input type="text" placeholder="Tìm kiếm..." name="txtSearch" style="font-size:23px;color:black" required ></div>
+                                <select id="search" name="search" style="font-size:23px;background-color:#eeeeee;outline:none">
+                                    <option value="1" selected="selected">Tiêu Chuẩn</option>
+                                    <option value="2">Tiêu Chí</option>
+                                    <option value="3">Minh Chứng</option>
+                                </select>
+                                <div class="td" id="s-cover">
+                                    <button type="submit">
+                                        <div id="s-circle"></div>
+                                        <span></span>
+                                    </button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </form>
+	</div>
+    
+</section>
+<section class="section-2">
+	<div class="container news ">
+		
+		<div class="item wow " data-wow-delay="0.25s" data-wow-duration="0.75s"  style="height: 55px; background-color: blanchedalmond; border-style: inset">
+			<a href="#" class="" target="_blank"></a>
+			<h3 class="title"><a href="@Url.Action("DM_TieuChuan","Website_KĐCLGD")"><br /><b>XEM VÀ GÓP Ý BÁO CÁO ĐÁNH GIÁ</b></a></h3>
+		</div>
+        <div class="item " data-wow-delay="0.25s" data-wow-duration="0.75s" style="height: 55px;background-color:blanchedalmond;border-style:inset">
+            <a href="#" class="" target="_blank"></a>
+            @Html.Action("ChuyenChucNang", "Login")          
+        </div>
+		
+	</div>
+	<div class="clear"></div>
+</section>
+
+<div class="section-4">
+	<div class="container">
+		<div class="heading wow pulse" data-wow-duration="2.0s">
+			<h2>TIN TỨC LIÊN QUAN</h2>
+		</div>
+        <div class="news-list">
+                <div class="row news">
+                    <div class="col-lg-3">
+                        <div class="news-thum pb-10" >
+                            <img alt="" src="~/Content/image/news/1.jpg"  class="blur-up lazyloaded" style="width:100%;" >
+                        </div>
+                    </div>
+                    <div class="col-lg-9">
+                        <div class="row">
+                            <div class="news-cont mb-20">
+                                <a href="https://hufi.edu.vn/hoat-dong-noi-bat/truong-dai-hoc-cong-nghiep-thuc-pham-tp-ho-chi-minh-co-them-06-chuong-trinh-dao-tao-duoc-chung-nhan-kiem-dinh-chat-luong-giao-duc">
+                                    <h3>Trường Đại học Công nghiệp Thực phẩm TP. Hồ Chí Minh có thêm 06 chương trình đào tạo được chứng nhận kiểm định chất lượng giáo dục <span class="badge badge-warning hide">Mới</span></h3>
+                                </a>
+                                <ul  style="list-style:none">
+                                    <li>
+                                        <a><i class="fas fa-calendar"></i>&nbsp;
+                                        21/11/2022</a>
+                                    </li>
+                                </ul>
+                                <p>Sáng ngày 20/11, Trường đại học Công nghiệp Thực phẩm TP. Hồ Chí Minh đã tổ chức Lễ Khai giảng năm học 2022 – 2023 và kỷ niệm 40 năm ngày Nhà giáo Việt Nam (20/11/1982 – 20/11/2022)...</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+                <div class="row news">
+                    <div class="col-lg-3">
+                        <div class="news-thum pb-10" >
+                            <img alt="" src="~/Content/image/news/2.jpg"  class="blur-up lazyloaded" style="width:100%;" >
+                        </div>
+                    </div>
+                    <div class="col-lg-9">
+                        <div class="row">
+                            <div class="news-cont mb-20">
+                                <a href="https://hufi.edu.vn/hoat-dong-noi-bat/hop-trien-khai-ke-hoach-tu-danh-gia-07-chuong-trinh-dao-tao-theo-bo-tieu-chuan-cua-bo-gddt-moet">
+                                    <h3>Họp triển khai kế hoạch tự đánh giá 07 chương trình đào tạo theo bộ tiêu chuẩn của Bộ GD&ĐT (MOET) </h3>
+                                </a>
+                                <ul style="list-style:none">
+                                    <li>
+                                        <a><i class="fas fa-calendar"></i>&nbsp;
+                                        18/11/2022</a>
+                                    </li>
+                                </ul>
+                                <p>Sáng ngày 17/11/2022, Trường Đại học Công nghiệp Thực phẩm TP. Hồ Chí Minh đã tổ chức phiên họp của Hội đồng tự đánh giá chất lượng giáo dục chương trình đào tạo nhằm triển khai kế hoạch tự đánh giá 07 chương trình đào tạo ...</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row news">
+                    <div class="col-lg-3">
+                        <div class="news-thum pb-10">
+                            <img alt="" src="~/Content/image/news/3.jpg"  class="blur-up lazyloaded" style="width:100%;" >
+                        </div>
+                    </div>
+                    <div class="col-lg-9">
+                        <div class="row">
+                            <div class="news-cont mb-20">
+                                <a href="https://hufi.edu.vn/dam-bao-chat-luong/cong-bo-quyet-dinh-va-trao-giay-chung-nhan-kiem-dinh-chat-luong-giao-duc-chu-ky-2-cho-truong-dh-cong-nghiep-thuc-pham-tphcm">
+                                    <h3>Công bố quyết định và Trao Giấy chứng nhận kiểm định chất lượng giáo dục chu kỳ 2 cho Trường ĐH Công nghiệp Thực phẩm TPHCM</h3>
+                                </a>
+                                <ul style="list-style:none">
+                                    <li>
+                                        <a><i class="fas fa-calendar"></i>&nbsp;
+                                        12/09/2022</a>
+                                    </li>
+                                </ul>
+                                <p>Sáng ngày 09/9/2022, Trung tâm Kiểm định chất lượng giáo dục – Đại học Quốc gia Thành phố Hồ Chí Minh (KĐCLGD – ĐHQG TP.HCM) đã phối hợp với Trường Đại học Công nghiệp Thực phẩm TP.HCM tổ chức lễ công bố quyết định và trao Giấy chứng nhận kiểm định chất lượng giáo dục chu kỳ 2 trong Lễ kỷ niệm 40 năm ngày thành lập Trường.</p>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                <div class="row news">
+                    <div class="col-lg-3">
+                        <div class="news-thum pb-10">
+                            <img alt="" src="~/Content/image/news/4.jpg" class="blur-up lazyloaded" style="width:100%;">
+                        </div>
+                    </div>
+                    <div class="col-lg-9">
+                        <div class="row">
+                            <div class="news-cont mb-20">
+                                <a href="https://hufi.edu.vn/dam-bao-chat-luong/be-mac-dot-khao-sat-chinh-thuc-danh-gia-ngoai-06-chuong-trinh-dao-tao-trinh-do-dai-hoc">
+                                    <h3>Bế mạc đợt khảo sát chính thức đánh giá ngoài 06 chương trình đào tạo trình độ Đại học </h3>
+                                </a>
+                                <ul style="list-style:none">
+                                    <li>
+                                        <a>
+                                            <i class="fas fa-calendar"></i>&nbsp;
+                                            01/08/2022
+                                        </a>
+                                    </li>
+                                </ul>
+                                <p>Sáng ngày 31/7/2022, đợt khảo sát chính thức kiểm định chất lượng 06 chương trình đào tạo (CTĐT) trình độ Đại học tại trường Đại học Công nghiệp Thực phẩm TP. Hồ Chí Minh (HUFI) đã chính thức khép lại với lễ Bế mạc diễn ra trang trọng tại Hội trường C, cơ sở chính của Nhà trường.</p>
+                            </div>
+                        </div>
+                    </div>  
+                </div>
+	</div>
+    <div class="doitac">
+        <div class="heading wow pulse" data-wow-duration="1.5s">
+			<h2>MỘT SỐ ĐỐI TÁC</h2>
+		</div>
+        <marquee id="marq" scrollamount="7" direction="left" loop="50" scrolldelay="5" behavior="scroll" onmouseover="this.stop()" onmouseout="this.start()">
+        <a href="#"><img src="~/Content/image/logo/gameloft.jpg"  title="GameLoft" width="100" height="100"/> </a>
+        <a href="#"><img src="~/Content/image/logo/2.png"  title="Shoppe" width="100" height="100"/> </a>
+        <a href="#"><img src="~/Content/image/logo/3.png"  title="Himalaya" width="250" height="100"/> </a>
+        <a href="#"><img src="~/Content/image/logo/4.png"  title="GearVN" width="100" height="100"/> </a>
+        <a href="#"><img src="~/Content/image/logo/5.png"   title="HACOM" width="100" height="100"/> </a>
+        <a href="#"><img src="~/Content/image/logo/6.jpg" title="Lazada" width="100" height="100"/> </a>
+        <a href="#"><img src="~/Content/image/logo/7.png"  title="Sega" width="180" height="100"/> </a>
+</marquee>
+    </div>
+    
+</div>

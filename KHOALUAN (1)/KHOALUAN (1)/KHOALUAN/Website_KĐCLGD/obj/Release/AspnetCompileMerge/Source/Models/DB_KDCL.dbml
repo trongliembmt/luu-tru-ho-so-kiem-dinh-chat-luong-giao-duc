@@ -1,0 +1,256 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="QL_HSKD" Class="DB_KDCLDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=LAPTOP-1F9AJ548\SQLEXPRESS01;Initial Catalog=QL_KIEMDINH;User ID=sa" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="QL_HSKDConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.CHUCVU" Member="CHUCVUs">
+    <Type Name="CHUCVU">
+      <Column Name="MA_CV" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="TEN_CV" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Association Name="CHUCVU_NHANSU" Member="NHANSUs" ThisKey="MA_CV" OtherKey="MA_CV" Type="NHANSU" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TIEUCHUAN" Member="TIEUCHUANs">
+    <Type Name="TIEUCHUAN">
+      <Column Name="MATIEUCHUAN" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="TIEUDETIEUCHUAN" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Association Name="TIEUCHUAN_P2_DANHGIA" Member="P2_DANHGIAs" ThisKey="MATIEUCHUAN" OtherKey="MATIEUCHUAN" Type="P2_DANHGIA" />
+      <Association Name="TIEUCHUAN_TIEUCHI" Member="TIEUCHIs" ThisKey="MATIEUCHUAN" OtherKey="MATIEUCHUAN" Type="TIEUCHI" />
+    </Type>
+  </Table>
+  <Table Name="dbo.HOSOBC" Member="HOSOBCs">
+    <Type Name="HOSOBC">
+      <Column Name="MABAOCAO" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="DONVI_BC" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="CHUDE_BC" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="GIAIDOAN_BC" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Association Name="HOSOBC_P1_KHAIQUAT" Member="P1_KHAIQUATs" ThisKey="MABAOCAO" OtherKey="MABAOCAO" Type="P1_KHAIQUAT" />
+      <Association Name="HOSOBC_P2_DANHGIA" Member="P2_DANHGIAs" ThisKey="MABAOCAO" OtherKey="MABAOCAO" Type="P2_DANHGIA" />
+      <Association Name="HOSOBC_P3_KETLUAN" Member="P3_KETLUANs" ThisKey="MABAOCAO" OtherKey="MABAOCAO" Type="P3_KETLUAN" />
+      <Association Name="HOSOBC_P4_PHULUC" Member="P4_PHULUCs" ThisKey="MABAOCAO" OtherKey="MABAOCAO" Type="P4_PHULUC" />
+      <Association Name="HOSOBC_PHANCONG_BC_TV" Member="PHANCONG_BC_TVs" ThisKey="MABAOCAO" OtherKey="MABAOCAO" Type="PHANCONG_BC_TV" />
+    </Type>
+  </Table>
+  <Table Name="dbo.KQ_DANHGIA_PHAN1" Member="KQ_DANHGIA_PHAN1s">
+    <Type Name="KQ_DANHGIA_PHAN1">.
+      <Column Name="MA_KQ" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="DIEM_DG" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="GHICHU" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="NGAYDG" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="MATP" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="MANDG" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="P1_KHAIQUAT_KQ_DANHGIA_PHAN1" Member="P1_KHAIQUAT" ThisKey="MATP" OtherKey="MATP" Type="P1_KHAIQUAT" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.KQ_DANHGIA_PHAN3" Member="KQ_DANHGIA_PHAN3s">
+    <Type Name="KQ_DANHGIA_PHAN3">
+      <Column Name="MA_KQ" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="DIEM_DG" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="GHICHU" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="NGAYDG" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="MATP" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="MANDG" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="P3_KETLUAN_KQ_DANHGIA_PHAN3" Member="P3_KETLUAN" ThisKey="MATP" OtherKey="MATP" Type="P3_KETLUAN" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.KQ_DANHGIA_PHAN4" Member="KQ_DANHGIA_PHAN4s">
+    <Type Name="KQ_DANHGIA_PHAN4">
+      <Column Name="MA_KQ" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="DIEM_DG" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="GHICHU" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="NGAYDG" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="MAPL" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="MANDG" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="P4_PHULUC_KQ_DANHGIA_PHAN4" Member="P4_PHULUC" ThisKey="MAPL" OtherKey="MAPL" Type="P4_PHULUC" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.KQ_DANHGIA_TIEUCHI" Member="KQ_DANHGIA_TIEUCHIs">
+    <Type Name="KQ_DANHGIA_TIEUCHI">
+      <Column Name="MA_KQ" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="DIEM_DG" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="GHICHU" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="NGAYDG" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="MATIEUCHI" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="MANDG" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="TIEUCHI_KQ_DANHGIA_TIEUCHI" Member="TIEUCHI" ThisKey="MATIEUCHI" OtherKey="MATIEUCHI" Type="TIEUCHI" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.KQ_KIEMDUYET_PHAN1" Member="KQ_KIEMDUYET_PHAN1s">
+    <Type Name="KQ_KIEMDUYET_PHAN1">
+      <Column Name="MA_KQ" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="TINHTRANG" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="GHICHU" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="NGAYKD" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="MATP" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="P1_KHAIQUAT_KQ_KIEMDUYET_PHAN1" Member="P1_KHAIQUAT" ThisKey="MATP" OtherKey="MATP" Type="P1_KHAIQUAT" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.KQ_KIEMDUYET_PHAN3" Member="KQ_KIEMDUYET_PHAN3s">
+    <Type Name="KQ_KIEMDUYET_PHAN3">
+      <Column Name="MA_KQ" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="TINHTRANG" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="GHICHU" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="NGAYKD" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="MATP" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="P3_KETLUAN_KQ_KIEMDUYET_PHAN3" Member="P3_KETLUAN" ThisKey="MATP" OtherKey="MATP" Type="P3_KETLUAN" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.KQ_KIEMDUYET_PHAN4" Member="KQ_KIEMDUYET_PHAN4s">
+    <Type Name="KQ_KIEMDUYET_PHAN4">
+      <Column Name="MA_KQ" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="TINHTRANG" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="GHICHU" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="NGAYKD" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="MAPL" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="P4_PHULUC_KQ_KIEMDUYET_PHAN4" Member="P4_PHULUC" ThisKey="MAPL" OtherKey="MAPL" Type="P4_PHULUC" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.KQ_KIEMDUYET_TIEUCCHI" Member="KQ_KIEMDUYET_TIEUCCHIs">
+    <Type Name="KQ_KIEMDUYET_TIEUCCHI">
+      <Column Name="MA_KQ" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="TINHTRANG" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="GHICHU" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="NGAYKD" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="MATIEUCHI" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="TIEUCHI_KQ_KIEMDUYET_TIEUCCHI" Member="TIEUCHI" ThisKey="MATIEUCHI" OtherKey="MATIEUCHI" Type="TIEUCHI" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.MINHCHUNG" Member="MINHCHUNGs">
+    <Type Name="MINHCHUNG">
+      <Column Name="MAMINHCHUNG" Type="System.String" DbType="Char(20) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="TENMINHCHUNG" Type="System.String" DbType="NVarChar(1000)" CanBeNull="true" />
+      <Column Name="MATIEUCHI" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="DUONGDAN_ND" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Association Name="TIEUCHI_MINHCHUNG" Member="TIEUCHI" ThisKey="MATIEUCHI" OtherKey="MATIEUCHI" Type="TIEUCHI" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.NHANSU" Member="NHANSUs">
+    <Type Name="NHANSU">
+      <Column Name="MA_NS" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="TEN_NS" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="SDT" Type="System.String" DbType="Char(10)" CanBeNull="true" />
+      <Column Name="EMAIL" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="GIOITINH" Type="System.String" DbType="NVarChar(10)" CanBeNull="true" />
+      <Column Name="NGAYSINH" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="DIACHI" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="TAIKHOAN" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="MATKHAU" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="HINHANH" Type="System.String" DbType="VarChar(500)" CanBeNull="true" />
+      <Column Name="MA_CV" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="MA_NH" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="MA_NQ" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="NHANSU_PHANCONG_BC_TV" Member="PHANCONG_BC_TVs" ThisKey="MA_NS" OtherKey="MA_NS" Type="PHANCONG_BC_TV" />
+      <Association Name="CHUCVU_NHANSU" Member="CHUCVU" ThisKey="MA_CV" OtherKey="MA_CV" Type="CHUCVU" IsForeignKey="true" />
+      <Association Name="NHOM_NHANSU" Member="NHOM" ThisKey="MA_NH" OtherKey="MA_NH" Type="NHOM" IsForeignKey="true" />
+      <Association Name="NHOMQUYEN_NHANSU" Member="NHOMQUYEN" ThisKey="MA_NQ" OtherKey="MA_NQ" Type="NHOMQUYEN" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.NHOM" Member="NHOMs">
+    <Type Name="NHOM">
+      <Column Name="MA_NH" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="TEN_NH" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="KYHIEU" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Association Name="NHOM_NHANSU" Member="NHANSUs" ThisKey="MA_NH" OtherKey="MA_NH" Type="NHANSU" />
+    </Type>
+  </Table>
+  <Table Name="dbo.NHOMQUYEN" Member="NHOMQUYENs">
+    <Type Name="NHOMQUYEN">
+      <Column Name="MA_NQ" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="TEN_NQ" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Association Name="NHOMQUYEN_NHANSU" Member="NHANSUs" ThisKey="MA_NQ" OtherKey="MA_NQ" Type="NHANSU" />
+      <Association Name="NHOMQUYEN_QUYEN" Member="QUYENs" ThisKey="MA_NQ" OtherKey="MA_NQ" Type="QUYEN" />
+    </Type>
+  </Table>
+  <Table Name="dbo.P1_KHAIQUAT" Member="P1_KHAIQUATs">
+    <Type Name="P1_KHAIQUAT">
+      <Column Name="MATP" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="TEN_TP" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="NOIDUNG_TP" Type="System.String" DbType="NText" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="MABAOCAO" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="P1_KHAIQUAT_KQ_DANHGIA_PHAN1" Member="KQ_DANHGIA_PHAN1s" ThisKey="MATP" OtherKey="MATP" Type="KQ_DANHGIA_PHAN1" />
+      <Association Name="P1_KHAIQUAT_KQ_KIEMDUYET_PHAN1" Member="KQ_KIEMDUYET_PHAN1s" ThisKey="MATP" OtherKey="MATP" Type="KQ_KIEMDUYET_PHAN1" />
+      <Association Name="HOSOBC_P1_KHAIQUAT" Member="HOSOBC" ThisKey="MABAOCAO" OtherKey="MABAOCAO" Type="HOSOBC" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.P2_DANHGIA" Member="P2_DANHGIAs">
+    <Type Name="P2_DANHGIA">
+      <Column Name="MADANHGIA" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="MATIEUCHUAN" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="MABAOCAO" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="TEN_TP" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Association Name="HOSOBC_P2_DANHGIA" Member="HOSOBC" ThisKey="MABAOCAO" OtherKey="MABAOCAO" Type="HOSOBC" IsForeignKey="true" />
+      <Association Name="TIEUCHUAN_P2_DANHGIA" Member="TIEUCHUAN" ThisKey="MATIEUCHUAN" OtherKey="MATIEUCHUAN" Type="TIEUCHUAN" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.P3_KETLUAN" Member="P3_KETLUANs">
+    <Type Name="P3_KETLUAN">
+      <Column Name="MATP" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="TEN_TP" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="NOIDUNG_TP" Type="System.String" DbType="NText" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="MABAOCAO" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="P3_KETLUAN_KQ_DANHGIA_PHAN3" Member="KQ_DANHGIA_PHAN3s" ThisKey="MATP" OtherKey="MATP" Type="KQ_DANHGIA_PHAN3" />
+      <Association Name="P3_KETLUAN_KQ_KIEMDUYET_PHAN3" Member="KQ_KIEMDUYET_PHAN3s" ThisKey="MATP" OtherKey="MATP" Type="KQ_KIEMDUYET_PHAN3" />
+      <Association Name="HOSOBC_P3_KETLUAN" Member="HOSOBC" ThisKey="MABAOCAO" OtherKey="MABAOCAO" Type="HOSOBC" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.P4_PHULUC" Member="P4_PHULUCs">
+    <Type Name="P4_PHULUC">
+      <Column Name="MAPL" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="TEN_PL" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="NOIDUNG_PL" Type="System.String" DbType="NText" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="MABAOCAO" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="P4_PHULUC_KQ_DANHGIA_PHAN4" Member="KQ_DANHGIA_PHAN4s" ThisKey="MAPL" OtherKey="MAPL" Type="KQ_DANHGIA_PHAN4" />
+      <Association Name="P4_PHULUC_KQ_KIEMDUYET_PHAN4" Member="KQ_KIEMDUYET_PHAN4s" ThisKey="MAPL" OtherKey="MAPL" Type="KQ_KIEMDUYET_PHAN4" />
+      <Association Name="HOSOBC_P4_PHULUC" Member="HOSOBC" ThisKey="MABAOCAO" OtherKey="MABAOCAO" Type="HOSOBC" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.PHANCONG_BC_TV" Member="PHANCONG_BC_TVs">
+    <Type Name="PHANCONG_BC_TV">
+      <Column Name="MAPHANCONG_TV" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="NGAYPHANCONG" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="NOIDUNG_PC" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="THOIHAN" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="MA_NS" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="MABAOCAO" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="HOSOBC_PHANCONG_BC_TV" Member="HOSOBC" ThisKey="MABAOCAO" OtherKey="MABAOCAO" Type="HOSOBC" IsForeignKey="true" />
+      <Association Name="NHANSU_PHANCONG_BC_TV" Member="NHANSU" ThisKey="MA_NS" OtherKey="MA_NS" Type="NHANSU" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.QUYEN" Member="QUYENs">
+    <Type Name="QUYEN">
+      <Column Name="MA_Q" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="TEN_Q" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="MA_NQ" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="NHOMQUYEN_QUYEN" Member="NHOMQUYEN" ThisKey="MA_NQ" OtherKey="MA_NQ" Type="NHOMQUYEN" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TIEUCHI" Member="TIEUCHIs">
+    <Type Name="TIEUCHI">
+      <Column Name="MATIEUCHI" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="TIEUDETIEUCHI" Type="System.String" DbType="NVarChar(1000)" CanBeNull="true" />
+      <Column Name="MATIEUCHUAN" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="DUONGDAN_ND" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="DUONGDAN_CHINHSUA" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Association Name="TIEUCHI_KQ_DANHGIA_TIEUCHI" Member="KQ_DANHGIA_TIEUCHIs" ThisKey="MATIEUCHI" OtherKey="MATIEUCHI" Type="KQ_DANHGIA_TIEUCHI" />
+      <Association Name="TIEUCHI_KQ_KIEMDUYET_TIEUCCHI" Member="KQ_KIEMDUYET_TIEUCCHIs" ThisKey="MATIEUCHI" OtherKey="MATIEUCHI" Type="KQ_KIEMDUYET_TIEUCCHI" />
+      <Association Name="TIEUCHI_MINHCHUNG" Member="MINHCHUNGs" ThisKey="MATIEUCHI" OtherKey="MATIEUCHI" Type="MINHCHUNG" />
+      <Association Name="TIEUCHUAN_TIEUCHI" Member="TIEUCHUAN" ThisKey="MATIEUCHUAN" OtherKey="MATIEUCHUAN" Type="TIEUCHUAN" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.VW_TIEUCHI_MINHCHUNG" Member="VW_TIEUCHI_MINHCHUNGs">
+    <Type Name="VW_TIEUCHI_MINHCHUNG">
+      <Column Name="MATIEUCHI" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="DUONGDAN_ND" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="MAMINHCHUNG" Type="System.String" DbType="Char(20) NOT NULL" CanBeNull="false" />
+      <Column Name="TENMINHCHUNG" Type="System.String" DbType="NVarChar(1000)" CanBeNull="true" />
+      <Column Name="TIEUDETIEUCHI" Type="System.String" DbType="NVarChar(1000)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.VW_TIEUCHI_TIEUCHUAN" Member="VW_TIEUCHI_TIEUCHUANs">
+    <Type Name="VW_TIEUCHI_TIEUCHUAN">
+      <Column Name="MATIEUCHI" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="MATIEUCHUAN" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="TIEUDETIEUCHI" Type="System.String" DbType="NVarChar(1000)" CanBeNull="true" />
+      <Column Name="DUONGDAN_CHINHSUA" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="DUONGDAN_ND" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="TIEUDETIEUCHUAN" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>

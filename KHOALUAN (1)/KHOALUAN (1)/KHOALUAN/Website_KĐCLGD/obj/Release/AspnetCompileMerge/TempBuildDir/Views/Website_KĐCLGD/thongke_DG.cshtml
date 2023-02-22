@@ -1,0 +1,89 @@
+﻿@using Website_KĐCLGD.Models;
+@{
+    ViewBag.Title = "thongke_DG";
+    Layout = "~/Views/shared/layout_web.cshtml";
+}
+
+@model List<ThongKe>
+<div class="section-4" style="background: #eee">
+    <div id="panner" class="carousel slide" data-ride="carousel">
+
+        @{Html.RenderPartial("~/Views/slider/panner_header.cshtml");}
+
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                @{Html.RenderPartial("~/Views/partital/MenuChucNang.cshtml");}
+                <br>
+            </div>
+        </div>
+        <div class="row ">
+            <div class="container">
+               <table class="table table-striped" style="font-size:15px">
+
+              <thead class="table-dark">
+                <tr>
+                  <th scope="col">STT</th>
+                  <th scope="col" style="width: 47%;">Nội dung</th>
+                  <th scope="col" style="width: 19%">Góp ý</th>
+                  <th scope="col">Điểm</th>
+                  <th scope="col">Người ĐG</th>
+                  <th scope="col">Ngày ĐG</th>
+                </tr>
+              </thead>
+              <tbody>
+                @{
+                    var index = 1;
+                    foreach(ThongKe item in Model) {
+                        <tr>
+                            <td>@index</td>
+                            <td>@item.DanhGia</td>
+                            <td>@item.NoiDung</td>
+                            <td>@item.Diem</td>
+                            <td>@item.TenNhanSu</td>
+                            <td>@DateTime.Parse(@item.NgayDG)</td>
+                        </tr>
+                        index++;
+                    }
+                }
+              </tbody>
+            </table>
+            <div>
+                @{
+                    if(@ViewBag.tbdiem != null && @ViewBag.solandat != null && @ViewBag.solanchuadat != null) {
+                        <div style="display: flex; align-items: center; justify-content: space-between;font-size:15px; font-weight:bold">
+                            <p>Trung bình điểm: @ViewBag.tbdiem</p>
+                            <p>Số nội dung đạt: @ViewBag.solandat</p>
+                            <p>Số nội dung chưa đạt: @ViewBag.solanchuadat</p>    
+                        </div>              
+                    }
+                    else if(@ViewBag.dsTK != null) {
+                        <table class="table table-striped" style="font-size: 15px;">
+                            <thead class="table-dark">
+                                <tr>
+                                    <th>Người đánh giá</th>
+                                    <th>Điểm</th>
+                                    <th>Số nội dung đạt</th>
+                                    <th>Số nội dung chưa đạt</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach (ThongKe_Admin i in @ViewBag.dsTK)
+                                {
+                                    <tr>
+                                        <td>@i.TenNhanSu</td>
+                                        <td>@i.Diem</td>
+                                        <td>@i.SoLanDat</td>
+                                        <td>@i.SoLanChuaDat</td>
+                                    </tr>
+                                }
+                            </tbody>
+                        </table>
+                    }
+                }
+            </div>
+            </div>
+        </div>
+    </div>
+</div>

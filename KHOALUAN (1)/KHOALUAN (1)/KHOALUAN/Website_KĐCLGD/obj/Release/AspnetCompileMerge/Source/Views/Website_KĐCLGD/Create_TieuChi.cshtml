@@ -1,0 +1,61 @@
+﻿@using Website_KĐCLGD.Models;
+@{
+    ViewBag.Title = "Create_TieuChi";
+    Layout = "~/Views/shared/layout_web1.cshtml";
+    TIEUCHUAN tc = ViewData["lstTieuChuan"] as TIEUCHUAN;
+}
+<div class="section-4" style="background: #eee">
+    <div id="panner" class="carousel slide" data-ride="carousel">
+
+        @{Html.RenderPartial("~/Views/slider/panner_header.cshtml");}
+
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                @{Html.RenderPartial("~/Views/partital/MenuChucNang.cshtml");}
+                <br>
+            </div>
+        </div>
+        <div class="row ">
+            <div class="container">
+                @using (Html.BeginForm("Create_TieuChi", "Website_KĐCLGD", FormMethod.Post))
+                {
+                    <fieldset class="was-validated">
+                        <div class="heading wow pulse" style="margin-top: 10px;">
+                            <h2><b>THÊM MỚI TIÊU CHÍ</b></h2>
+		                </div>
+                        <div class="form-group">
+                            <input type="hidden" class="form-control" id="MATIEUCHI" name="MATIEUCHI" />
+                        </div>
+                        <div class="form-group">
+                            <label for="uname" style="font-size: 18px">TIÊU ĐỀ TIÊU CHÍ</label>
+                            <input type="text" class="form-control" id="TIEUDETIEUCHI" name="TIEUDETIEUCHI" style="font-size: 14px" required/>
+                            <div class="valid-feedback">Có hiệu lực.</div>
+                            <div class="invalid-feedback">Vui lòng điền vào trường này.</div>
+                        </div>
+                        <div class="form-group">
+                            <label for="uname" style="font-size: 18px">ĐƯỜNG DẪN NỘI DUNG</label>
+                            <input type="text" class="form-control" id="DUONGDAN_ND" name="DUONGDAN_ND" style="font-size: 14px" required />
+                            <div class="valid-feedback">Có hiệu lực.</div>
+                            <div class="invalid-feedback">Vui lòng điền vào trường này.</div>
+                            <input type="text" name="matc" value="@tc.MATIEUCHUAN" hidden />
+                        </div>
+                        <div class="form-group">
+                            <label for="uname" style="font-size: 18px">ĐƯỜNG DẪN CHỈNH SỬA BÁO CÁO</label>
+                            <input type="text" class="form-control" id="DUONGDAN_CHINHSUA" name="DUONGDAN_CHINHSUA" style="font-size: 14px" required />
+                            <div class="valid-feedback">Có hiệu lực.</div>
+                            <div class="invalid-feedback">Vui lòng điền vào trường này.</div>
+                            <input type="text" name="matc" value="@tc.MATIEUCHUAN" hidden />
+                        </div>
+                        <label for="uname" style="font-size: 18px">THUỘC TIÊU CHUẨN</label>
+                        <textarea style="font-size: 14px;" class="form-control" readonly="readonly">@tc.TIEUDETIEUCHUAN.ToString().Trim() </textarea>
+                        <br />
+
+                        <div class="btn-luu" style="text-align:center; margin-top:5px"><button class="btn gopy" type="submit" style="width:60px">Lưu </button></div> 
+                    </fieldset>
+                }
+            </div>
+        </div>
+    </div>
+</div>

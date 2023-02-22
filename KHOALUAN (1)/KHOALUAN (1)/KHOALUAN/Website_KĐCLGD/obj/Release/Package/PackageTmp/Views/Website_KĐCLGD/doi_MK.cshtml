@@ -1,0 +1,41 @@
+﻿@using Website_KĐCLGD.Models;
+@{
+    Layout = null;
+    NHANSU item = (NHANSU)ViewData["data"];
+}
+
+
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>doi_MK</title>
+</head>
+<body>
+    @using (Html.BeginForm("doi_MK", "Website_KĐCLGD", FormMethod.Post))
+                {
+                        
+                    <fieldset class="was-validated">
+                        <div class="heading wow pulse" style="margin-top: 10px;">
+                            <h2><b>CHỈNH SỬA MẬT KHẨU NGƯỜI DÙNG</b></h2>
+                        </div>
+                        <form action="" method="post">
+                            <div class="form-group col-md-6">
+                                <label for="uname" style="font-size: 18px">MẬT KHẨU ĐĂNG NHẬP</label>
+                                <input type="text" class="form-control" value="@item.MATKHAU" id="MATKHAU" name="MATKHAU" style="font-size:14px" required/>
+                                <div class="valid-feedback">Có hiệu lực.</div>
+                                <div class="invalid-feedback">Vui lòng điền vào trường này.</div>
+                            </div>
+                        </form>
+                        <div class="btn-luu" style="text-align: center; margin-top: 5px">
+                            <button class="btn gopy" type="submit" style="width: 60px">Lưu </button>
+                        </div>
+                    </fieldset>
+                }
+
+
+    
+</body>
+</html>

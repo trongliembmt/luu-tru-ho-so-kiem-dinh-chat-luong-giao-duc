@@ -1,0 +1,66 @@
+﻿@model Website_KĐCLGD.Models.NHANSU
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Create</title>
+</head>
+<body>
+    <script src="~/Scripts/jquery-1.7.1.min.js"></script>
+    <script src="~/Scripts/jquery.validate.min.js"></script>
+    <script src="~/Scripts/jquery.validate.unobtrusive.min.js"></script>
+    
+    @using (Html.BeginForm())   {
+        @Html.ValidationSummary(true)
+    @Html.AntiForgeryToken()
+        <fieldset>
+            <legend>NHANSU</legend>
+            <div class="editor-label">
+                @Html.LabelFor(model => model.MA_NS)
+            </div>
+            <div class="editor-field">
+                @Html.EditorFor(model => model.MA_NS)
+                @Html.ValidationMessageFor(model => model.MA_NS)
+            </div>
+    
+            <div class="editor-label">
+                @Html.LabelFor(model => model.TAIKHOAN)
+            </div>
+            <div class="editor-field">
+                @Html.EditorFor(model => model.TAIKHOAN)
+                @Html.ValidationMessageFor(model => model.TAIKHOAN)
+            </div>
+    
+            <div class="editor-label">
+                @Html.LabelFor(model => model.MATKHAU)
+            </div>
+            <div class="editor-field">
+                @Html.EditorFor(model => model.MATKHAU)
+                @Html.ValidationMessageFor(model => model.MATKHAU)
+            </div>
+    
+            <div class="editor-label">
+                @Html.LabelFor(model => model.MA_NQ)
+            </div>
+            <div class="editor-field">
+                @Html.EditorFor(model => model.MA_NQ)
+                @Html.ValidationMessageFor(model => model.MA_NQ)
+            </div>
+    
+            <p>
+                <input type="submit" value="Create" />
+            </p>
+        </fieldset>
+    }
+    
+    <div>
+        @Html.ActionLink("Back to List", "Index")
+    </div>
+</body>
+</html>
